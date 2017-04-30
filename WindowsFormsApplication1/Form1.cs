@@ -26,6 +26,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
             LoadInformation();
             materialProgressBar1.Value = 0;
+            Box1.BackColor = Color.Brown;
         }
 
         public static string getBetween(string strSource, string strStart, string strEnd)
@@ -95,6 +96,8 @@ namespace WindowsFormsApplication1
             str = str.Replace("</p>", " ");
             str = str.Replace("<tr>", " ");
             str = str.Replace("</tr>", " ");
+            str = str.Replace("</a>", " ");
+            str = str.Replace("・", " ");
             str = str.Trim();
             return str;
         }
@@ -132,6 +135,33 @@ namespace WindowsFormsApplication1
                 array[1] = "";
             }
             return array;
+        }
+
+        public static string EraseComment(string str)
+        {
+            if(str.Contains("<a href"))
+            {
+                int index1 = str.LastIndexOf("<a href");
+                string temp1 = str.Substring(0, index1);
+                int index2 = str.IndexOf("<a href");
+                string temp2 = str.Substring(index2);
+                int index3 = temp2.IndexOf(">");
+                temp2 = temp2.Substring(index3 + 1);
+                str = temp1 + temp2;
+            }
+            if (str.Contains("<sup"))
+            {
+                int index1 = str.LastIndexOf("<sup");
+                string temp1 = str.Substring(0, index1);
+                int index2 = str.IndexOf("<sup");
+                string temp2 = str.Substring(index2);
+                int index3 = temp2.IndexOf("sup>");
+                temp2 = temp2.Substring(index3 + 4);
+                str = temp1 + temp2;
+            }
+            str = str.Replace("?", " ");
+            str = str.Replace("?", " ");
+            return str;
         }
 
         public void InitDeck()
@@ -196,6 +226,7 @@ namespace WindowsFormsApplication1
                     pp = ReadFileLine(sourcefile);
                     temp[1] = pp;
                     pp = ReadFileLine(sourcefile);
+                    pp = EraseComment(pp);
                     temp[2] = SpiltLine(pp)[1];
                     temp[3] = SpiltLine(pp)[2];
                     pp = ReadFileLine(sourcefile);
@@ -299,7 +330,7 @@ namespace WindowsFormsApplication1
             {
                 using (WebClient client = new WebClient())
                 {
-                    client.DownloadFile(deck[index].url, Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+                   client.DownloadFile(deck[index].url, Store + "Photokatsu_" + deck[index].cardno + ".jpg");
                 }
             }
 
@@ -312,20 +343,12 @@ namespace WindowsFormsApplication1
             materialLabel5.Text = "( " + index + " / " + deckamount + " )";
         }
 
-        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
         {
-            if (amount == 0)
-                return;
-            if (current_index + 1 > deckamount)
-                current_index = deckamount;
-            else
-                current_index++;
-
-            ShowCardInfo(current_index);
-            materialProgressBar1.Value = Math.Min(materialProgressBar1.Value + (10000/deckamount), 10000);
+            RenewCard();
         }
 
-        private void materialRaisedButton2_Click(object sender, EventArgs e)
+        private void materialFlatButton1_Click(object sender, EventArgs e)
         {
             if (amount == 0)
                 return;
@@ -338,11 +361,58 @@ namespace WindowsFormsApplication1
             materialProgressBar1.Value = Math.Max(materialProgressBar1.Value - (10000 / deckamount), 0);
         }
 
-        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        private void materialFlatButton2_Click(object sender, EventArgs e)
         {
-            RenewCard();
+            if (amount == 0)
+                return;
+            if (current_index + 1 > deckamount)
+                current_index = deckamount;
+            else
+                current_index++;
+
+            ShowCardInfo(current_index);
+            materialProgressBar1.Value = Math.Min(materialProgressBar1.Value + (10000 / deckamount), 10000);
         }
 
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
+            InitDeck();
+            RankSearch();
+        }
+
+        private void RankSearch()
+        {
+            for (int i = 1; i <= amount; i++)
+            {
+                if (Box1.Checked && list[i].rank == "PR+")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box2.Checked && list[i].rank == "PR")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box3.Checked && list[i].rank == "SR+")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box4.Checked && list[i].rank == "SR")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box5.Checked && list[i].rank == "R+")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box6.Checked && list[i].rank == "R")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box7.Checked && list[i].rank == "N+")
+                { deck[++deckamount] = list[i]; continue; }
+                if (Box8.Checked && list[i].rank == "N")
+                { deck[++deckamount] = list[i]; }
+            }
+        }
+
+        private void materialRaisedButton2_Click(object sender, EventArgs e)
+        {
+            InitList();
+            string initname = "inital";
+            string Store = "source";
+            string temp = System.IO.File.ReadAllText(initname);
+            System.IO.File.WriteAllText(Store, temp, Encoding.Default);
+            MessageBox.Show("초기화되었습니다. 프로그램을 다시 실행해주세요.");
+            Close();
+        }
     }
 
     public class Card
