@@ -196,6 +196,7 @@ namespace WindowsFormsApplication1
             InitList();
             string Localname = "code";
             string Store = "source";
+
             var te = System.IO.File.Create(Store);
             te.Close();
             WebClient client = new WebClient();
@@ -266,12 +267,13 @@ namespace WindowsFormsApplication1
                 t++;
             }
 
+
         BREAKTHELOOP:;
             for (int i = 1; i <= amount; i++)
                 deck[i] = list[i];
             deckamount = amount;
-
         }
+
 
         private void LoadInformation()
         {
@@ -374,6 +376,16 @@ namespace WindowsFormsApplication1
             materialProgressBar1.Value = Math.Min(materialProgressBar1.Value + (10000 / deckamount), 10000);
         }
 
+        private void ButtonRandom_Click(object sender, EventArgs e)
+        {
+            if (amount == 0 || deckamount == 0)
+                return;
+            Random rnd = new Random();
+            current_index = rnd.Next(1, deckamount + 1);
+            ShowCardInfo(current_index);
+            materialProgressBar1.Value = Convert.ToInt32((Convert.ToDouble(current_index) / Convert.ToDouble(deckamount)) * 10000);      
+        }
+
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
             InitDeck();
@@ -413,6 +425,8 @@ namespace WindowsFormsApplication1
             MessageBox.Show("초기화되었습니다. 프로그램을 다시 실행해주세요.");
             Close();
         }
+
+
     }
 
     public class Card

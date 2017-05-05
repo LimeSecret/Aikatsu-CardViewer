@@ -38,6 +38,7 @@ namespace WindowsFormsApplication1
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.ButtonRandom = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.label10 = new MaterialSkin.Controls.MaterialLabel();
@@ -67,11 +68,14 @@ namespace WindowsFormsApplication1
             this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -117,6 +121,7 @@ namespace WindowsFormsApplication1
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.Window;
+            this.tabPage1.Controls.Add(this.ButtonRandom);
             this.tabPage1.Controls.Add(this.materialFlatButton2);
             this.tabPage1.Controls.Add(this.materialFlatButton1);
             this.tabPage1.Controls.Add(this.label10);
@@ -138,6 +143,23 @@ namespace WindowsFormsApplication1
             this.tabPage1.Size = new System.Drawing.Size(700, 545);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Card Info";
+            // 
+            // ButtonRandom
+            // 
+            this.ButtonRandom.AutoSize = true;
+            this.ButtonRandom.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ButtonRandom.Depth = 0;
+            this.ButtonRandom.Icon = null;
+            this.ButtonRandom.Location = new System.Drawing.Point(607, 411);
+            this.ButtonRandom.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ButtonRandom.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ButtonRandom.Name = "ButtonRandom";
+            this.ButtonRandom.Primary = false;
+            this.ButtonRandom.Size = new System.Drawing.Size(79, 36);
+            this.ButtonRandom.TabIndex = 31;
+            this.ButtonRandom.Text = "Random";
+            this.ButtonRandom.UseVisualStyleBackColor = true;
+            this.ButtonRandom.Click += new System.EventHandler(this.ButtonRandom_Click);
             // 
             // materialFlatButton2
             // 
@@ -575,6 +597,9 @@ namespace WindowsFormsApplication1
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.materialLabel10);
+            this.tabPage4.Controls.Add(this.materialLabel9);
+            this.tabPage4.Controls.Add(this.materialLabel8);
             this.tabPage4.Controls.Add(this.materialLabel7);
             this.tabPage4.Controls.Add(this.materialLabel4);
             this.tabPage4.Controls.Add(this.materialLabel3);
@@ -587,18 +612,44 @@ namespace WindowsFormsApplication1
             this.tabPage4.Text = "도움말";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(37, 112);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(380, 19);
+            this.materialLabel8.TabIndex = 5;
+            this.materialLabel8.Text = "https://github.com/LimeSecret/Photokatsu-CardViewer";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(21, 93);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(93, 19);
+            this.materialLabel7.TabIndex = 4;
+            this.materialLabel7.Text = "- LimeSecret";
+            // 
             // materialLabel4
             // 
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(13, 32);
+            this.materialLabel4.Location = new System.Drawing.Point(13, 65);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(31, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(62, 19);
             this.materialLabel4.TabIndex = 3;
-            this.materialLabel4.Text = "제작";
+            this.materialLabel4.Text = "Contact";
             // 
             // materialLabel3
             // 
@@ -606,7 +657,7 @@ namespace WindowsFormsApplication1
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(49, 362);
+            this.materialLabel3.Location = new System.Drawing.Point(37, 241);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(311, 19);
@@ -619,7 +670,7 @@ namespace WindowsFormsApplication1
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(21, 338);
+            this.materialLabel2.Location = new System.Drawing.Point(21, 222);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(101, 19);
@@ -632,25 +683,38 @@ namespace WindowsFormsApplication1
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(14, 297);
+            this.materialLabel1.Location = new System.Drawing.Point(13, 190);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(172, 19);
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "OpenSource Information";
             // 
-            // materialLabel7
+            // materialLabel9
             // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel7.Location = new System.Drawing.Point(21, 60);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(93, 19);
-            this.materialLabel7.TabIndex = 4;
-            this.materialLabel7.Text = "- LimeSecret";
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel9.Location = new System.Drawing.Point(21, 143);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(338, 19);
+            this.materialLabel9.TabIndex = 6;
+            this.materialLabel9.Text = "- DCinside Aikatsu Gallery 와서 글 싸도 답변해줄 수 있음";
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel10.Location = new System.Drawing.Point(21, 16);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(641, 19);
+            this.materialLabel10.TabIndex = 7;
+            this.materialLabel10.Text = "* 카드를 첫 로딩할때는 카드 이미지를 인터넷에서 다운받기 때문에 느릴 수 있습니다. 이후 한번 본 카드는 빠르게 로딩됩니다.";
             // 
             // Form1
             // 
@@ -715,6 +779,10 @@ namespace WindowsFormsApplication1
         private MaterialRaisedButton materialRaisedButton1;
         private MaterialRaisedButton materialRaisedButton2;
         private MaterialLabel materialLabel7;
+        private MaterialLabel materialLabel8;
+        private MaterialFlatButton ButtonRandom;
+        private MaterialLabel materialLabel9;
+        private MaterialLabel materialLabel10;
     }
 }
 
