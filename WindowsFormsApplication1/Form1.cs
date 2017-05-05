@@ -94,6 +94,11 @@ namespace WindowsFormsApplication1
             CharacterSearch(InputCharName.Text);
         }
 
+        private void ButtonDownloadAll_Click(object sender, EventArgs e)
+        {
+            DownloadAll();
+        }
+
         private void ButtonRenew_Click(object sender, EventArgs e)
         {
             RenewCard();
@@ -134,6 +139,8 @@ namespace WindowsFormsApplication1
         {
             System.Diagnostics.Process.Start("http://aikatsu.wikia.com/wiki/Aikatsu_Wiki");
         }
+
+
     }
 
 }

@@ -98,6 +98,9 @@ namespace WindowsFormsApplication1
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.ButtonDownloadAll = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
@@ -755,6 +758,9 @@ namespace WindowsFormsApplication1
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.materialLabel23);
+            this.tabPage3.Controls.Add(this.materialLabel22);
+            this.tabPage3.Controls.Add(this.ButtonDownloadAll);
             this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Controls.Add(this.materialLabel15);
             this.tabPage3.Controls.Add(this.materialLabel14);
@@ -770,7 +776,7 @@ namespace WindowsFormsApplication1
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(257, 413);
+            this.pictureBox2.Location = new System.Drawing.Point(547, 416);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(124, 107);
             this.pictureBox2.TabIndex = 4;
@@ -782,7 +788,7 @@ namespace WindowsFormsApplication1
             this.materialLabel15.Depth = 0;
             this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel15.Location = new System.Drawing.Point(26, 504);
+            this.materialLabel15.Location = new System.Drawing.Point(26, 486);
             this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel15.Name = "materialLabel15";
             this.materialLabel15.Size = new System.Drawing.Size(211, 19);
@@ -808,7 +814,7 @@ namespace WindowsFormsApplication1
             this.ButtonInitalize.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ButtonInitalize.Depth = 0;
             this.ButtonInitalize.Icon = null;
-            this.ButtonInitalize.Location = new System.Drawing.Point(30, 465);
+            this.ButtonInitalize.Location = new System.Drawing.Point(30, 447);
             this.ButtonInitalize.MouseState = MaterialSkin.MouseState.HOVER;
             this.ButtonInitalize.Name = "ButtonInitalize";
             this.ButtonInitalize.Primary = true;
@@ -1050,6 +1056,48 @@ namespace WindowsFormsApplication1
             this.linkLabel1.Text = "Link";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // ButtonDownloadAll
+            // 
+            this.ButtonDownloadAll.AutoSize = true;
+            this.ButtonDownloadAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ButtonDownloadAll.Depth = 0;
+            this.ButtonDownloadAll.Icon = null;
+            this.ButtonDownloadAll.Location = new System.Drawing.Point(30, 285);
+            this.ButtonDownloadAll.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ButtonDownloadAll.Name = "ButtonDownloadAll";
+            this.ButtonDownloadAll.Primary = true;
+            this.ButtonDownloadAll.Size = new System.Drawing.Size(161, 36);
+            this.ButtonDownloadAll.TabIndex = 5;
+            this.ButtonDownloadAll.Text = "Image 일괄 다운로드";
+            this.ButtonDownloadAll.UseVisualStyleBackColor = true;
+            this.ButtonDownloadAll.Click += new System.EventHandler(this.ButtonDownloadAll_Click);
+            // 
+            // materialLabel22
+            // 
+            this.materialLabel22.AutoSize = true;
+            this.materialLabel22.Depth = 0;
+            this.materialLabel22.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel22.Location = new System.Drawing.Point(26, 324);
+            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel22.Name = "materialLabel22";
+            this.materialLabel22.Size = new System.Drawing.Size(571, 19);
+            this.materialLabel22.TabIndex = 6;
+            this.materialLabel22.Text = "* 총 1GB 가까이 되는 이미지를 전부 받는거라 오래 걸려요. 적어도 10분 이상. 눌러놓고 겜 한판 돌리고 와요. ";
+            // 
+            // materialLabel23
+            // 
+            this.materialLabel23.AutoSize = true;
+            this.materialLabel23.Depth = 0;
+            this.materialLabel23.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel23.Location = new System.Drawing.Point(26, 343);
+            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel23.Name = "materialLabel23";
+            this.materialLabel23.Size = new System.Drawing.Size(319, 19);
+            this.materialLabel23.TabIndex = 7;
+            this.materialLabel23.Text = "* 일단 한번 해놓으면 카드를 매우 빠르게 검색할 수 있습니다.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1142,6 +1190,9 @@ namespace WindowsFormsApplication1
         private MaterialLabel materialLabel19;
         private MaterialLabel materialLabel21;
         private LinkLabel linkLabel1;
+        private MaterialLabel materialLabel22;
+        private MaterialRaisedButton ButtonDownloadAll;
+        private MaterialLabel materialLabel23;
     }
 }
 

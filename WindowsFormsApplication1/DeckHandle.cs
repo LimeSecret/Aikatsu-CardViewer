@@ -254,6 +254,30 @@ namespace WindowsFormsApplication1
             }
         }
 
+        public void DownloadAll()
+        {
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
+            try
+            {
+                for (int i = 1; i <= amount; i++)
+                {
+                    System.IO.FileInfo fi = new System.IO.FileInfo(Store + "Photokatsu_" + deck[i].cardno + ".jpg");
+                    if (!fi.Exists)
+                    {
+                        using (WebClient client = new WebClient())
+                        {
+                            try { client.DownloadFile(deck[i].url, Store + "Photokatsu_" + deck[i].cardno + ".jpg"); }
+                            catch {; }
+
+                        }
+                    }
+                }
+                MessageBox.Show("일괄 다운로드가 완료되었습니다.");
+            }
+            catch
+            { ;}
+        }
+
     }
 
     public class Card
