@@ -1,0 +1,6729 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="generator" content="MediaWiki 1.19.24" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@getfandom" />
+<meta name="twitter:url" content="http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" />
+<meta name="twitter:title" content="View source for Aikatsu! Photo on Stage!!/Cardlist | Aikatsu Wiki..." />
+<meta name="twitter:description" content="View source for Aikatsu! Photo on Stage!!/Cardlist | Aikatsu Wiki | Fandom powered by Wikia" />
+<link rel="next" href="http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" />
+<link rel="canonical" href="http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" />
+<link rel="apple-touch-icon" href="http://slot1.images.wikia.nocookie.net/__cb1493894030/common/skins/common/images/wiki.png" sizes="155x155" />
+<link rel="shortcut icon" href="https://vignette3.wikia.nocookie.net/aikatsu/images/6/64/Favicon.ico/revision/latest?cb=20160222104950" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Aikatsu Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://aikatsu.wikia.com/api.php?action=rsd" />
+<link rel="copyright" href="http://www.wikia.com/Licensing" />
+<link rel="alternate" type="application/atom+xml" title="Aikatsu Wiki Atom feed" href="/wiki/Special:RecentChanges?feed=atom" />
+<title>View source for Aikatsu! Photo on Stage!!/Cardlist | Aikatsu Wiki | Fandom powered by Wikia</title>
+
+<!-- CSS injected by skin and extensions -->
+<link rel="stylesheet" href="http://slot1.images3.wikia.nocookie.net/__am/1493894030/sasses/background-dynamic%3Dtrue%26background-image%3Dhttp%253A%252F%252Fvignette3.wikia.nocookie.net%252Faikatsu%252Fimages%252F5%252F50%252FWiki-background%252Frevision%252Flatest%253Fcb%253D20160801142920%26background-image-height%3D1298%26background-image-width%3D1380%26color-body%3D%25233b0b84%26color-body-middle%3D%2523281745%26color-buttons%3D%2523f74a93%26color-header%3D%2523fcfa7d%26color-links%3D%25233f07a6%26color-page%3D%2523ffffff%26oasisTypography%3D1%26page-opacity%3D73%26widthType%3D0/skins/oasis/css/oasis.scss,extensions/wikia/Recirculation/styles/recirculation.scss,extensions/wikia/PortableInfobox/styles/PortableInfobox.scss,extensions/wikia/DesignSystem/styles/design-system.scss,extensions/wikia/EditPageLayout/css/EditPageLayout.scss,extensions/wikia/Qualaroo/css/Qualaroo.scss" /><link rel="stylesheet" href="http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dstyles%26sass_background-dynamic%3Dtrue%26sass_background-image%3Dhttp%253A%252F%252Fvignette3.wikia.nocookie.net%252Faikatsu%252Fimages%252F5%252F50%252FWiki-background%252Frevision%252Flatest%253Fcb%253D20160801142920%26sass_background-image-height%3D1298%26sass_background-image-width%3D1380%26sass_color-body%3D%25233b0b84%26sass_color-body-middle%3D%2523281745%26sass_color-buttons%3D%2523f74a93%26sass_color-header%3D%2523fcfa7d%26sass_color-links%3D%25233f07a6%26sass_color-page%3D%2523ffffff%26sass_oasisTypography%3D1%26sass_page-opacity%3D73%26sass_widthType%3D0%26skin%3Doasis/ext.wikia.InfoboxBuilder" /><link rel="stylesheet" href="http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dstyles%26skin%3Doasis/site" /><style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: aikatsu:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */</style>
+
+
+<script>
+var Wikia={},
+wgUseSiteJs=true,
+wgWikiVertical="games",
+wgWikiCategories=["crea"],
+wgMessages={"categoryselect-button-save":"Save","categoryselect-category-add":"Add category...","categoryselect-category-edit":"Edit category","categoryselect-category-remove":"Remove category","categoryselect-error-category-name-length":"The maximum length for a category name has been reached.","categoryselect-error-duplicate-category-name":"Category \"$1\" already exists.","categoryselect-error-empty-category-name":"Please provide a category name.","categoryselect-modal-category-name":"Provide the name of the category:","categoryselect-modal-category-sortkey":"Optionally, you may alphabetize this page on the \"$1\" category page under the name:","categoryselect-tooltip-add":"Press the Enter or Return key when done."},
+JSSnippetsStack=[],
+ads={"context":{"opts":{"adsInContent":1,"delayBtf":true,"enableAdsInMaps":true,"pageType":"no_ads","sourcePointDetectionUrl":"http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/d592ab52013403b41a42c1e5db03105e","pageFairDetectionUrl":"http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/a263d3c3d6d69bc265933e0f928063a9","prebidBidderUrl":["http://slot1.images2.wikia.nocookie.net/__am/1493894030/group/-/prebid_prod_js"],"sourcePointRecovery":true,"sourcePointMMS":false,"sourcePointMMSDomain":"mms.bre.wikia.com","pageFairRecovery":true},"targeting":{"enableKruxTargeting":true,"enablePageCategories":true,"esrbRating":"teen","mappedVerticalName":"gaming","pageArticleId":91680,"pageIsArticle":true,"pageName":"Aikatsu!_Photo_on_Stage!!/Cardlist","pageType":"article","skin":"oasis","wikiCategory":"crea","wikiCustomKeyValues":"sex=m;age=18-24;age=yadult;media=tv;media=comics;media=cards;pform=3ds;gnre=anime;gnre=cartoon;gnre=comic;esrb=teen;pub=namco;theme=japan;theme=toy;","wikiDbName":"aikatsu","wikiIsTop1000":true,"wikiLanguage":"en","wikiVertical":"games","newWikiCategories":["crea"]},"providers":{"evolve2":true,"taboola":true},"slots":{"invisibleHighImpact":true},"forcedProvider":null},"runtime":{"disableBtf":false}},
+adslots2=[],
+adDriverLastDARTCallNoAds=[],
+adDriver2ForcedStatus=[],
+wgGaHasAds=false,
+wgAfterContentAndJS=[],
+wgWikiFactoryTagIds=[100431,100619],
+wgWikiFactoryTagNames=["3","fandom-stories-search"],
+wgCdnRootUrl="http://slot1.images.wikia.nocookie.net",
+wgCdnApiUrl="http://api.wikia.nocookie.net/__cb1493894030",
+wgDBname="aikatsu",
+wgCityId="590987",
+wgContentLanguage="en",
+wgUserName=null,
+wgCategories=[],
+wgPageName="Aikatsu!_Photo_on_Stage!!/Cardlist",
+wikiaPageType="article",
+wikiaPageIsCorporate=false,
+wgArticleType="other",
+wgNamespaceNumber=0,
+skin="oasis",
+_gaq=[],
+wgIsGASpecialWiki=null,
+wgStyleVersion="1493894030",
+wgTransactionContext={"type":"page/main/edit","env":"prod","hostname":"ap-s204","php_version":"7.0.7","wiki":"aikatsu","entry_point":"page","namespace":0,"logged_in":false,"action":"edit","skin":"oasis"},
+wgDiscussionsApiUrl="https://services.wikia.com/discussion",
+wgSeoTestingBucket=-4,
+wgOnSiteNotificationsApiUrl="https://services.wikia.com/on-site-notifications";
+</script><script>window.mw||(mw={fk:1,loader:{state:function(s){preMwLdrStA=window.preMwLdrStA||[];preMwLdrStA.push(s)}}});</script>
+<!-- Nielsen is disabled --><script>var wgNow = new Date();</script>
+<!-- Wikia Beacon Tracking -->
+<noscript><img src="http://a.wikia-beacon.com/__track/view?cb=1493894030&c=590987&lc=en&lid=75&x=aikatsu&y=c3&u=0&a=91680&s=oasis&beacon=&n=0&amp;nojs=1" width="1" height="1" border="0" alt="" /></noscript>
+<script>
+(function() {
+	var result = RegExp("wikia_beacon_id=([A-Za-z0-9_-]{10})").exec(document.cookie);
+	if(result) {
+		window.beacon_id = result[1];
+	} else {
+		// something went terribly wrong
+		document.addEventListener("DOMContentLoaded", function (event) {
+			var image = document.createElement('img');
+			image.src = 'http://logs-01.loggly.com/inputs/88a88e56-77c6-49cc-af41-6f44f83fe7fe.gif?message=wikia_beacon_id%20is%20empty';
+			image.style.position = 'absolute';
+			image.style.top = '-1000px';
+			document.body.appendChild(image);
+		});
+		
+	}
+
+	var utma = RegExp("__utma=([0-9\.]+)").exec(document.cookie);
+	var utmb = RegExp("__utmb=([0-9\.]+)").exec(document.cookie);
+
+	var trackUrl = "http://a.wikia-beacon.com/__track/view?cb=1493894030&c=590987&lc=en&lid=75&x=aikatsu&y=c3&u=0&a=91680&s=oasis&beacon=&n=0" + ((typeof document.referrer != "undefined") ? "&r=" + escape(document.referrer) : "") + "&rand=" + (new Date).valueOf() + (window.beacon_id ? "&beacon=" + window.beacon_id : "") + (utma && utma[1] ? "&utma=" + utma[1] : "") + (utmb && utmb[1] ? "&utmb=" + utmb[1] : "");
+	var script = document.createElement('script');
+	script.src = trackUrl;
+	document.head.appendChild(script);
+})();
+</script><script src="http://slot1.images3.wikia.nocookie.net/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/wikia.ext.instantGlobals,instantGlobalsOverride,abtesting"></script>
+<script src="http://slot1.images4.wikia.nocookie.net/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/amd|wikia.tracker.stub,stub|wikia.abTest,cache,cookies,document,geo,instantGlobals,localStorage,location,log,querystring,window"></script>
+<script>/*<![CDATA[*/window.mw.fk&&delete mw;/*]]>*/</script>
+<script type="text/javascript" src="http://slot1.images.wikia.nocookie.net/__am/1493894030/groups/-/abtesting,oasis_blocking,universal_analytics_js,adengine2_tracking_js,qualaroo_blocking_js"></script>
+<!-- Make IE recognize HTML5 tags. -->
+<!--[if IE]>
+	<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
+<![endif]-->
+
+	<!--[if lt IE 8]>
+		<script src="http://slot1.images.wikia.nocookie.net/__cb1493894030/common/resources/wikia/libraries/json2/json2.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://slot1.images.wikia.nocookie.net/__cb1493894030/common/resources/wikia/libraries/html5/html5.min.js"></script>
+	<![endif]-->
+
+	<!-- Combined JS files and head scripts -->
+	<script src="http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26newve%3D1%26only%3Dscripts%26skin%3Doasis/startup"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgPageName":"Aikatsu!_Photo_on_Stage!!/Cardlist","wgTitle":"Aikatsu! Photo on Stage!!/Cardlist","wgCurRevisionId":211070,"wgArticleId":91680,"wgIsArticle":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Aikatsu!_Photo_on_Stage!!/Cardlist","wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"egMapsDebugJS":false,"egMapsAvailableServices":["googlemaps3","openlayers","leaflet"],"wgTimeAgoi18n":{"year":"a year ago","years":"%d years ago","month":"a month ago","months":"%d months ago","day":"a day ago","days":"%d days ago","hour":"an hour ago","hours":"%d hours ago","minute":"a minute ago","minutes":"%d minutes ago","seconds":"a minute ago","year-from-now":"\x26lt;timeago-year-from-now\x26gt;","years-from-now":"\x26lt;timeago-year-from-now\x26gt;","month-from-now":"a month from now","months-from-now":"%d months from now","day-from-now":"a day from now","days-from-now":"%d days from now","hour-from-now":"an hour from now","hours-from-now":"%d hours from now","minute-from-now":"a minute from now","minutes-from-now":"%d minutes from now","second-from-now":"a minute from now","seconds-from-now":"a minute from now"},"sassParams":{"background-dynamic":"true","background-image":"http://vignette3.wikia.nocookie.net/aikatsu/images/5/50/Wiki-background/revision/latest?cb=20160801142920","background-image-height":"1298","background-image-width":"1380","color-body":"#3b0b84","color-body-middle":"#281745","color-buttons":"#f74a93","color-header":"#fcfa7d","color-links":"#3f07a6","color-page":"#ffffff","oasisTypography":1,"page-opacity":"73","widthType":0},"wgAssetsManagerQuery":"/__am/%4$d/%1$s/%3$s/%2$s","wgCatId":"17","wgBlankImgUrl":"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D","wgMainpage":"Aikatsu Wiki","wgIsContentNamespace":true,"wgExtensionsPath":"http://slot1.images.wikia.nocookie.net/__cb1493894030/common/extensions","wgResourceBasePath":"http://slot1.images.wikia.nocookie.net/__cb1493894030/common","wgSitename":"Aikatsu Wiki","wgMWrevId":false,"wgRevisionId":211070,"wgCookieDomain":".wikia.com","wgCookiePath":"/","wgEnableNewAuthModal":true,"wgEnableWikiaPhotoGalleryExt":true,"wgOasisGrid":true,"wgEnableMediaGalleryExt":false,"wgWikiaMaxNameChars":50,"wgMinimalPasswordLength":1,"wgEnableLightboxExt":true,"wgShowAdModalInterstitialTimes":3,"fbAppId":"112328095453510","fbScript":null,"fbLogo":false,"fbLogoutURL":"/wiki/Special:UserLogout?returnto=Aikatsu!_Photo_on_Stage!!/Cardlist","fbReturnToTitle":"Aikatsu!_Photo_on_Stage!!/Cardlist","fbScriptLangCode":"en_US","wgEnableFacebookClientExt":true,"wgEnableWikiaFollowedPages":true,"wgFollowedPagesPagerLimit":15,"wgFollowedPagesPagerLimitAjax":600,"wgWikiaChatUsers":[],"wgWikiaChatWindowFeatures":"width=600,height=600,menubar=no,status=no,location=no,toolbar=no,scrollbars=no,resizable=yes","wgEnableWikiaBarAds":true,"wgWikiaBarMainLanguages":["en","de","es","fr"],"wgVisualEditor":{"isPageWatched":false,"pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"1":true,"2":true,"3":true,"5":true,"7":true,"8":true,"9":true,"11":true,"13":true,"15":true,"0":true,"4":true,"6":true,"10":true,"12":true,"14":true,"110":true,"111":true,"1200":true,"500":true,"501":true,"502":true,"503":true,"828":true,"829":true}},"wgMaxUploadSize":10485760,"wgEnableVisualEditorUI":false,"wgEnableWikiaInteractiveMaps":false,"VignettePathPrefix":null,"reCaptchaPublicKey":"6LdDSA4TAAAAANZDWjPdTiQcYsTuge5fMPQTd7D_","wgQualarooUrl":"//s3.amazonaws.com/ki.js/52510/bgJ.js","isContributor":false,"isCurrentWikiAdmin":false,"fullVerticalName":"games","dartGnreValues":["anime","cartoon","comic"],"wgVisualEditorPreferred":true,"wgWeppyConfig":{"host":"//speed.wikia.net/__rum","sample":0.1,"aggregationInterval":1000},"wgEnablePortableInfoboxBuilderInVE":false,"wgFlowTrackingFlows":{"CREATE_PAGE_ARTICLE_REDLINK":"create-page-article-redlink","CREATE_PAGE_CONTRIBUTE_BUTTON":"create-page-contribute-button","CREATE_PAGE_CREATE_BOX":"create-page-create-box","CREATE_PAGE_INPUT_BOX":"create-page-input-box","CREATE_PAGE_CREATE_BUTTON":"create-page-create-button","CREATE_PAGE_DIRECT_URL":"create-page-direct-url","CREATE_PAGE_SPECIAL_CREATE_PAGE":"create-page-special-create-page","CREATE_PAGE_SPECIAL_REDLINK":"create-page-special-redlink","CREATE_PAGE_UNRECOGNIZED_FLOW":"create-page-unrecognized"},"wgOasisResponsive":false,"wgOasisBreakpoints":true,"verticalName":"Lifestyle","wgArticleInterlangList":[],"WikiaEnableNewCreatepage":true,"ContentNamespacesText":[""],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgContentReviewExtEnabled":true,"wgContentReviewTestModeEnabled":false,"wgReviewedScriptsTimestamp":"1452530731","wgScriptsTimestamp":"1452312461","wgCategorySelect":{"defaultNamespace":"Category","defaultNamespaces":"Category","defaultSeparator":":","defaultSortKey":"Aikatsu! Photo on Stage!!/Cardlist"},"enableWikitextSyntaxHighlighting":true,"wgIsEditPage":true,"wgEditedTitle":"Aikatsu! Photo on Stage!!/Cardlist","wgEditPageClass":"SpecialCustomEditPage","wgEditPageHandler":"/index.php?action=ajax\x26rs=EditPageLayoutAjax\x26title=$1","wgEditPreviewMercuryUrl":"/article-preview","wgEditPagePopularTemplates":[],"wgEditPageIsWidePage":false,"wgIsDarkTheme":false,"wgEditPageFormType":null,"wgEditPageIsConflict":false,"wgEditPageIsReadOnly":true,"wgEditPageHasEditPermissionError":false,"wgEditPageSection":"","wgEditPageLicensingUrl":"http://community.wikia.com/wiki/Community_Central:Licensing","wgRightsText":"CC-BY-SA","wgCopywarn":"\x3cdiv id=\"editpage-copywarn\"\x3e\n\x3cp\x3eAll contributions to Aikatsu Wiki are considered to be released under the  CC-BY-SA (see \x3ca href=\"http://community.wikia.com/wiki/Wikia:Licensing\" class=\"extiw\" title=\"w:Wikia:Licensing\"\x3eWikia:Licensing\x3c/a\x3e for details).\x3cbr /\x3e\n\x3c/p\x3e\n\x3c/div\x3e","showAddVideoBtn":true});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":1,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":1,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"oasis","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":1,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"enotifdiscussionsfollows":1,"enotifdiscussionsvotes":1,"htmlemails":1,"watchlistdigest":1,"editor":2,"enotifwallthread":2,"wallshowsource":false,"walldelete":false,"founderemails-joins-590987":0,"founderemails-edits-590987":0,"founderemails-views-digest-590987":0,"founderemails-complete-digest-590987":0,"adoptionmails-590987":1,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"useeditwarning":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":true
+,"searchNs15":false,"searchNs110":false,"searchNs111":false,"searchNs420":false,"searchNs421":false,"searchNs500":false,"searchNs501":false,"searchNs502":false,"searchNs503":false,"searchNs828":false,"searchNs829":false,"searchNs1200":false,"searchNs1201":false,"searchNs1202":false,"searchNs2000":false,"searchNs2001":false,"searchNs2002":false,"userlandingpage":1});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: aikatsu:resourceloader:filter:minify-js:7:728b2aea229e654553682a989d9608f4 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","amd.shared","ext.visualEditor.wikia.viewPageTarget.init"]);
+}</script><script src="http://slot1.images.wikia.nocookie.net/__am/1493894030/groups/-/oasis_shared_core_js,oasis_shared_js,oasis_anon_js,adengine2_desktop_js,adengine2_gcs_js,adengine2_taboola_js,adengine2_interactive_maps_js,recirculation_liftigniter_tracker,toc_js,qualaroo_js"></script>
+<script src="http://slot1.images4.wikia.nocookie.net/__am/1493894030/group/-/auth_modal_js"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1493894030/group/-/cookie_policy_js"></script>
+<script src="http://slot1.images1.wikia.nocookie.net/__am/1493894030/group/-/wikia_in_your_lang_js"></script>
+<script src="http://slot1.images1.wikia.nocookie.net/__am/1493894030/group/-/portable_infobox_js"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1493894030/group/-/visit_source_js"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1493894030/group/-/flow_tracking_create_page_js"></script>
+<script src="/wikia.php?controller=JSMessages&amp;method=getMessages&amp;format=html&amp;packages=AdEngine%2CConfirmModal%2CEditPageLayout%2CImagePlaceholder%2COasis-generic%2CRecirculation&amp;uselang=en&amp;cb=1493894030.0.0"></script>
+<script src="http://slot1.images2.wikia.nocookie.net/__am/1493894030/group/-/epl"></script>
+
+	<meta property="fb:app_id" content="112328095453510" prefix="fb: http://www.facebook.com/2008/fbml" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="Aikatsu Wiki" />
+	<meta property="og:title" content="Aikatsu! Photo on Stage!!/Cardlist" />
+	<meta property="og:url" content="http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" />
+	<meta property="og:image" content="http://vignette1.wikia.nocookie.net/aikatsu/images/8/8b/Photokatsu_0001.jpg/revision/latest?cb=20160127150908" />
+<meta name="apple-itunes-app" content="app-id=422467074, app-arguments=http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist?action=edit">
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Aikatsu_Photo_on_Stage_Cardlist  TOC_hide EditPagePermissionError nowikiabar oasis-one-column editor WikiaGrid skin-oasis  user-anon background-fixed background-not-tiled background-dynamic wiki-aikatsu" >
+	<div class="background-image-gradient"></div>
+
+
+<div class="WikiaSiteWrapper">
+	<div class="wds-global-navigation-wrapper">
+	<div id="globalNavigation" class="wds-global-navigation ">
+		<div class="wds-global-navigation__content-bar">
+			<a href="http://fandom.wikia.com"
+   class="wds-global-navigation__logo"
+   data-tracking-label="logo">
+	<svg xmlns="http://www.w3.org/2000/svg" width="117" height="23" viewBox="0 0 117 23" class="wds-global-navigation__logo-image wds-is-wds-company-logo-fandom" alt="Fandom powered by Wikia" id="wds-company-logo-fandom"><defs><linearGradient id="logo-fandom-gradient" x1="0%" x2="63.848%" y1="100%" y2="32.54%"><stop stop-color="#94D11F" offset="0%"/><stop stop-color="#09D3BF" offset="100%"/></linearGradient></defs><g fill-rule="evenodd"><path d="M114.543 8.924c-1.028-1.086-2.48-1.66-4.197-1.66-1.748 0-3.18.79-4.062 2.23-.882-1.44-2.315-2.23-4.063-2.23-1.71 0-3.16.574-4.19 1.66-.96 1.013-1.48 2.432-1.48 3.997v6.48h3.24v-6.48c0-1.75.89-2.75 2.445-2.75s2.444 1.01 2.444 2.76v6.48h3.24v-6.48c0-1.75.89-2.75 2.44-2.75 1.554 0 2.444 1.005 2.444 2.756v6.48h3.24v-6.48c0-1.564-.53-2.983-1.487-3.996M37.3 1.467c-.26-.038-.53-.078-.81-.078-3.886 0-6.496 2.47-6.496 6.15V19.4h3.24v-8.717h3.397V7.78h-3.39v-.263c0-2.077 1.15-3.13 3.41-3.13.22 0 .43.035.657.073.085.014.17.03.26.042l.163.024v-3l-.13-.016-.29-.05m10.31 11.923c0 2.11-1.083 3.224-3.133 3.224-2.81 0-3.23-2.02-3.23-3.224 0-2.05 1.18-3.223 3.23-3.223 2.007 0 3.03 1.058 3.135 3.226m3.254.602c-.004-.226-.007-.43-.014-.61-.153-3.774-2.594-6.12-6.373-6.12-1.95 0-3.6.62-4.77 1.792-1.1 1.096-1.7 2.627-1.7 4.31 0 3.507 2.63 6.152 6.12 6.152 1.66 0 3.01-.6 3.92-1.736.134.534.32 1.05.56 1.54l.04.08h3.264l-.09-.19c-.91-1.938-.94-3.91-.96-5.217m8.774-6.73c-1.86 0-3.436.62-4.553 1.79-1.046 1.09-1.622 2.63-1.622 4.34v6.01h3.24v-6.01c0-2.05 1.07-3.23 2.935-3.23s2.938 1.174 2.938 3.223v6.01h3.237v-6.01c0-1.7-.576-3.24-1.622-4.336-1.115-1.17-2.69-1.79-4.552-1.79m17.61 6.125c0 2.11-1.085 3.224-3.135 3.224-2.812 0-3.232-2.02-3.232-3.224 0-2.05 1.18-3.22 3.235-3.22 2.006 0 3.03 1.055 3.134 3.223m2.786 0V3.095h-3.13v4.85c-.994-.423-1.724-.68-2.962-.68-3.82 0-6.385 2.453-6.385 6.103 0 3.5 2.655 6.15 6.17 6.15 1.79 0 3.085-.51 3.94-1.56.14.55.34 1.15.58 1.71l.033.082h3.27l-.088-.19c-1.048-2.27-1.428-4.937-1.428-6.174m11.655-.003c0 2.05-1.16 3.225-3.183 3.225-2.024 0-3.184-1.175-3.184-3.224 0-2.05 1.16-3.22 3.185-3.22 2.024 0 3.184 1.175 3.184 3.225M88.52 7.26c-3.78 0-6.42 2.52-6.42 6.13s2.64 6.13 6.42 6.13 6.42-2.52 6.42-6.127c0-3.607-2.64-6.126-6.42-6.126"/><path fill="url(#logo-fandom-gradient)" d="M10.175 16.803c0 .19-.046.46-.26.666l-.81.69-7.362-6.94V8.51l8.094 7.627c.126.12.338.367.338.666zm11.21-8.096v2.525l-9.158 8.86a.673.673 0 0 1-.493.21.73.73 0 0 1-.514-.21l-.838-.76L21.384 8.707zm-6.976 4.498l-2.54 2.422-8.04-7.672a1.997 1.997 0 0 1-.01-2.9l2.54-2.423 8.04 7.672c.84.8.84 2.1 0 2.9zm-1.5-6.682L15.55 4c.406-.387.945-.6 1.52-.6.575 0 1.114.213 1.52.6l2.73 2.605-4.164 3.973-1.52-1.45-2.73-2.605zm10.17-.403L17.09.317l-.125-.12-.124.12-5.22 5.03L6.96.867 6.953.864 6.948.858l-.583-.47-.12-.098-.115.106L.052 6.11 0 6.16v5.76l.05.05 11.396 10.867.123.117.12-.117L23.07 11.97l.05-.05V6.17l-.05-.05z"/></g></svg>			<svg xmlns="http://www.w3.org/2000/svg" width="128" height="13" viewBox="0 0 128 13" class="wds-global-navigation__logo-image wds-is-wds-company-logo-powered-by-wikia" alt="Fandom powered by Wikia" id="wds-company-logo-powered-by-wikia"><g fill="none" fill-rule="evenodd"><path d="M3.233 8.427c.208 0 .409-.015.602-.046.194-.032.363-.091.51-.18a.986.986 0 0 0 .353-.376c.089-.163.134-.374.134-.637 0-.262-.045-.475-.134-.637a.99.99 0 0 0-.353-.377 1.395 1.395 0 0 0-.51-.178 3.69 3.69 0 0 0-.602-.046H1.819v2.477h1.414zm.497-3.89c.518 0 .958.075 1.32.226.364.15.66.349.887.596.228.247.394.528.499.845a3.158 3.158 0 0 1 0 1.963c-.105.319-.27.603-.5.85a2.458 2.458 0 0 1-.885.596c-.363.15-.803.226-1.321.226H1.819v2.964H0V4.536h3.73zm5.696 5.181c.08.328.21.623.388.885.177.262.41.472.695.63.286.16.633.238 1.043.238.409 0 .757-.079 1.043-.237.286-.159.517-.369.695-.631a2.71 2.71 0 0 0 .388-.885c.08-.328.122-.666.122-1.013a4.53 4.53 0 0 0-.122-1.054 2.799 2.799 0 0 0-.388-.908 1.968 1.968 0 0 0-.695-.637c-.286-.158-.634-.238-1.043-.238-.41 0-.757.08-1.043.238-.286.158-.518.37-.695.637a2.749 2.749 0 0 0-.388.908 4.471 4.471 0 0 0 0 2.067M7.763 6.985c.186-.528.452-.989.8-1.384a3.665 3.665 0 0 1 1.28-.925c.507-.224 1.077-.336 1.71-.336.64 0 1.213.112 1.715.336.502.223.927.533 1.275.925.347.395.614.856.8 1.384a5.19 5.19 0 0 1 .277 1.72 5.01 5.01 0 0 1-.278 1.684 4.017 4.017 0 0 1-.8 1.36 3.664 3.664 0 0 1-1.274.909c-.502.22-1.074.33-1.715.33-.633 0-1.203-.11-1.708-.33a3.654 3.654 0 0 1-1.281-.909 4.017 4.017 0 0 1-.8-1.36 4.981 4.981 0 0 1-.278-1.684c0-.617.092-1.19.278-1.72m15.282 5.818l-1.402-5.627h-.023l-1.38 5.627H18.4l-2.19-8.266h1.818l1.31 5.627h.023L20.8 4.537h1.7l1.414 5.695h.023l1.356-5.695h1.785l-2.225 8.266zm11.169-8.266v1.528h-4.368v1.771h4.01V9.25h-4.01v2.025h4.46v1.528h-6.28V4.537zm5.249 3.739c.417 0 .73-.092.939-.278.208-.185.312-.485.312-.903 0-.4-.104-.692-.312-.874-.21-.181-.522-.272-.94-.272h-1.992v2.327h1.993zm.649-3.74c.37 0 .705.061 1.002.18.297.12.552.284.764.492.213.21.375.45.487.723.111.274.168.57.168.887 0 .485-.103.906-.306 1.262-.206.354-.54.625-1.003.81v.023c.223.061.41.156.556.284a1.6 1.6 0 0 1 .36.451c.092.174.16.364.202.573.042.208.07.416.087.625.007.132.016.285.023.464.008.177.02.358.041.543.019.186.05.36.092.527.043.166.107.307.19.422H40.96a3.17 3.17 0 0 1-.186-.937c-.024-.363-.058-.71-.104-1.042-.062-.433-.193-.748-.394-.95-.201-.2-.53-.3-.985-.3h-1.82v3.23h-1.819V4.536h4.462zm10.207.001v1.528h-4.368v1.771h4.01V9.25h-4.01v2.025h4.46v1.528h-6.28V4.537zm4.878 6.738c.263 0 .517-.043.764-.128a1.7 1.7 0 0 0 .662-.422c.192-.197.347-.453.463-.77.116-.317.173-.702.173-1.157 0-.417-.04-.794-.12-1.13a2.278 2.278 0 0 0-.4-.863 1.776 1.776 0 0 0-.736-.548c-.305-.129-.683-.192-1.13-.192h-1.298v5.21h1.622zm.128-6.738c.532 0 1.03.085 1.49.254.458.17.856.425 1.192.765.335.34.598.764.789 1.273.188.51.282 1.108.282 1.795 0 .602-.077 1.157-.23 1.666-.155.51-.39.95-.702 1.32-.313.37-.704.662-1.17.875-.468.212-1.018.318-1.65.318h-3.57V4.537h3.57zm12.235 6.853c.178 0 .348-.016.51-.052.162-.034.305-.092.43-.174a.875.875 0 0 0 .294-.33c.073-.138.11-.316.11-.532 0-.423-.12-.727-.358-.908-.24-.182-.556-.273-.95-.273h-1.983v2.27h1.947zm-.104-3.508c.324 0 .59-.076.8-.231.208-.155.312-.404.312-.753a.954.954 0 0 0-.104-.474.761.761 0 0 0-.278-.29 1.165 1.165 0 0 0-.4-.144 2.63 2.63 0 0 0-.47-.041h-1.703v1.933h1.843zm.233-3.345c.394 0 .754.035 1.078.104.324.07.602.183.834.341.231.159.411.369.539.631.126.263.19.588.19.973 0 .417-.094.765-.284 1.041-.189.28-.468.506-.84.684.51.147.891.403 1.142.77.25.366.376.808.376 1.326 0 .416-.08.776-.242 1.082a2.12 2.12 0 0 1-.656.746 2.897 2.897 0 0 1-.938.43 4.255 4.255 0 0 1-1.083.137h-4.01V4.537h3.894zm3.486 0h2.04l1.934 3.265 1.923-3.265h2.028L76.03 9.63v3.172h-1.819V9.584z" fill="#656E78"/><path d="M102.992.404V12.81h2.79v-2.233l.96-.913 1.9 3.146h3.617l-3.487-5.004 3.346-3.268h-3.989l-1.604 1.89-.744.929V.404zM92.934 4.536l-1.05 5.649-1.375-5.65H87.3l-1.353 5.65-1.056-5.65H81.98l2.15 8.272h3.737l1.047-4.292 1.047 4.292H93.7l2.155-8.271zm32.036 5.173c-.355.463-.912.772-1.64.772-.834 0-1.5-.54-1.5-1.824 0-1.283.666-1.824 1.5-1.824.728 0 1.285.31 1.64.773V9.71zm2.784-2.767l.155-2.406h-2.546l-.192.906c-.587-.617-1.316-1.128-2.598-1.128-2.322 0-3.59 1.5-3.59 4.343 0 2.844 1.268 4.343 3.59 4.343 1.282 0 2.011-.51 2.598-1.128l.2.936h2.538l-.155-2.435V6.942zM98.83.45a1.594 1.594 0 1 0-.001 3.187A1.594 1.594 0 0 0 98.83.45m2.402 5.83V4.536h-3.996v8.272h3.996v-1.735h-1.253V6.28zM114.4 2.043a1.595 1.595 0 0 0 3.19 0 1.595 1.595 0 1 0-3.19 0m.445 4.237v4.793h-1.252v1.735h3.997V4.536h-3.997V6.28z" fill="#092344"/></g></svg>	</a>
+			<div class="wds-global-navigation__links-and-search">
+										<a href="http://fandom.wikia.com/games"
+	class="wds-global-navigation__link wds-is-games"
+	data-tracking-label="link.games">
+	Games</a>
+										<a href="http://fandom.wikia.com/movies"
+	class="wds-global-navigation__link wds-is-movies"
+	data-tracking-label="link.movies">
+	Movies</a>
+										<a href="http://fandom.wikia.com/tv"
+	class="wds-global-navigation__link wds-is-tv"
+	data-tracking-label="link.tv">
+	TV</a>
+									<div class="wds-global-navigation__wikis-menu wds-dropdown">
+		<div class="wds-dropdown__toggle wds-global-navigation__dropdown-toggle"
+					>
+							<span>Wikis</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron" id="wds-icons-dropdown-tiny"><path d="M1 3h10L6 9z"/></svg>		</div>
+		<div class="wds-dropdown__content wds-global-navigation__dropdown-content ">
+			<ul class="wds-list wds-is-linked">
+									<li><a href="http://fandom.wikia.com/explore"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.explore">
+	Explore Wikis</a>
+</li>
+									<li><a href="http://community.wikia.com/wiki/Community_Central"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.community-central">
+	Community Central</a>
+</li>
+									<li><a href="http://community.wikia.com/wiki/Fandom_University"
+	class="wds-global-navigation__dropdown-link"
+	data-tracking-label="link.fandom-university">
+	Fandom University</a>
+</li>
+							</ul>
+		</div>
+	</div>
+				<form class="wds-global-navigation__search" action="http://aikatsu.wikia.com/wiki/Special:Search?fulltext=Search">
+	<div id="searchInputWrapper" class="wds-dropdown wds-global-navigation__search-input-wrapper">
+		<label class="wds-global-navigation__search-label">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-label-icon" id="wds-icons-magnifying-glass"><g fill-rule="evenodd"><path d="M21.747 20.524l-4.872-4.871a.864.864 0 1 0-1.222 1.222l4.871 4.872a.864.864 0 1 0 1.223-1.223z"/><path d="M3.848 10.763a6.915 6.915 0 0 1 6.915-6.915 6.915 6.915 0 0 1 6.915 6.915 6.915 6.915 0 0 1-6.915 6.915 6.915 6.915 0 0 1-6.915-6.915zm-1.729 0a8.643 8.643 0 0 0 8.644 8.644 8.643 8.643 0 0 0 8.644-8.644 8.643 8.643 0 0 0-8.644-8.644 8.643 8.643 0 0 0-8.644 8.644z"/></g></svg>			<input id="searchInput"
+				type="search"
+				class="wds-global-navigation__search-input"
+				name="query"
+									data-suggestions-url="http://aikatsu.wikia.com/index.php?action=ajax&rs=getLinkSuggest&format=json"
+					data-suggestions-param-name="query"
+					data-suggestions-tracking-label="search-suggestion"
+								data-active-placeholder="Search Aikatsu Wiki..."
+				placeholder="Search"
+				autocomplete="off"
+			/>
+		</label>
+		<button class="wds-button wds-is-text wds-global-navigation__search-close" type="reset">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-close-icon" alt="Cancel" id="wds-icons-cross"><path d="M19.707 4.293a.999.999 0 0 0-1.414 0L12 10.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L10.586 12l-6.293 6.293a.999.999 0 1 0 1.414 1.414L12 13.414l6.293 6.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L13.414 12l6.293-6.293a.999.999 0 0 0 0-1.414" fill-rule="evenodd"/></svg>		</button>
+		<button class="wds-button wds-global-navigation__search-submit" type="submit" data-tracking-label="search">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-global-navigation__search-submit-icon" id="wds-icons-arrow"><path d="M22.999 12a1 1 0 0 0-1-1H4.413l5.293-5.293a.999.999 0 1 0-1.414-1.414l-7 7a1 1 0 0 0 0 1.415l7 7a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.415L4.413 13h17.586a1 1 0 0 0 1-1" fill-rule="evenodd"/></svg>		</button>
+	</div>
+</form>
+			</div>
+							<div class="wds-global-navigation__account-menu wds-dropdown">
+	<div class="wds-dropdown__toggle wds-global-navigation__dropdown-toggle">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-icon wds-icon-small wds-icon" id="wds-icons-user"><path d="M12 14c3.309 0 6-2.691 6-6V6c0-3.309-2.691-6-6-6S6 2.691 6 6v2c0 3.309 2.691 6 6 6zm5 2H7c-3.86 0-7 3.14-7 7a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1c0-3.86-3.14-7-7-7z" fill-rule="evenodd"/></svg>		<span class="wds-global-navigation__account-menu-caption">My Account</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" class="wds-icon wds-icon-tiny wds-dropdown__toggle-chevron" id="wds-icons-dropdown-tiny"><path d="M1 3h10L6 9z"/></svg>	</div>
+	<div class="wds-dropdown__content wds-global-navigation__dropdown-content wds-is-right-aligned">
+		<ul class="wds-list wds-has-lines-between">
+							<li>
+	<a href="https://www.wikia.com/signin?redirect=http%3A%2F%2Faikatsu.wikia.com%2Fwiki%2FAikatsu%21_Photo_on_Stage%21%21%2FCardlist%3Faction%3Dedit"
+	   rel="nofollow"
+	   id="global-navigation-anon-sign-in"
+	   data-tracking-label="account.sign-in"
+	   class="wds-button wds-is-full-width">
+		Sign In	</a>
+</li>
+							<li>	<div class="wds-global-navigation__account-menu-dropdown-caption">
+		Don&#039;t have an account?	</div>
+
+	<a href="https://www.wikia.com/register?redirect=http%3A%2F%2Faikatsu.wikia.com%2Fwiki%2FAikatsu%21_Photo_on_Stage%21%21%2FCardlist%3Faction%3Dedit"
+	   rel="nofollow"
+	   id="global-navigation-anon-register"
+	   data-tracking-label="account.register"
+	   class="wds-button wds-is-full-width wds-is-secondary">
+		Register	</a>
+</li>
+					</ul>
+	</div>
+</div>
+						<div class="wds-global-navigation__start-a-wiki ">
+				<a href="http://www.wikia.com/Special:CreateNewWiki" class="wds-global-navigation__start-a-wiki-button wds-button wds-is-squished wds-is-secondary" data-tracking-label="start-a-wiki">
+					<span class="wds-global-navigation__start-a-wiki-caption">Start a Wiki</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="wds-global-navigation__start-a-wiki-icon wds-icon" id="wds-icons-plus"><path d="M11 13v9a1 1 0 1 0 2 0v-9h9a1 1 0 1 0 0-2h-9V2a1 1 0 1 0-2 0v9H2a1 1 0 1 0 0 2h9z" fill-rule="evenodd"/></svg>				</a>
+			</div>
+		</div>
+			</div>
+</div>
+<section id="WikiaPage" class="WikiaPage">
+	<article id="WikiaMainContent" class="WikiaMainContent">
+		<header id="EditPageHeader" class="EditPageHeader">
+			<span class="wordmark medium graphic font-">
+				<a accesskey="z" href="/wiki/Aikatsu_Wiki" title="Aikatsu Wiki">
+											<img src="http://img2.wikia.nocookie.net/__cb145/aikatsu/images/8/89/Wiki-wordmark.png" alt="Aikatsu Wiki">
+									</a>
+			</span>
+			<h2>Editing </h2>
+			<h1>
+				<a href="/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" class="" title="Aikatsu! Photo on Stage!!/Cardlist">Aikatsu! Photo on Stage!!/Cardlist</a>
+			</h1>
+			<a id="EditPageTitle" class="EditPageTitle" title="Edit title">
+				<img class="sprite edit-pencil-small" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D">
+			</a>
+						<nav id="EditPageTabs" class="EditPageTabs editpage-tabs" data-space-type="tabs" data-space-autoshow="true"></nav>
+			<aside id="HelpLink" class="HelpLink"><a target="_blank" href="/wiki/Help:Editing" title="Help:Editing">Need help editing?</a></aside>
+			<aside id="NotificationsLink" class="NotificationsLink"><a href="#">Notifications</a></aside>
+		</header>
+
+		<form id="editform" class="editform" name="editform" method="post" action="/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist?action=submit" enctype="multipart/form-data">
+			<section id="EditPage" class="EditPage">
+				<div id="EditPageMain" class="EditPageMain">
+					<div id="EditPageMainContainer" class="EditPageMainContainer">
+						<div id="EditPageToolbar" class="EditPageToolbar editpage-toolbar" data-space-type="toolbar"></div>
+						<div id="EditPageEditorWrapper" class="EditPageEditorWrapper hasPreloads" data-space-type="editor">
+							<div id="EditPageEditor" class="EditPageEditor editpage-content">
+								<!-- basic support for users with JS disabled -->
+								<noscript>
+									<style>
+										.editpage-notices {
+											display: block;
+										}
+
+										#EditPageCallbackFields {
+											display: block !important;
+										}
+									</style>
+								</noscript>
+								<div class="editpage-notices" data-space-type="notices-short">
+									<span class="splotch">0</span>
+									<ul>
+																			</ul>
+								</div>
+								<div class="editpage-notices-html" data-space-type="notices-html" style="display:none"></div>
+																											<div id="PermissionsError" class="editpage-intro">
+											<div class="editpage-intro-wrapper">
+												<div class="permissions-errors">
+													<p>You do not have permission to edit this page, for the following reason:
+</p>
+<div class="permissions-errors">
+<p>This page has been protected to prevent editing.
+</p>
+</div>
+												</div>
+											</div>
+											<a class="expand">
+												<label>more</label>
+												<span>+</span>
+											</a>
+										</div>
+																									<!-- edit form content -->
+								<div id="mw-content-text"><p>You can view and copy the source of this page:
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">==Dress Up Cards==
+Dress Up Cards are character cards for all ranks, and can be "dress up-ed" (upgraded) and used in the Live Mode of the game.
+===001 ~ 100===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|-align="center"
+|PR
+|1
+|"Sweet Rewards"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0001.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|2
+|"Playful Angel"&lt;br />Ichigo Hoshimiya+
+|[[File:Photokatsu_0002.jpg|100px]]
+|Premium Angel Arrow
+|Cute Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|3
+|"Macaron Time"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0003.jpg|100px]]
+|Angel Arrow
+|SR+
+|4
+|"Whip Cream"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0004.png|100px]]
+|Angel Arrow
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|5
+|Ichigo Hoshimiya
+|[[File:photokatsu 0005.jpg|100px]]
+|Cute Flash
+|R+
+|6
+|Ichigo Hoshimiya+
+|[[File:photokatsu 0006.png|100px]]
+|Cute Flash
+|Cute Score UP! (ii)
+|-align="center"
+|PR
+|7
+|"A Wish to the Milky Way"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0007.png|100px]]
+|Premium Cosmo Showtime
+|PR+
+|8
+|"Shine of the Milky Way"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0008.jpg|100px]]
+|Premium Cosmo Showtime
+|Cool Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|9
+|"Prism Star"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0009.jpg|100px]]
+| Cosmo Showtime
+|SR+
+|10
+|"Roller Star"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu_0010.jpg|100px]]
+| Cosmo Showtime
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|11
+|Aoi Kiriya
+|[[File:photokatsu 0011.jpg|100px]]
+|Cool Flash
+|R+
+|12
+|Aoi Kiriya+
+|[[FIle:photokatsu 0012.png|100px]]
+| Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|- align="center"
+|PR
+|13
+|"Invitation from an Ageha"&lt;br />Ran Shibuki
+|[[File:photokatsu 0013.jpg|100px]]
+|Premium Butterfly Flip
+|PR+
+|14
+|"Rose Princess"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0014.jpg|100px]]
+|Premium Butterfly Flip
+|Sexy plus Appeal!&lt;br />(iv)
+|- align="center"
+|SR
+|15
+|"Night of the Ageha"&lt;br />Ran Shibuki
+|[[File:photokatsu 0015.png|100px]]
+| Butterfly Flip
+|SR+
+|16
+|"The Blue Rose Under the Moonlight"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0016.jpg|100px]]
+| Butterfly Flip
+|Sexy Change&lt;br />(iii)
+|- align="center"
+|R
+|17
+|Ran Shibuki
+|[[File:photokatsu 0017.jpg|100px]]
+| Sexy Flash
+|R+
+|18
+|Ran Shibuki+
+|[[File:photokatsu 0018.jpg|100px]]
+| Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|19
+|"The Rainbow Alice"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0019.png|100px]]
+| Candy Rainbow
+|SR+
+|20
+|"The Orange of Happiness"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0020.png|100px]]
+| Candy Rainbow
+|Pop Change&lt;br />(iii)
+|- align="center"
+|R
+|21
+|Otome Arisugawa
+|[[File:Photokatsu 0021.png|100px]]
+| Pop Flash
+|R+
+|22
+|Otome Arisugawa+
+|[[File:photokatsu 0022.png|100px]]
+| Pop Flash
+|Pop Score UP!&lt;br />(ii)
+|- align="center"
+|SR
+|23
+|"An Elegant Smile"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0023.jpg|100px]]
+| Clock Circus
+|SR+
+|24
+|"Resident of the Bird Cage"&lt;br />Yurika Tōdō+
+|[[File:Photokatsu_0024.jpg|100px]]
+| Clock Circus
+|All Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|25
+|Yurika Tōdō
+|[[File:photokatsu 0025.jpg|100px]]
+| Cool Flash
+|R+
+|26
+|Yurika Tōdō+
+|[[File:photokatsu 0026.jpg|100px]]
+| Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|27
+|Kaede Ichinose
+|[[File:photokatsu 0027.jpg|100px]]
+| Pop Flash
+|R+
+|28
+|Kaede Ichinose+
+|[[File:photokatsu 0028.png|100px]]
+| Pop Flash
+|Pop Aura UP!&lt;br />(ii)
+|- align="center"
+|R
+|29
+|Shion Kamiya
+|[[File:photokatsu 0029.png|100px]]
+| Cool Flash
+|R+
+|30
+|Shion Kamiya+
+|[[File:photokatsu 0030.png|100px]]
+| Cool Flash
+|Cool Change&lt;br />(ii)
+|- align="center"
+|R
+|31
+|Hikari Minowa
+|[[File:photokatsu 0031.jpg|100px]]
+| Sexy Flash
+|R+
+|32
+|Hikari Minowa+
+|[[File:Photokatsu_0032.jpg|100px]]
+| Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|33
+|"Guide of the Fairytales"&lt;br />Sakura Kitaōji
+|[[File:photokatsu 0033.jpg|100px]]
+| Around Bouquet
+|SR+
+|34
+|"Girl of the Spring Garden"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0034.png|100px]]
+| Around Bouquet
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|35
+|Sakura Kitaōji
+|[[File:photokatsu 0035.jpg|100px]]
+| Cute Flash
+|R+
+|36
+|Sakura Kitaōji+
+|[[File:photokatsu 0036.png|100px]]
+| Cute Flash
+|Cute Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|37
+|"Little Cat"&lt;br />Seira Otoshiro
+|[[File:photokatsu 0037.jpg|100px]]
+| Passion Beat
+|SR+
+|38
+|"Let's Rock!"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0038.jpg|100px]]
+| Passion Beat
+|Cool Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|39
+|Seira Otoshiro
+|[[File:photokatsu 0039.jpg|100px]]
+| Cool Flash
+|R+
+|40
+|Seira Otoshiro+
+|[[File:photokatsu 0040.jpg|100px]]
+| Cool Flash
+|Cool Change&lt;br />(ii)
+|- align="center"
+|SR
+|41
+|"Colorful Tile"&lt;br />Kī Saegusa
+|[[File:photokatsu 0041.jpg|100px]]
+| Trick Toy Box
+|SR+
+|42
+|"Milk Clown"&lt;br />Kī Saegusa
+|[[File:photokatsu 0042.png|100px]]
+| Trick Toy Box
+|Pop Change&lt;br />(iii)
+|- align="center"
+|R
+|43
+|Kī Saegusa
+|[[File:Photokatsu 0043.jpg|100px]]
+| Pop Flash
+|R+
+|44
+|Kī Saegusa+
+|[[File:photokatsu 0044.png|100px]]
+| Pop Flash
+|Pop plus Appeal&lt;br />(ii)
+|- align="center"
+|R
+|45
+|Sora Kazesawa
+|[[File:photokatsu 0045.jpg|100px]]
+| Sexy Flash
+|R+
+|46
+|Sora Kazesawa+
+|[[File:Photokatsu_0046.jpg|100px]]
+| Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|47
+|Maria Himesato
+|[[File:photokatsu 0047.jpg|100px]]
+| Cute Flash
+|R+
+|48
+|Maria Himesato+
+|[[File:Photokatsu_0048.jpg|100px]]
+| Cute Flash
+|Aura plus Appeal&lt;br />(ii)
+|- align="center"
+|SR
+|49
+|"Tonight's Spotlight"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0049.jpg|100px]]
+| Double Moon Jewel
+|SR+
+|50
+|"Night of the Moon"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu_0050.jpg|100px]]
+| Double Moon Jewel
+|Sexy plus Appeal! (iii)
+|- align="center"
+|R
+|51
+|Mizuki Kanzaki
+|[[File:Photokatsu 0051.jpg|100px]]
+| Sexy Flash
+|R+
+|52
+|Mizuki Kanzaki+
+|[[File:Photokatsu_0052.jpg|100px]]
+| Sexy Flash
+|Sexy Change&lt;br />(ii)
+|- align="center"
+|SR
+|53
+|"Going Out on a Day Off"&lt;br />Mikuru Natsuki
+|[[File:photokatsu 0053.jpg|100px]]
+| Cheerful Kiss
+|SR+
+|54
+|"Vivid Time"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0054.jpg|100px]]
+| Cheerful Kiss
+|Aura plus Appeal!(iii)
+|- align="center"
+|R
+|55
+|Mikuru Natsuki
+|[[File:photokatsu 0055.jpg|100px]]
+| Pop Flash
+|R+
+|56
+|Mikuru Natsuki+
+|[[File:photokatsu 0056.jpg|100px]]
+| Cheerful Kiss
+|Pop plus Appeal!&lt;br />(ii)
+|- align="center"
+|PR
+|57
+|"A White Bird Floating On Top of the Water"&lt;br />Akari Ōzora
+|[[File:photokatsu 0057.jpg|100px]]
+| Premium Dreaming Heart
+|PR+
+|58
+|"The Grand White Bird Dancing on the Lake"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0058.png|100px]]
+| Premium Dreaming Heart
+|Cute Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|59
+|"Let's sing a SHOW!"&lt;br />Akari Ōzora
+|[[File:photokatsu 0059.jpg|100px]]
+| Dreaming Heart
+|SR+
+|60
+|"Happy Show Time!"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0060.png|100px]]
+| Dreaming Heart
+|Cute Change&lt;br />(iii)
+|- align="center"
+|R
+|61
+|Akari Ōzora
+|[[File:photokatsu 0061.png|100px]]
+|Cute Flash
+|R+
+|62
+|Akari Ōzora+
+|[[File:Photokatsu_0062.jpg|100px]]
+|Cute Flash
+|Cute Change&lt;br />(ii)
+|- align="center"
+|PR
+|63
+|"Falling in love with an Apple"&lt;br />Sumire Hikami
+|[[File:Photokatsu 0063.png|100px]]
+| Premium Clock Circus
+|PR+
+|64
+|"The Tree of Rubies"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0064.jpg|100px]]
+| Premium Clock Circus
+|Cool Score UP!&lt;br />(iv)
+|- align="center"
+|SR
+|65
+|"Blue Noblesse"&lt;br />Sumire Hikami
+|[[File:photokatsu 0065.jpg|100px]]
+| Clock Circus
+|SR+
+|66
+|"The New Green Blossom"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0066.jpg|100px]]
+| Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|R
+|67
+|Sumire Hikami
+|[[File:photokatsu 0067.jpg|100px]]
+| Cool Flash
+|R+
+|68
+|Sumire Hikami+
+|[[File:photokatsu 0068.jpg|100px]]
+| Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|PR
+|69
+|"To the World of Dreams"&lt;br />Hinaki Shinjō
+|[[File:Photokatsu 0069.jpg|100px]]
+| Premium Cheerful Kiss
+|PR+
+|70
+|"Miracle World"&lt;br />Hinaki Shinjō+
+|[[File:Photokatsu_0070.jpg|100px]]
+| Premium Cheerful Kiss
+|Pop plus Appeal!&lt;br />(iv)
+|- align="center"
+|R
+|71
+|Hinaki Shinjō
+|[[File:photokatsu 0071.jpg|100px]]
+| Pop Flash
+|R+
+|72
+|Hinaki Shinjō+
+|[[File:Photokatsu_0072.jpg|100px]]
+| Pop Flash
+|Pop Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|73
+|Juri Kurebayashi
+|[[File:photokatsu 0073.jpg|100px]]
+| Sexy Flash
+|R+
+|74
+|Juri Kurebayashi+
+|[[File:Photokatsu_0074.jpg|100px]]
+| Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|75
+|Madoka Amahane
+|[[File:photokatsu 0075.jpg|100px]]
+| Cute Flash
+|R+
+|76
+|Madoka Amahane+
+|[[File:Photokatsu_0076.jpg|100px]]
+| Cute Flash
+|Cute Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|77
+|Rin Kurosawa
+|[[File:photokatsu 0077.jpg|100px]]
+| Cool Flash
+|R+
+|78
+|Rin Kurosawa+
+|[[File:Photokatsu_0078.jpg|100px]]
+| Cool Flash
+|Cool plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|79
+|Miyabi Fujiwara
+|[[File:Photokatsu_0079.jpg|100px]]
+| Sexy Flash
+|R+
+|80
+|Miyabi Fujiwara+
+|[[File:Photokatsu_0080.jpg|100px]]
+| Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|81
+|Kokone Kurisu
+|[[File:photokatsu 0081.jpg|100px]]
+| Pop Flash
+|R+
+|82
+|Kokone Kurisu+
+|[[File:Photokatsu_0082.jpg|100px]]
+| Pop Flash
+|Pop Change&lt;br />(ii)
+|- align="center"
+|N
+|83
+|Harumi Sano
+|[[File:photokatsu 0083.jpg|100px]]
+| Girly Step
+|N+
+|84
+|Harumi Sano+
+|[[File:photokatsu 0084.jpg|100px]]
+| Girly Step
+|Cute Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|85
+|Nana Yuzuki
+|[[File:photokatsu 0085.jpg|100px]]
+| Girly Step
+|N+
+|86
+|Nana Yuzuki+
+|[[File:photokatsu 0086.png|100px]]
+| Girly Step
+|Heart Full Time&lt;br />(i)
+|- align="center"
+|N
+|87
+|Yuna Nakayama
+|[[File:photokatsu 0087.png|100px]]
+| Girly Step
+|N+
+|88
+|Yuna Nakayama+
+|[[File:photokatsu 0088.png|100px]]
+| Girly Step
+|Heart Full Time&lt;br />(i)
+|- align="center"
+|N
+|89
+|Aya Hirasaka
+|[[File:photokatsu 0089.jpg|100px]]
+| Girly Step
+|N+
+|90
+|Aya Hirasaka+
+|[[File:photokatsu 0090.jpg|100px]]
+| Girly Step
+|Cute Score UP!&lt;br />(i)
+|- align="center"
+|N
+|91
+|Maria Ayasaki
+|[[File:photokatsu 0091.jpg|100px]]
+| Girly Step
+|N+
+|92
+|Maria Ayasaki+
+|[[File:photokatsu 0092.jpg|100px]]
+| Girly Step
+|Cute Change&lt;br />(i)
+|- align="center"
+|N
+|93
+|Konatsu Ayase
+|[[File:photokatsu 0093.jpg|100px]]
+| Girly Step
+|N+
+|94
+|Konatsu Ayase+
+|[[File:photokatsu 0094.jpg|100px]]
+| Girly Step
+|Cute plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|95
+|Mimi Watanuki
+|[[File:Photokatsu 0095.jpg|100px]]
+| Girly Step
+|N+
+|96
+|Mimi Watanuki+
+|[[File:photokatsu 0096.jpg|100px]]
+| Girly Step
+|Cute Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|97
+|Anna Kodama
+|[[File:photokatsu 0097.jpg|100px]]
+| Girly Step
+|N+
+|98
+|Anna Kodama+
+|[[File:photokatsu 0098.jpg|100px]]
+| Girly Step
+|Cute Change&lt;br />(i)
+|- align="center"
+|N
+|99
+|Himari Otoha
+|[[File:photokatsu 0099.jpg|100px]]
+| Girly Step
+|N+
+|100
+|Himari Otoha+
+|[[File:photokatsu 0100.jpg|100px]]
+| Girly Step
+|Cute plus Appeal!&lt;br />(i)
+|}
+&lt;/div>
+----
+===101 ~ 200===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|N
+|101
+|Oto Kinkawa
+|[[File:photokatsu 0101.jpg|100px]]
+| Girly Step
+|N+
+|102
+|Oto Kinkawa+
+|[[File:photokatsu 0102.jpg|100px]]
+| Girly Step
+|Cute plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|103
+|Kokoro Yoshikawa
+|[[File:Photokatsu 0103.jpg|100px]]
+| Sharp Spin
+|N+
+|104
+|Kokoro Yoshikawa+
+|[[File:photokatsu 0104.png|100px]]
+| Sharp Spin
+|Cool Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|105
+|Nanami Shibata
+|[[File:photokatsu 0105.jpg|100px]]
+| Sharp Spin
+|N+
+|106
+|Nanami Shibata+
+|[[File:photokatsu 0106.png|100px]]
+| Sharp Spin
+|Cool plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|107
+|Nagisa Matsue
+|[[File:photokatsu 107.jpg|100px]]
+| Sharp Spin
+|N+
+|108
+|Nagisa Matsue+
+|[[File:photokatsu 0108.png|100px]]
+| Sharp Spin
+|Cool Score UP!&lt;br />(i)
+|- align="center"
+|N
+|109
+|Wakaba Kuze
+|[[File:photokatsu 0109.jpg|100px]]
+| Sharp Spin
+|N+
+|110
+|Wakaba Kuze+
+|[[File:photokatsu 0110.png|100px]]
+| Sharp Spin
+|Cool Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|111
+|Rio Kimura
+|[[File:photokatsu 0111.jpg|100px]]
+| Sharp Spin
+|N+
+|112
+|Rio Kimura+
+|[[File:photokatsu 0112.png|100px]]
+| Sharp Spin
+|Cool Change&lt;br />(i)
+|- align="center"
+|N
+|113
+|Akira Natsume
+|[[File:photokatsu 0113.jpg|100px]]
+| Sharp Spin
+|N+
+|114
+|Akira Natsume+
+|[[File:photokatsu 0114.png|100px]]
+| Sharp Spin
+|Cool Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|115
+|Michiru Kurosawa
+|[[File:photokatsu 0115.png|100px]]
+| Sharp Spin
+|N+
+|116
+|Michiru Kurosawa+
+|[[File:photokatsu 0116.jpg|100px]]
+| Sharp Spin
+|Cool plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|117
+|Ayako Yuki
+|[[File:photokatsu 0117.jpg|100px]]
+| Sharp Spin
+|N+
+|118
+|Ayako Yuki+
+|[[File:photokatsu 0118.png|100px]]
+| Sharp Spin
+|Cool Change&lt;br />(i)
+|- align="center"
+|N
+|119
+|Yū Hattori
+|[[File:Photokatsu 0119.png|100px]]
+| Sharp Spin
+|N+
+|120
+|Yū Hattori+
+|[[File:photokatsu 0120.png|100px]]
+| Sharp Spin
+|Cool Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|121
+|Reika Yuki
+|[[File:photokatsu 121.jpg|100px]]
+| Sharp Spin
+|N+
+|122
+|Reika Yuki+
+|[[File:photokatsu 0122.png|100px]]
+| Sharp Spin
+|Heartful Time&lt;br />(i)
+|- align="center"
+|N
+|123
+|Misaki Hirayama
+|[[File:photokatsu 0123.jpg|100px]]
+| Just Move
+|N+
+|124
+|Misaki Hirayama+
+|[[File:photokatsu 0124.jpg|100px]]
+| Just Move
+|Sexy Change&lt;br />(i)
+|- align="center"
+|N
+|125
+|Fumina Miyamoto
+|[[File:photokatsu 125.jpg|100px]]
+| Just Move
+|N+
+|126
+|Fumina Miyamoto+
+|[[File:photokatsu 0126.jpg|100px]]
+| Just Move
+|Sexy plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|127
+|Erika Fujimoto
+|[[File:photokatsu 0127.jpg|100px]]
+| Just Move
+|N+
+|128
+|Erika Fujimoto+
+|[[File:photokatsu 0128.jpg|100px]]
+| Just Move
+|Sexy Change&lt;br />(i)
+|- align="center"
+|N
+|129
+|Tomoe Takaoka
+|[[File:photokatsu 0129.jpg|100px]]
+| Just Move
+|N+
+|130
+|Tomoe Takaoka+
+|[[File:photokatsu 0130.jpg|100px]]
+| Just Move
+|Sexy Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|131
+|Sumire Katagiri
+|[[File:photokatsu 0131.png|100px]]
+| Just Move
+|N+
+|132
+|Sumire Katagiri+
+|[[File:photokatsu 0132.jpg|100px]]
+| Just Move
+|Sexy plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|133
+|Karin Kikuchi
+|[[File:photokatsu 0133.png|100px]]
+| Just Move
+|N+
+|134
+|Karin Kikuchi+
+|[[File:photokatsu 0134.jpg|100px]]
+| Just Move
+|Sexy Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|135
+|Anju Nagasaki
+|[[File:Photokatsu 0135.jpg|100px]]
+| Just Move
+|N+
+|136
+|Anju Nagasaki+
+|[[File:photokatsu 0136.jpg|100px]]
+| Just Move
+|Sexy Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|137
+|Urara Nikaidō
+|[[File:Photokatsu 0137.png|100px]]
+| Just Move
+|N+
+|138
+|Urara&lt;br />Nikaidō+
+|[[File:Photokatsu 0138.png|100px]]
+| Just Move
+|Heart Full Time&lt;br />(i)
+|- align="center"
+|N
+|139
+|Miori Muto
+|[[File:photokatsu 0139.png|100px]]
+| Just Move
+|N+
+|140
+|Miori Muto+
+|[[File:photokatsu 0140.jpg|100px]]
+| Just Move
+|Sexy plus Appeal&lt;br />(i)
+|- align="center"
+|N
+|141
+|Nana Saeki
+|[[File:Photokatsu 0141.jpg|100px]]
+| Just Move
+|N+
+|142
+|Nana Saeki+
+|[[File:photokatsu 0142.jpg|100px]]
+| Just Move
+|Sexy Score UP!&lt;br />(i)
+|- align="center"
+|N
+|143
+|Chiyo Nonomiya
+|[[File:photokatsu 0143.jpg|100px]]
+| Pure Wink
+|N+
+|144
+|Chiyo Nonomiya+
+|[[File:photokatsu 0144.jpg|100px]]
+| Pure Wink
+|Pop plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|145
+|Kurumi Mori
+|[[File:photokatsu 0145.png|100px]]
+| Pure Wink
+|N+
+|146
+|Kurumi Mori+
+|[[File:photokatsu 0146.jpg|100px]]
+| Pure Wink
+|Pop plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|147
+|Anna Miyagawa
+|[[File:photokatsu 0147.jpg|100px]]
+| Pure Wink
+|N+
+|148
+|Anna Miyagawa+
+|[[File:photokatsu 0148.jpg|100px]]
+| Pure Wink
+|Pop Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|149
+|Chiho Osanai
+|[[File:photokatsu 0149.jpg|100px]]
+| Pure Wink
+|N+
+|150
+|Chiho Osanai+
+|[[File:photokatsu 0150.jpg|100px]]
+| Pure Wink
+|Pop Change&lt;br />(i)
+|- align="center"
+|N
+|151
+|Miu Hanazuki
+|[[File:photokatsu 0151.png|100px]]
+| Pure Wink
+|N+
+|152
+|Miu Hanazuki+
+|[[File:photokatsu 0152.jpg|100px]]
+| Pure Wink
+|Pop plus Appeal!&lt;br />(i)
+|- align="center"
+|N
+|153
+|Yukari Mochizuki
+|[[File:photokatsu 0153.jpg|100px]]
+| Pure Wink
+|N+
+|154
+|Yukari Mochizuki+
+|[[File:photokatsu 0154.jpg|100px]]
+| Pure Wink
+|Heartful Time&lt;br />(i)
+|- align="center"
+|N
+|155
+|Saki Totsuka
+|[[File:photokatsu 0155.jpg|100px]]
+| Pure Wink
+|N+
+|156
+|Saki Totsuka+
+|[[File:photokatsu 0156.jpg|100px]]
+| Pure Wink
+|Pop Score UP!&lt;br />(i)
+|- align="center"
+|N
+|157
+|Arisa Mizukoshi
+|[[File:photokatsu 0157.jpg|100px]]
+| Pure Wink
+|N+
+|158
+|Arisa Mizukoshi+
+|[[File:photokatsu 0158.png|100px]]
+| Pure Wink
+|Pop Score UP!&lt;br />(i)
+|- align="center"
+|N
+|159
+|Rin Oikawa
+|[[File:photokatsu 0159.jpg|100px]]
+| Pure Wink
+|N+
+|160
+|Rin Oikawa+
+|[[File:photokatsu 0160.jpg|100px]]
+| Pure Wink
+|Pop Aura UP!&lt;br />(i)
+|- align="center"
+|N
+|161
+|Kasumi Uchida
+|[[File:photokatsu 0161.jpg|100px]]
+| Pure Wink
+|N+
+|162
+|Kasumi Uchida+
+|[[File:photokatsu 0162.jpg|100px]]
+| Pure Wink
+|Pop Aura UP!&lt;br />(i)
+|- align="center"
+|SR
+|163
+|"The Tone of Black and Red"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0163.png|100px]]
+| Clock Circus
+|SR+
+|164
+|"The Grand Blue Rose"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0164.jpg|100px]]
+| Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|165
+|"Sumire Colored Tale"&lt;br />Sumire Hikami
+|[[File:Photokatsu 0165.png|100px]]
+| Clock Circus
+|SR+
+|166
+|"Sailor Style"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0166.jpg|100px]]
+| Clock Circus
+|All Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|167
+|"Aikatsu! MF CP"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0167.jpg|100px]]
+|Angel Arrow
+|SR+
+|168
+|"Aikatsu! MF CP"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0168.jpg|100px]]
+|Angel Arrow
+|Very Good Judge Shift
+|- align="center"
+|SR
+|169
+|"Two As One"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0169.jpg|100px]]
+| Angel Arrow
+|SR+
+|170
+|"The Special Two"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0170.jpg|100px]]
+| Angel Arrow
+|Heartful Time&lt;br />(iii)
+|- align="center"
+|R
+|171
+|"I'll leave the rest to you!"&lt;br />Aoi Kiriya
+|[[File:Photokatsu_0171.jpg|100px]]
+| Cool Flash
+|R+
+|172
+|"Rock Style"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0172.jpg|100px]]
+| Cool Flash
+|Cool plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|173
+|"I'll leave the rest to you!"&lt;br />Ran Shibuki
+|[[File:photokatsu 173.jpg|100px]]
+| Sexy Flash
+|R+
+|174
+|"Rock Style"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0174.jpg|100px]]
+| Sexy Flash
+|Sexy Change&lt;br />(ii)
+|- align="center"
+|PR
+|175
+|"Let's Roll!"&lt;br />Seira Otoshiro
+|[[File:Photokatsu 0175.jpg|100px]]
+| Premium Passion Beat
+|PR+
+|176
+|"Aiming for the Top!"&lt;br />Seira Otoshiro+
+|[[File:Photokatsu_0176.png|100px]]
+| Premium Passion Beat
+|Aura plus Appeal!&lt;br />(iv)
+|- align="center"
+|SR
+|177
+|"Two As One"&lt;br />Seira Otoshiro
+|[[File:photokatsu 0177.jpg|100px]]
+| Passion Beat
+|SR+
+|178
+|"The Special Two"&lt;br />Seira Otoshiro+
+|[[File:Photokatsu_0178.jpg|100px]]
+| Passion Beat
+|Cool Change&lt;br />(iii)
+|- align="center"
+|SR
+|179
+|"Magical Style"&lt;br />Kī Saegusa
+|[[File:photokatsu 0179.jpg|100px]]
+|Trick Toy Box
+|SR+
+|180
+|"Marching Style"&lt;br />Kī Saegusa+
+|[[File:Photokatsu 0180.jpg|100px]]
+|Trick Toy Box
+|Pop Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|181
+|"Stone Charm"&lt;br />Sora Kazesawa
+|[[File:photokatsu 0181.jpg|100px]]
+| Sky Oasis
+|SR+
+|182
+|"The Bohemian Who Weaves the Wind"&lt;br />Sora Kazesawa+
+|[[File:Photokatsu_0182.jpg|100px]]
+| Sky Oasis
+|Aura plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|183
+|"The Maiden of Ribbons"&lt;br />Maria Himesato
+|[[File:Photokatsu_0183.jpg|100px]]
+| Around Bouquet
+|SR+
+|184
+|"A Flower That Blooms in the Highlands"&lt;br />Maria Himesato+
+|[[File:photokatsu 0184.jpg|100px]]
+| Around Bouquet
+|Cute Aura UP!&lt;br />(iii)
+|- align="center"
+|PR
+|185
+|"Candy Maiden"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0185.png|100px]]
+| Premium Candy Rainbow
+|PR+
+|186
+|"A Slide of the Rainbow"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0186.jpg|100px]]
+| Premium Candy Rainbow
+|All Aura UP!&lt;br />(iv)
+|- align="center"
+|R
+|187
+|Nono Daichi
+|[[File:Photokatsu_0187.jpg|100px]]
+| Sexy Flash
+|R+
+|188
+|Nono Daichi+
+|[[File:Photokatsu_0188.jpg|100px]]
+| Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|189
+|"Little Devil"&lt;br />Lisa Shirakaba
+|[[File:photokatsu 0189.jpg|100px]]
+| Wicked Rouge
+|SR+
+|190
+|"Pretty Devil"&lt;br />Lisa Shirakaba+
+|[[File:photokatsu 0190.jpg|100px]]
+| Wicked Rouge
+|Aura plus Appeal!&lt;br />(iii)
+|- align="center"
+|R
+|191
+|Lisa Shirakaba
+|[[File:photokatsu 0191.jpg|100px]]
+| Sexy Flash
+|R+
+|192
+|Lisa Shirakaba+
+|[[File:photokatsu 0192.jpg|100px]]
+|Sexy Flash
+|Sexy Change&lt;br />(ii)
+|- align="center"
+|SR
+|193
+|"A Bit of Resolution"&lt;br />Otome Arisugawa
+|[[File:Photokatsu_0193.jpg|100px]]
+| Trick Toy Box
+|SR+
+|194
+|"Sweet Chocolate"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0194.jpg|100px]]
+|Candy Rainbow
+|Pop Change (iii)
+|- align="center"
+|PR
+|195
+|"A Bit of Resolution"&lt;br />Yurika Tōdō
+|[[File:Ryeyef1etk0.jpg|100px]]
+| Premium Trick Toy Box
+|PR+
+|196
+|"Sweet Chocolate"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0196.png|100px]]
+|Premium Clock Circus
+|Perfect Combo!
+|- align="center"
+|SR
+|197
+|"A Little Mysterious"&lt;br />Kaede Ichinose
+|[[File:photokatsu 0197.png|100px]]
+| Trick Toy Box
+|SR+
+|198
+|"Sweet Chocolate"&lt;br />Kaede Ichinose+
+|[[File:Photokatsu_0198.png|100px]]
+| Trick Toy Box
+|Pop Change&lt;br />(iii)
+|- align="center"
+|SR
+|199
+|"A Bit of Resolution"&lt;br />Sakura Kitaōji
+|[[File:photokatsu 0199.png|100px]]
+| Trick Toy Box
+|SR+
+|200
+|"Sweet Chocolate"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0200.png|100px]]
+|Around Bouquet
+|Very Good Tap Heart
+|}
+&lt;/div>
+----
+
+===201 ~ 300===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|SR
+|201
+|"A Bit of Resolution"&lt;br />Seira Otoshiro
+|[[File:Photokatsu_0201.jpg|100px]]
+| Trick Toy Box
+|SR+
+|202
+|"Sweet Chocolate"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0202.jpg|100px]]
+|Passion Beat
+|Very Good Tap Heart
+|- align="center"
+|SR
+|203
+|"A Bit of Resolution"&lt;br />Kī Saegusa
+|[[File:Photokatsu 0203.png|100px]]
+| Trick Toy Box
+|SR+
+|204
+|"Sweet Chocolate"&lt;br />Kī Saegusa+
+|[[File:photokatsu 0204.png|100px]]
+| Trick Toy Box
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|205
+|"Thank you Chocolates"&lt;br />Sora Kazasawa
+|[[File:photokatsu 0205.png|100px]]
+| Sexy Flash
+|R+
+|206
+|"Private Style"&lt;br />Sora Kazesawa+
+|[[File:photokatsu 0206.jpg|100px]]
+| Sexy Flash
+|Sexy Score UP!&lt;br />
+|- align="center"
+|R
+|207
+|"Thank you Cookies"&lt;br />Maria Himeasto
+|[[File:photokatsu 0207.png|100px]]
+| Cute Flash
+|R+
+|208
+|"Private Style"&lt;br />Maria Himesato+
+|[[File:photokatsu 0208.jpg|100px]]
+| Cute Flash
+|Cute Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|209
+|"A Bit of Resolution"&lt;br />Akari Ōzora
+|[[File:photokatsu 0209.jpg|100px]]
+| Trick Toy Box
+|SR+
+|210
+|"Sweet Chocolate"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0210.jpg|100px]]
+|Dreaming Heart
+|Very Good Combo!
+|- align="center"
+|R
+|211
+|"Thank You Chocolates"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0211.jpg|100px]]
+|P op Flash
+|R+
+|212
+|"Whip Chocolate"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0212.jpg|100px]]
+|Pop Flash
+|Pop plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|213
+|"A Bit of Resolution"&lt;br />Sumire Hikami
+|[[File:photokatsu 0213.jpg|100px]]
+| Trick Toy Box
+|SR+
+|214
+|"Sweet Chocolate"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0214.jpg|100px]]
+|Clock Circus
+|Heartful Time&lt;br />(iii)
+|- align="center"
+|R
+|215
+|"Thank you Cookies"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0215.jpg|100px]]
+| Sexy Flash
+|R+
+|216
+|"Private Style"&lt;br />Juri Kurebayshi+
+|[[File:photokatsu 0216.jpg|100px]]
+| Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|217
+|"A Bit of Resolution"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0217.png|100px]]
+| Trick Toy Box
+|SR+
+|218
+|"Sweet Chocolate"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0218.jpg|100px]]
+|Angel Arrow
+|Very Good plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|219
+|"A Bit of Resolution"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0219.png|100px]]
+| Trick Toy Box
+|SR+
+|220
+|"Sweet Chocolate"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0220.jpg|100px]]
+|Cosmo Showtime
+|Panel Strength&lt;br />(iii)
+|- align="center"
+|PR
+|221
+|"A Bit of Resolution"&lt;br />Ran Shibuki
+|[[File:photokatsu 0221.jpg|100px]]
+|Premium Trick Toy Box
+|PR+
+|222
+|"Sweet Chocolate"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0222.png|100px]]
+|Premium Butterfly Flip
+|Perfect Judge Shift
+|- align="center"
+|SR
+|223
+|"Pinky Fruits"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0223.png|100px]]
+| Candy Rainbow
+|SR+
+|224
+|"Feelings Above the Clouds"&lt;br />Otome Arisugawa+
+|[[File:Photokatsu_0224.jpg|100px]]
+| Candy Rainbow
+|Pop Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|225
+|"Marble Sugar"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0225.jpg|100px]]
+| Pop Flash
+|R+
+|226
+|"Finding a Rainbow"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0226.jpg|100px]]
+| Pop Flash
+|Pop Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|227
+|"Pop Magic"&lt;br />Kaede Ichinose
+|[[File:photokatsu 0227.jpg|100px]]
+| Trick Toy Box
+|SR+
+|228
+|"Magical Ribbon"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0228.jpg|100px]]
+| Trick Toy Box
+|Pop Change&lt;br />(iii)
+|- align="center"
+|SR
+|229
+|"Sweet Temptation"&lt;br />Kī Saegusa
+|[[File:photokatsu 0229.png|100px]]
+| Trick Toy Box
+|SR+
+|230
+|"Happy Wrapping"&lt;br />Kī Saegusa+
+|[[File:photokatsu 0230.png|100px]]
+| Trick Toy Box
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|PR
+|231
+|"The Oceanside Angel"&lt;br />Mikuru Natsuki
+|[[File:photokatsu 0231.jpg|100px]]
+| Premium Cheerful Kiss
+|PR+
+|232
+|"Tropical Night"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0232.png|100px]]
+| Premium Cheerful Kiss
+|All Score UP!&lt;br />(iv)
+|- align="center"
+|R
+|233
+|"Orange Sugar"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0233.jpg|100px]]
+| Pop Flash
+|R+
+|234
+|"Casual Pop"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0234.jpg|100px]]
+| Pop Flash
+|Pop Score UP!&lt;br />(ii)
+|- align="center"
+|SR
+|235
+|"Caramelize"&lt;br />Kokone Kurisu
+|[[File:Photokatsu_0235.jpg|100px]]
+| World Flight
+|SR+
+|236
+|"A Hundred-Mark Smile"&lt;br />Kokone Kurisu+
+|[[File:Photokatsu_0236.jpg|100px]]
+| World Flight
+|Pop plus Appeal!&lt;br />(iii)
+|- align="center"
+|R
+|237
+|"Prisoner of the Hishi Mochi"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0237.jpg|100px]]
+|Cute Flash
+|R+
+|238
+|"Kimono of the Spring Flowers?�Peach"&lt;br />Ichigo Hoshimiya+
+|[[File:Photokatsu_0238.jpg|100px]]
+|Cute Flash
+|Cute plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|239
+|"Looking for the Paper Lantern"&lt;br />Ran Shibuki
+|[[File:photokatsu 0239.jpg|100px]]
+| Sexy Flash
+|R+
+|240
+|"Kimono of the Spring Flowers?�Purple"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0240.jpg|100px]]
+| Sexy Flash
+|Sexy Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|241
+|"Five Court Musicians?�Crismon"&lt;br />Akari Ōzora
+|[[File:photokatsu 0241.png|100px]]
+| Spring Shower
+|SR+
+|242
+|"Tune of the Five Court Musicians?�Taiko"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0242.jpg|100px]]
+| Hanakasa no Mai
+|Sexy Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|243
+|"Three Court Ladies?�Yellow"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0243.jpg|100px]]
+| Spring Shower
+|SR+
+|244
+|"Merry of the Three Court Ladies"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0244.jpg|100px]]
+| Hanakasa no Mai
+|Sexy Change&lt;br />(iii)
+|- align="center"
+|SR
+|245
+|"Five Court Musicians?�Peach"&lt;br />Madoka Amahane
+|[[File:photokatsu 0245.jpg|100px]]
+|Spring Shower
+|SR+
+|246
+|"Tune of the Five Court Musicians?�Taiko"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0246.png|100px]]
+|Hanakasa no Mai
+|All Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|247
+|"Three Court Ladies?�Blue"&lt;br />Rin Kurosawa
+|[[File:photokatsu 0247.jpg|100px]]
+| Spring Shower
+|SR+
+|248
+|"Dignified of the Three Court Ladies"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0248.jpg|100px]]
+|Hanakasa no Mai
+|Sexy Aura UP!&lt;br />(iii)
+|- align="center"
+|PR
+|249
+|"The Elegant Hina-sama"&lt;br />Miyabi Fujiwara
+|[[File:photokatsu 0249.jpg|100px]]
+|Premium Hanakasa no Mai
+|PR+
+|250
+|"Nadeshiko of the Cherry Blossoms"&lt;br />Miyabi Fujiwara+
+|[[File:photokatsu 0250.png|100px]]
+|Premium Hanakasa no Mai
+|Sexy plus Appeal!&lt;br />(iv)
+|- align="center"
+|R
+|251
+|"The Peach Blossoms that Decorates the Doll"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0251.jpg|100px]]
+|Cool Flash
+|R+
+|252
+|"Kimono of the Spring Flowers?�Blue"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0252.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|253
+|"Hiogi of the Cherry Blossoms in the Night"&lt;br />Yurika Tōdō
+|[[File:Photokatsu_0253.jpg|100px]]
+|Cool Flash
+|R+
+|254
+|"Kimono of the Spring Flowers?�Dark Blue"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0254.jpg|100px]]
+|Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|255
+|"Five Court Musicians?�Blue"&lt;br />Sumire Hikami
+|[[File:photokatsu 0255.jpg|100px]]
+|Spring Shower
+|SR+
+|256
+|"Tune of the Five Court Musicians?�Voice"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0256.jpg|100px]]
+|Hanakasa no Mai
+|Sexy Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|257
+|"Three Court Ladies?�Scarlet"&lt;br />Juri Kurebayashi
+|[[File:Photokatsu_0257.jpg|100px]]
+|Spring Shower
+|SR+
+|258
+|"Passionate of the Three Court Ladies"&lt;br />Juri Kurebayashi+
+|[[File:photokatsu 0258.jpg|100px]]
+|Hanakasa no Mai
+|All Score UP!&lt;br />(iii)
+|- align="center"
+|PR
+|259
+|"The Cheerful Odairi-sama"&lt;br />Kokone Kurisu
+|[[File:Photokatsu_0259.jpg|100px]]
+|Premium Hanakasa no Mai
+|PR+
+|260
+|"The Dancing&lt;br  />Maiden under the Moonlight"&lt;br />Kokone Kurisu+
+|[[File:Photokatsu_0260.jpg|100px]]
+|Premium Hanakasa no Mai
+|Panel Strength&lt;br />(iv)
+|- align="center"
+|SR
+|261
+|"Five Court Musicians?�Plum"&lt;br />Nono Daichi
+|[[File:photokatsu 0261.jpg|100px]]
+|Spring Shower
+|SR+
+|262
+|"Tune of the Five Court Musicians?�Kotsuzumi"&lt;br />Nono Daichi+
+|[[File:photokatsu 0262.jpg|100px]]
+|Hanakasa no Mai
+|All Aura UP!
+|- align="center"
+|SR
+|263
+|"Five Court Musicians?�Wisteria"&lt;br />Lisa Shirakaba
+|[[File:photokatsu 0263.jpg|100px]]
+|Spring Shower
+|SR+
+|264
+|"Tune of the Five Court Musicians?�Flute"&lt;br />Lisa Shirakaba+
+|[[File:photokatsu 0264.jpg|100px]]
+|Hanakasa no Mai
+|Sexy Change&lt;br />(iii)
+|- align="center"
+|PR
+|265
+|"From the Land of the Fairytales"&lt;br />Sakura Kitaojī
+|[[File:photokatsu 0265.png|100px]]
+|Premium Around Bouquet
+|PR+
+|266
+|"The Gentle Light"&lt;br />Sakura Kitaojī+
+|[[File:Photokatsu_0266.png|100px]]
+|Premium Around Bouquet
+|Cute Score UP!&lt;br />(iv)
+|- align="center"
+|SR
+|267
+|"Little Devil"&lt;br />Nono Daichi
+|[[File:photokatsu 0267.png|100px]]
+|Wicked Rouge
+|SR+
+|268
+|"Pretty Devil"&lt;br />Nono Daichi+
+|[[File:photokatsu 0268.jpg|100px]]
+|Wicked Rouge
+|Sexy Change&lt;br />(iii)
+|- align="center"
+|PR
+|269
+|"Both Hands Extended"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0269.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|270
+|"Light of the Sun?�Shine"&lt;br />Ichigo Hoshimiya+
+|[[File:Photokatsu_0270.jpg|100px]]
+|Premium Angel Arrow
+|Cute Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|271
+|"Preparations OK"&lt;br />Aoi Kiriya
+|[[File:Photokatsu_0271.jpg|100px]]
+|Angel Arrow
+|SR+
+|272
+|"Light of the Sun?�Blue"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu_0272.jpg|100px]]
+|Angel Arrow
+|Cute plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|273
+|"The Quiet Passion"&lt;br />Sumire Hikami
+|[[File:photokatsu 0273.jpg|100px]]
+|Dreaming Heart
+|SR+
+|274
+|"Princess Purple"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0274.jpg|100px]]
+|Dreaming Heart
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|275
+|"Delivering the Excitement"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0275.jpg|100px]]
+|Dreaming Heart
+|SR+
+|276
+|"Princess Yellow"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:Photokatsu_0276.png|100px]]
+|Dreaming Heart
+|Cute Change&lt;br />(iii)
+|- align="center"
+|SR
+|277
+|"Secret Message"&lt;br />Ran Shibuki
+|[[File:photokatsu 0277.jpg|100px]]
+|Angel Arrow
+|SR+
+|278
+|"Light of the Sun?�Purple"&lt;br />Ran Shibuki+
+|[[File:Photokatsu_0278.jpg|100px]]
+|Angel Arrow
+|Heartful Time&lt;br />(iii)
+|- align="center"
+|SR
+|279
+|"Heart of Thrill"&lt;br />Akari Ōzora
+|[[File:Photokatsu_0279.jpg|100px]]
+|Dreaming Heart
+|SR+
+|280
+|"Princess Peach"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0280.jpg|100px]]
+|Dreaming Heart
+|Cute Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|281
+|"To Load the Thoughts"&lt;br />Madoka Amahane
+|[[File:Photokatsu_0281.jpg|100px]]
+|Cute Flash
+|R+
+|282
+|"Akari Senpai!"&lt;br />Madoka Amahane+
+|[[File:Photokatsu_0282.jpg|100px]]
+|Cute Flash
+|Cute plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|283
+|"In the midst of Clumsiness"&lt;br />Rin Kurosawa
+|[[File:Photokatsu_0283.jpg|100px]]
+|Cool Flash
+|R+
+|284
+|"Sumire Senpai!"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0284.jpg|100px]]
+|Cool Flash
+|Cool plus Appeal!&lt;br />(ii)
+|- align="center"
+|PR
+|285
+|"The World with Overflowing Light"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0285.jpg|100px]]
+|Premium Cosmo Showtime
+|PR+
+|286
+|"In the Blue Ocean"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0286.jpg|100px]]
+|Premium Cosmo Showtime
+|All Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|287
+|"The Brilliant Gothic"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0287.jpg|100px]]
+|Clock Circus
+|SR+
+|288
+|"Appeal of a Frill Dress"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0288.jpg|100px]]
+|Clock Circus
+|Panel Strength&lt;br />(iii)
+|- align="center"
+|SR
+|289
+|"The Intellectual Gothic"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0289.jpg|100px]]
+|Clock Circus
+|SR+
+|290
+|"Heading for the Party"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0290.jpg|100px]]
+|Clock Circus
+|Heartful Time&lt;br />(iii)
+|- align="center"
+|SR
+|291
+|"The Glossy Gothic"&lt;br />Ran Shibuki
+|[[File:Photokatsu 0291.jpg|100px]]
+|Clock Circus
+|SR+
+|292
+|"The Purple Ageha"&lt;br />Ran Shibuki+
+|[[File:Photokatsu 0292.jpg|100px]]
+|Clock Circus
+|Panel Strength&lt;br />(iii)
+|- align="center"
+|R
+|293
+|"One Red Rose"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0293.jpg|100px]]
+|Pop Flash
+|R+
+|294
+|"Fluffy Chic"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0294.jpg|100px]]
+|Pop Flash
+|Pop plus Appeal!&lt;br />(ii)
+|- align="center"
+|PR
+|295
+|"Tune of the Lost Lamb"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0295.jpg|100px]]
+|Premium Clock Circus
+|PR+
+|296
+|"Midnight [[Wikipedia:Mass (Catholic Church)|Missa]]"&lt;br />Yurika Tōdō+
+|[[File:Photokatsu 0296.png|100px]]
+|Premium Clock Circus
+|Cool Score UP!&lt;br />(iv)
+|- align="center"
+|R
+|297
+|"Light of the Lamp"&lt;br />Kaede Ichinose
+|[[File:photokatsu 0297.jpg|100px]]
+|Pop Flash
+|R+
+|298
+|"The Charm of Monotone"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0298.jpg|100px]]
+|Pop Flash
+|Pop Score UP!&lt;br />(ii)
+|- align="center"
+|SR
+|299
+|"The Mysterious Magic User"&lt;br />Sumire Hikami
+|[[File:photokatsu 0299.jpg|100px]]
+|Clock Circus
+|SR+
+|300
+|"The Mischievous Witch"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0300.jpg|100px]]
+|Clock Circus
+|Cool Change&lt;br />(iii)
+|}
+&lt;/div>
+----
+
+===301 ~ 400===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|PR
+|301
+|"Mermaid Princess&lt;br />of the&lt;br />Fairytales"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:Photokatsu_0301.jpg|100px]]
+|Premium Cheerful Kiss
+|PR+
+|302
+|"The&lt;br />Goddess Protecting&lt;br />the Sea"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:Photokatsu_0302.jpg|100px]]
+|Premium Cheerful Kiss
+|Pop Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|303
+|"Freely Stretchable!"&lt;br />Nina Dōjima
+|[[File:Photokatsu 0303.jpg|100px]]
+|Munching Monster
+|SR+
+|304
+|"Stylish Monster"&lt;br />Nina&lt;br />Dōjima+
+|[[File:Photokatsu 0304.jpg|100px]]
+|Munching Monster
+|Very Good Combo!
+|- align="center"
+|SR
+|305
+|"Stray Rabbit"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0305.jpg|100px]]
+|Wonderland Drive
+|SR+
+|306
+|"The Floaty Timer"&lt;br />Ichigo Hoshimiya&lt;br />+
+|[[File:Photokatsu 0306.png|100px]]
+|Angel Arrow
+|Heartful Time&lt;br />(iii)
+|- align="center"
+|SR
+|307
+|"Have Some Black Tea"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0307.jpg|100px]]
+|Wonderland Drive
+|SR+
+|308
+|"Exact&lt;br />Timer"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0308.jpg|100px]]
+|Cosmo Showtime
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|309
+|"Dreaming Alice"&lt;br />Shion&lt;br />Kamiya
+|[[File:Photokatsu_0309.jpg|100px]]
+|Wonderland Drive
+|SR+
+|310
+|"Heading Towards the Future Dreams"&lt;br />Shion&lt;br />Kamiya+
+|[[File:Photokatsu_0310.jpg|100px]]
+|Cosmo Showtime
+|Panel Strength&lt;br />(iii)
+|- align="center"
+|SR
+|311
+|"Secret Queen"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:Photokatsu_0311.jpg|100px]]
+|Wonderland Drive
+|SR+
+|312
+|"The&lt;br />Crimson Queen"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu_0312.jpg|100px]]
+|Double Moon Jewel
+|Sexy Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|313
+|"Nine of Diamonds"&lt;br />Sumire&lt;br />Hikami
+|[[File:Photokatsu_0313.jpg|100px]]
+|Cool&lt;br />Flash
+|R+
+|314
+|"Magical Painter"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0314.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|315
+|"Ten of Spades"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0315.jpg|100px]]
+|Sexy&lt;br />Flash
+|R+
+|316
+|"A&lt;br />Passionate Century"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0316.jpg|100px]]
+|Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|- align="center"
+|PR
+|317
+|"Encounter&lt;br />in Wonderland"&lt;br />Madoka Amahane
+|[[File:Photokatsu 0317.png|100px]]
+|
+Premium Angel&lt;br />Arrow
+|PR+
+|318
+|"The&lt;br />Dreamed&lt;br />Tea Time"&lt;br />Madoka Amahane+
+|[[File:Photokatsu 0318.png|100px]]
+|Premium Angel Arrow
+|Cute Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|319
+|"The Gentle Mad Hatter"&lt;br />Rin&lt;br />Kurosawa
+|[[File:Cfge44XWIAAdLwn.jpg|100px]]
+|Electro Groove
+|SR+
+|320
+|"The Mad Hatter Who Likes to&lt;br />Dance"&lt;br />Rin&lt;br />Kurosawa+
+|[[File:Photokatsu 0320.png|100px]]
+|Electro Groove
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|321
+|"The&lt;br />Elegant Noble"&lt;br />Yurika&lt;br />Tōdō
+|[[File:Photokatsu 0321.jpg|100px]]
+|Wonderland Drive
+|SR+
+|322
+|"The Pure White&lt;br />Queen"&lt;br />Yurika&lt;br />Tōdō+
+|[[File:Photokatsu 0322.jpg|100px]]
+|Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|323
+|"Orange&lt;br / />Cue Star"&lt;br />Kaede Ichinose
+|[[File:Photokatsu_0323.jpg|100px]]
+|Wonderland Drive
+|SR+
+|324
+|"Magical&lt;br />Egg"&lt;br />Kaede Ichinose+
+|[[File:Photokatsu 0324.jpg|100px]]
+|Trick Toy Box
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|325
+|"Three of Diamonds"&lt;br />Seira&lt;br />Otoshiro
+|[[File:Photokatsu_0325.jpg|100px]]
+|Cool&lt;br />Flash
+|R+
+|326
+|"La La La?�Porter"&lt;br />Seira&lt;br />Otoshiro+
+|[[File:photokatsu 0326.jpg|100px]]
+|Cool Flash
+|Cool plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|327
+|"Green&lt;br />Cue Star"&lt;br />Kī Saegusa
+|[[File:photokatsu 0327.jpg|100px]]
+|Wonderland Drive
+|SR+
+|328
+|"Pop Pop&lt;br />Egg"&lt;br />Kī&lt;br />Saegusa+
+|[[File:photokatsu 0328.jpg|100px]]
+|Trick Toy Box
+|Pop Change&lt;br />(iii)
+|- align="center"
+|R
+|329
+|"Six of Hearts"&lt;br />Maria Himesato
+|[[File:Photokatsu_0329.jpg|100px]]
+|Cute&lt;br />Flash
+|R+
+|330
+|"Airy&lt;br />Painter"&lt;br />Maria Himesato+
+|[[File:photokatsu 0330.jpg|100px]]
+|Cute Flash
+|Cute plus Appeal!&lt;br />(ii)
+|- align="center"
+|PR
+|331
+|"Guidance&lt;br />of the&lt;br />Cheshire Cat"&lt;br />Akari Ōzora
+|[[File:photokatsu 0331.jpg|100px]]
+|Premium Dreaming Heart
+|PR+
+|332
+|"Invited&lt;br />to the&lt;br />Tea Party"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0332.jpg|100px]]
+|Premium Dreaming Heart
+|Cute Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|333
+|"King of Hearts"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:Photokatsu_0333.jpg|100px]]
+|Wonderland Drive
+|SR+
+|334
+|"King of&lt;br />Pop"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:Photokatsu 0334.jpg|100px]]
+|Cheerful Kiss
+|Pop plus Appeal!&lt;br />(iii)
+|- align="center"
+|R
+|335
+|"Do your best!"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0335.jpg|100px]]
+|Cute&lt;br />Flash
+|R+
+|336
+|"Heart&lt;br />Catch"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0336.jpg|100px]]
+|Cute Flash
+|Cute plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|337
+|"Fight!"&lt;br />Seira&lt;br />Otoshiro
+|[[File:Photokatsu_0337.jpg|100px]]
+|Cool&lt;br />Flash
+|R+
+|338
+|"Chance Catch"&lt;br />Seira&lt;br />Otoshiro+
+|[[File:photokatsu 0338.jpg|100px]]
+|Cool Flash
+|Cool Change&lt;br />(ii)
+|- align="center"
+|PR
+|339
+|"Full Moon&lt;br />on a&lt;br />Summer Night"&lt;br />Mikuru Natsuki
+|[[File:Photokatsu_0339.png|100px]]
+|Premium Double Moon&lt;br />Jewel
+|PR+
+|340
+|"The&lt;br />Beautiful&lt;br />New Moon"&lt;br />Mikuru Natsuki+
+|[[File:Photokatsu_0340.png|100px]]
+|Premium Double Moon Jewel
+|Sexy Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|341
+|"Heading towards&lt;br />the Sky"&lt;br />Akari&lt;br />Ōzora
+|[[File:Photokatsu_0341.jpg|100px]]
+|Dreaming Heart
+|SR+
+|342
+|"Dream&lt;br />Skip"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0342.jpg|100px]]
+|Dreaming Heart
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|343
+|"The Ice Songstress"&lt;br />Sumire&lt;br />Hikami
+|[[File:Photokatsu_0343.jpg|100px]]
+|Electro Groove
+|SR+
+|344
+|"The Ice&lt;br />Flower in&lt;br />Full&lt;br />Bloom"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0344.jpg|100px]]
+|Electro Groove
+|Cool Change (iii)
+|- align="center"
+|SR
+|345
+|"Nadeshiko Mode"&lt;br />Miyabi Fujiwara
+|[[File:photokatsu 0345.jpg|100px]]
+|World&lt;br />Flight
+|SR+
+|346
+|"Miya - beam??&lt;br />Miyabi Fujiwara+
+|[[File:Photokatsu_0346.png|100px]]
+|World Flight
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|347
+|"I love sweets"&lt;br />Kokone&lt;br />Kurisu
+|[[File:photokatsu 0347.jpg|100px]]
+|World&lt;br />Flight
+|SR+
+|348
+|"The&lt;br />World's Center??&lt;br />Kokone Kurisu+
+|[[File:photokatsu 0348.jpg|100px]]
+|World Flight
+|Pop Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|349
+|"Supporting You"&lt;br />Yū Hattori
+|[[File:photokatsu 0349.jpg|100px]]
+|Passion Beat
+|SR+
+|350
+|"The&lt;br />Decided&lt;br />High&lt;br />Touch"&lt;br />Yū&lt;br />Hattori+
+|[[File:photokatsu 0350.png|100px]]
+|Passion Beat
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|PR
+|351
+|"The Passionate Red Rose"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0351.png|100px]]
+|Premium Blossom Amore
+|PR+
+|352
+|"The&lt;br />Crystal&lt;br />Rose"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0352.png|100px]]
+|Premium Blossom Amore
+|Sexy plus Appeal!&lt;br />(iv)
+|- align="center"
+|R
+|353
+|Minami Hateruma
+|[[File:Photokatsu 0353.png|100px]]
+|Cool&lt;br />Flash
+|R+
+|354
+|Minami Hateruma+
+|[[File:photokatsu 0354.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|- align="center"
+|PR
+|355
+|"New Moon under a&lt;br />Starry Sky"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0355.jpg|100px]]
+|Premium Double Moon&lt;br />Jewel
+|PR+
+|356
+|"The&lt;br />Beautiful&lt;br />Full Moon"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu_0356.jpg|100px]]
+|Premium Double Moon Jewel
+|Sexy Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|357
+|"Ski-Ski!"&lt;br />Madoka Amahane
+|[[File:Photokatsu_0357.jpg|100px]]
+|Dreaming Heart
+|SR+
+|358
+|"Sweet&lt;br />Skip"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0358.png|100px]]
+|Dreaming Heart
+|Cute plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|359
+|"Shining Dancer"&lt;br />Rin&lt;br />Kurosawa
+|[[File:photokatsu 0359.jpg|100px]]
+|Electro Groove
+|SR+
+|360
+|"Just like&lt;br />the&lt;br />Lightning!"&lt;br />Rin&lt;br />Kurosawa+
+|[[File:Rin sr+.png|100px]]
+|Electro Groove
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|361
+|"Naughty Little Devil"&lt;br />Nono&lt;br />Daichi
+|[[File:photokatsu 0361.jpg|100px]]
+|Wicked Rouge
+|SR+
+|362
+|"Cutie&lt;br />Devil"&lt;br />Nono&lt;br />Daichi+
+|[[File:photokatsu 0362.jpg|100px]]
+|Wicked Rouge
+|Sexy Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|363
+|"Mischievous Little Devil"&lt;br />Lisa Shirakaba
+|[[File:Photokatsu 0363.jpg|100px]]
+|Wicked Rouge
+|SR+
+|364
+|"Sexy Devil"&lt;br />Lisa Shirakaba+
+|[[File:Photokatsu 0364.jpg|100px]]
+|Wicked Rouge
+|Sexy Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|365
+|"The Green Jalapeño"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:photokatsu 0365.jpg|100px]]
+|Pop&lt;br />Flash
+|R+
+|366
+|"Negative Check"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0366.jpg|100px]]
+|Pop Flash
+|Pop plus Appeal!&lt;br />(ii)
+|- align="center"
+|R
+|367
+|"The Red Jalapeño"&lt;br />Juri Kurebayashi
+|[[File:Photokatsu_0367.jpg|100px]]
+|Sexy&lt;br />Flash
+|R+
+|368
+|"Positive Check"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0368.jpg|100px]]
+|Sexy Flash
+|Sexy Change&lt;br />(ii)
+|- align="center"
+|SR
+|369
+|"The Little White Bird&lt;br />by the&lt;br />Waters"&lt;br />Ichigo Hoshimiya
+|[[File:Photokatsu_0369.jpg|100px]]
+|Angel&lt;br />Arrow
+|SR+
+|370
+|"Pisces of Mermaid"&lt;br />Ichigo Hoshimiya&lt;br />+
+|[[File:Photokatsu_0370.jpg|100px]]
+|Angel Arrow
+|Cute plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|371
+|"A Snowflake's Glimmer"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0371.png|100px]]
+|Cosmo Showtime
+|SR+
+|372
+|"Magic&lt;br />of the&lt;br />Beautiful Snow"&lt;br />Aoi&lt;br />Kiriya+
+|[[File:Photokatsu_0372.jpg|100px]]
+|Cosmo Showtime
+|Cool Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|373
+|"The Cute Leo"&lt;br />Ran Shibuki
+|[[File:photokatsu 0373.jpg|100px]]
+|Sexy&lt;br />Flash
+|R+
+|374
+|"Star Pair Look"&lt;br />Ran&lt;br />Shibuki+
+|[[File:photokatsu 0374.jpg|100px]]
+|Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|375
+|"Taurus&lt;br />LOVE YOU~"&lt;br />Otome Arisugawa
+|[[File:photoktasu 0375.png|100px]]
+|Pop&lt;br />Flash
+|R+
+|376
+|"Star Bear Look"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0376.jpg|100px]]
+|Pop Flash
+|Pop Change&lt;br />(ii)
+|- align="center"
+|SR
+|377
+|"Union Rock"&lt;br />Seira&lt;br />Otoshiro
+|[[File:photokatsu 0377.png|100px]]
+|Passion Beat
+|SR+
+|378
+|"Pinkish&lt;br />Rock"&lt;br />Seira&lt;br />Otoshiro+
+|[[File:photokatsu 0378.png|100px]]
+|Passion Beat
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|PR
+|379
+|"Magical Time!"&lt;br />Kī Saegusa
+|[[File:Photokatsu_0379.jpg|100px]]
+|Premium Trick Toy Box
+|PR+
+|380
+|"The&lt;br />Rainbow&lt;br />over the&lt;br />Unicorn"&lt;br />Kī&lt;br />Saegusa+
+|[[File:Photokatsu 0380.png|100px]]
+|Premium Trick Toy Box
+|All Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|381
+|"Bohemian Earth"&lt;br />Sora Kazesawa
+|[[File:Photokatsu_0381.jpg|100px]]
+|Sky Oasis
+|SR+
+|382
+|"Oriental Dancer"&lt;br />Sora Kazesawa+
+|[[File:photokatsu 0382.jpg|100px]]
+|Sky Oasis
+|Sexy Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|383
+|"The Alp's Flower"&lt;br />Maria Himesato
+|[[File:photokatsu 0383.jpg|100px]]
+|Around Bouquet
+|SR+
+|384
+|"Flower Country"&lt;br />Maria Himesato+
+|[[File:photokatsu 0384.jpg|100px]]
+|Around Bouquet
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|PR
+|385
+|"Frill Party"&lt;br />Aoi Kiriya
+|[[File:Photokatsu_0385.png|100px]]
+|Premium Angel&lt;br />Arrow
+|PR+
+|386
+|"Every Girl's Admiration"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0386.jpg|100px]]
+|Premium Angel Arrow
+|Cute Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|387
+|"Asymmetry Sexy"&lt;br />Ran Shibuki
+|[[File:Photokatsu_0387.jpg|100px]]
+|June&lt;br />Smile
+|SR+
+|388
+|"Sugar Wedding"&lt;br />Ran&lt;br />Shibuki+
+|[[File:photokatsu 0388.jpg|100px]]
+|Angel Arrow
+|All Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|389
+|"Airy Fairy"&lt;br />Sakura Kiaōji
+|[[File:Photokatsu_0389.jpg|100px]]
+|June&lt;br />Smile
+|SR+
+|390
+|"The&lt;br />Princess&lt;br />Inside the Storybooks"&lt;br />Sakura&lt;br />Kitaōji+
+|[[File:Photokatsu 0390.png|100px]]
+|Around Bouquet
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|391
+|"Purple Bouquet"&lt;br />Sora Kazesawa
+|[[File:Photokatsu 0391.png|100px]]
+|Sexy&lt;br />Flash
+|R+
+|392
+|"Mysterious Sexy"&lt;br />Sora Kazesawa+
+|[[File:Photokatsu 0392.png|100px]]
+|Sexy Flash
+|Sexy Aura UP!&lt;br />(ii)
+|- align="center"
+|R
+|393
+|"Pink Bouquet"&lt;br />Maria Himesato
+|[[File:Photokatsu_0393.jpg|100px]]
+|Cute&lt;br />Flash
+|R+
+|394
+|"Banbaka Party"&lt;br />Maria Himesato+
+|[[File:photokatsu 0394.jpg|100px]]
+|Cute Flash
+|Cute Score UP!&lt;br />(ii)
+|- align="center"
+|SR
+|395
+|"Adult-like Tulle"&lt;br />Mizuki Kanzaki
+|[[File:Photokatsu 0395.jpg|100px]]
+|June&lt;br />Smile
+|SR+
+|396
+|"Royal&lt;br />Dressy"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0396.png|100px]]
+|Dreaming Heart
+|Very Good plus Appeal!
+|- align="center"
+|SR
+|397
+|"Happy Greet"&lt;br />Mikuru Natsuki
+|[[File:photokatsu 0397.jpg|100px]]
+|June&lt;br />Smile
+|SR+
+|398
+|"Flower Märchen"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0398.jpg|100px]]
+|Around Bouquet
+|All Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|399
+|"Cool Scallop"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0399.png|100px]]
+|June&lt;br />Smile
+|SR+
+|400
+|"The&lt;br />Reason for Tears"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0400.jpg|100px]]
+|Angel Arrow
+|Aura plus Appeal!&lt;br />(iii)
+|}
+&lt;/div>
+----
+
+===401 ~ 500===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|PR
+|401
+|"Beginning of&lt;br />the Sky of&lt;br />Freedom"&lt;br />Sora&lt;br />Kazesawa
+|[[File: Photokatsu 0401.png|100px]]
+|Premium Sky Oasis
+|PR+
+|402
+|"Libra That Twinkles in the Sky"&lt;br />Sora Kazesawa+
+|[[File:photokatsu 0402.jpg|100px]]
+|Premium Sky Oasis
+|Sexy Score UP!&lt;br />(iv)
+|- align="center"
+|SR
+|403
+|"The Underground Dancing Butterfly"&lt;br />Hikari&lt;br />Minowa
+|[[File:photokatsu 0403.png|100px]]
+|Butterfly Flip
+|SR+
+|404
+|"Remove the Ribbon"&lt;br />Hikari Minowa+
+|[[File:Photokatsu_0404.jpg|100px]]
+|Butterfly Flip
+|Sexy plus Appeal!&lt;br />(iii)
+|- align="center"
+|PR
+|405
+|"Sweet&lt;br />Dress"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0405.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|406
+|"The Two's Feelings"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0406.png|100px]]
+|Premium Angel Arrow
+|All Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|407
+|"The&lt;br />Precious&lt;br />Hair&lt;br />Ornament"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0407.jpg|100px]]
+|June Smile
+|SR+
+|408
+|"Otome's Extraordinary Day"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0408.jpg|100px]]
+|Around Bouquet
+|Very Good plus Appeal!
+|- align="center"
+|SR
+|409
+|"There is&lt;br />Always Admiration"&lt;br />Akari Ōzora
+|[[File:photokatsu 0409.png|100px]]
+|June Smile
+|SR+
+|410
+|"Commitment Ribbon"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0410.png|100px]]
+|Dreaming Heart
+|Cute plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|411
+|"A&lt;br />Shower of&lt;br />Flowers"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:photokatsu 0411.jpg|100px]]
+|June Smile
+|SR+
+|412
+|"Jalapeño Memories"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0412.png|100px]]
+|Angel Arrow
+|All Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|413
+|"A Sky&lt;br />Colored Balloon"&lt;br />Rin&lt;br />Kurosawa
+|[[File:photokatsu 0413.jpg|100px]]
+|Cool Flash
+|R+
+|414
+|"Adult Indigo Blue"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0414.jpg|100px]]
+|Cool Flash
+|Cool Aura UP! (ii)
+|- align="center"
+|SR
+|415
+|"To Wear the Petals of Passion"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0415.png|100px]]
+|June Smile
+|SR+
+|416
+|"Passion Girl"&lt;br />Juri Kurebayashi+
+|[[File:photokatsu 0416.png|100px]]
+|Dreaming Heart
+|Aura plus Appeal! (iii)
+|- align="center"
+|R
+|417
+|"An Angel's Balloon"&lt;br />Madoka Amahane
+|[[File:photokatsu 0417.jpg|100px]]
+|Cute Flash
+|R+
+|418
+|"Cute Scallop"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0418.jpg|100px]]
+|Cute Flash
+|Cute Change (ii)
+|- align="center"
+|PR
+|419
+|"Pinocchio Whose&lt;br />Dreams&lt;br />Shine"&lt;br />Rin&lt;br />Kurosawa
+|[[File:photokatsu 0419.jpg|100px]]
+|Premium Electro Groove
+|PR+
+|420
+|"To the Stage of Dreams"&lt;ref>[[MY SHOW TIME!|The card name is a line from the song "MY SHOW TIME!".]]&lt;/ref>&lt;br />Rin Kurosawa+
+|[[File:Photokatsu 0420.png|100px]]
+|Premium Electro Groove
+|Cool Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|421
+|"Lovely Magician"&lt;br />Madoka Amahane
+|[[File:photokatsu 0421.png|100px]]
+|Angel Arrow
+|SR+
+|422
+|"Fluffy Mage"&lt;br />Madoka Amahane+
+|[[File:Photokatsu 0422.jpg|100px]]
+|Angel Arrow
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|423
+|"The Pop Craftsman"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:photokatsu 0423.png|100px]]
+|Cheerful Kiss
+|SR+
+|424
+|"The Precious Contents"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0424.png|100px]]
+|Cheerful Kiss
+|Pop Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|425
+|"The Cool Request"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0425.jpg|100px]]
+|Clock Circus
+|SR+
+|426
+|"The Bell that Glows in the Night Sky"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0426.jpg|100px]]
+|Clock Circus
+|Cool Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|427
+|"Hot Guidance Is&lt;br />Also My Forte"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0427.jpg|100px]]
+|Sexy Flash
+|R+
+|428
+|"Can't wait for Summer!"&lt;br />Juri Kurebayashi+
+|[[File:Photokatsu 0428.jpg|100px]]
+|Sexy Flash
+|Sexy plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|429
+|"A&lt;br />Scarecrow's Dream"&lt;br />Akari Ōzora
+|[[File:photokatsu 0429.jpg|100px]]
+|Dreaming Heart
+|SR+
+|430
+|"Just Out for a Bit"&lt;br />Akari Ōzora+
+|[[File:photoktasu 0430.jpg|100px]]
+|Dreaming Heart
+|Cute Change&lt;br />(iii)
+|- align="center"
+|R
+|431
+|"The Clean Ocean"&lt;br />Minami Hateruma
+![[File:photokatsu 0431.jpg|100px]]
+|Cool Flash
+|R+
+|432
+|"Shining Stars"&lt;br />Minami Hateruma+
+|[[File:photokatsu 0432.jpg|100px]]
+|Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|433
+|"Shutter&lt;br />Chance"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0433.png|100px]]
+|Summer Wave
+|SR+
+|434
+|"Silver Whale"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0434.jpg|100px]]
+|Cosmo Showtime
+|Cool plus Appeal!&lt;br />(iii)
+|- align="center"
+|PR
+|435
+|"Off time&lt;br />at the&lt;br />Summer Beach"&lt;br />Ran Shibuki
+|[[File:photokatsu 0435.jpg|100px]]
+|Premium Butterfly Flip
+|PR+
+|436
+|"An Ageha's Pucci Style"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0436.jpg|100px]]
+|Premium Butterfly Flip
+|Sexy Aura UP!&lt;br />(iv)
+|- align="center"
+|SR
+|437
+|"Together with the Dolphins"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0437.png|100px]]
+|Summer Wave
+|SR+
+|438
+|"Watermelon Girl"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0438.jpg|100px]]
+|Candy Rainbow
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|439
+|"Look out&lt;br />for the&lt;br />Shaved Ice!"&lt;br />Kaede&lt;br />Ichinose
+|[[File:photokatsu 0439.jpg|100px]]
+|Pop Flash
+|R+
+|440
+|"To the Colorful Pop"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0440.jpg|100px]]
+|Pop Flash
+|Pop Change&lt;br />(ii)
+|- align="center"
+|SR
+|441
+|"The Girl&lt;br />of&lt;br />the Sun"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0441.png|100px]]
+|Summer Wave
+|SR+
+|442
+|"Calor?�Delicado"&lt;br />Juri Kurebayashi+
+|[[File:photokatsu 0442.png|100px]]
+|Blossom Amore
+|Very Good plus Appeal!
+|- align="center"
+|R
+|443
+|"The Exciting Beach"&lt;br />Seira&lt;br />Otoshiro
+|[[File:photokatsu 0443.png|100px]]
+|Cool Flash
+|R+
+|444
+|"The Ball of Memories"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0444.jpg|100px]]
+|Cool Flash
+|Good plus Appeal!&lt;br />(ii)
+|- align="center"
+|SR
+|445
+|"The Beach&lt;br />and Shells"&lt;br />Maria&lt;br />Himesato
+|[[File:photokatsu 0445.jpg|100px]]
+|Summer Wave
+|SR+
+|446
+|"Mint Princess"&lt;br />Maria Himesato+
+|[[File:photokatsu 0446.jpg|100px]]
+|Around Bouquet
+|Cute plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|447
+|"The Bear Swimming&lt;br />Ring"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0447.png|100px]]
+|Summer Wave
+|SR+
+|448
+|"Ribbon Ribbon Summer"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0448.jpg|100px]]
+|Angel Arrow
+|Cute Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|449
+|"Yummy&lt;br />Yummy Yu~mmy~"&lt;br />Kī Saegusa
+|[[File:Photokatsu 0449.png|100px]]
+|Summer Wave
+|SR+
+|450
+|"Circles and Beach Balls"&lt;br />Kī Saegusa+
+|[[File:Photokatsu 0450.png|100px]]
+|Trick Toy Box
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|PR
+|451
+|"The Brilliant&lt;br />and Special Summer"&lt;br />Sora&lt;br />Kazesawa
+|[[File:photokatsu 0451.png|100px]]
+|Premium Sky Oasis
+|PR+
+|452
+|"The Beginning of a Summer of Freedom"&lt;br />Sora Kazesawa+
+|[[File:photokatsu 0452.jpg|100px]]
+|Premium Sky Oasis
+|Sexy plus Appeal!&lt;br />(iv)
+|- align="center"
+|PR
+|453
+|"The Daisies I Love"&lt;br />Maria&lt;br />Himesato
+|[[File:photokatsu 0453.png|100px]]
+|Premium Around Bouquet
+|PR+
+|454
+|"Ribbons and Aries"&lt;br />Maria Himesato+
+|[[File:Photokatsu 00454.png|100px]]
+|Premium Around Bouquet
+|Cute plus Appeal!&lt;br />(iv)
+|- align="center"
+|SR
+|455
+|"Shone by&lt;br />the Light&lt;br />of the&lt;br />Stars"&lt;br />Miyabi&lt;br />Fujiwara
+|[[File:Photokatsu_0455.jpg|100px]]
+|Hanakasa no Mai
+|SR+
+|456
+|"The Balance Between Japanese and Western"&lt;br />Miyabi Fujiwara+
+|[[File:Photokatsu 0456.png|100px]]
+|Hanakasa no Mai
+|Sexy Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|457
+|"Casual&lt;br />Elegant"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0457.png|100px]]
+|Summer Wave
+|SR+
+|458
+|"To Wave the [[Wikipedia:Pareo|Pareo]]"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu 0458.png|100px]]
+|Double Moon Jewel
+|Sexy plus Appeal!&lt;br />(iii)
+|- align="center"
+|SR
+|459
+|"Surf Girl"&lt;br />Mikuru&lt;br />Natsuki
+|[[File:photokatsu 0459.png|100px]]
+|Summer Wave
+|SR
+|460
+|"Vivid Summer"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0460.jpeg|100px]]
+|Cheerful Kiss
+|Pop Aura UP!&lt;br />(iii)
+|- align="center"
+|R
+|461
+|"Prepare Everything!"&lt;br />Akari&lt;br />Ōzora
+|[[File:photokatsu 0461.jpg|100px]]
+|Cute Flash
+|R+
+|462
+|"Pink Pop Girl"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0462.jpg|100px]]
+|Cute Flash
+|Cute Change&lt;br />(ii)
+|- align="center"
+|R
+|463
+|"The Sweet Scent of the Beach"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0463.png|100px]]
+|Cool Flash
+|R+
+|464
+|"The Quiet Sound of the Ocean"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0464.png|100px]]
+|Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|- align="center"
+|PR
+|465
+|"Wearing this This Year"&lt;br />Akari Ōzora
+|[[File:photokatsu 0465.jpg|100px]]
+|Premium Dreaming Heart
+|PR+
+|466
+|"Still continued Summer Festival"&lt;br />Akari Ōzora
+|[[File:Photokatsu_0466.jpg|100px]]
+|Premium Dreaming Heart
+|Cute plus Appeal!&lt;br />(iv)
+|- align="center"
+|SR
+|467
+|"[[Wikipedia:Ipomoea nil|Morning Glory]] that Blooms in the Night"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0467.jpg|100px]]
+|Summer Sparkle
+|SR+
+|468
+|"The Dress that Delivered the Wish"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0468.png|100px]]
+|Clock Circus
+|Cool Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|469
+|"Leave the Yukata Coord to Me&lt;br />as well"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:photokatsu 0469.png|100px]]
+|Summer Sparkle
+|SR+
+|470
+|"A New Discovery...?"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0470.png|100px]]
+|Cheerful Kiss
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|471
+|"The Modern Monotone"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0471.jpg|100px]]
+|Summer Sparkle
+|SR+
+|472
+|"Goodnight to Flamenco"&lt;br />Juri Kurebayashi+
+|[[File:photokatsu 0472.png|100px]]
+|Blossom Amore
+|Sexy plus Appeal!&lt;br />(iii)
+|- align="center"
+|R
+|473
+|"The Candy Apple I Love"&lt;br />Madoka Amahane
+|[[File:photokatsu 0473.jpg|100px]]
+|Cute Flash
+|R+
+|474
+|"The Me who's even more Cuter"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0474.jpg|100px]]
+|Cute Flash
+|Cute Score UP!&lt;br />(ii)
+|- align="center"
+|R
+|475
+|"Lured by&lt;br />the Flavor"&lt;br />Rin&lt;br />Kurosawa
+|[[File:photokatsu 0475.png|100px]]
+|Cool Flash
+|R+
+|476
+|"The Precious Rewards"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0476.png|100px]]
+|Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|-align="center"
+|SR
+|477
+|"Don't miss&lt;br />out on the Potatoes!"&lt;br />Nono Daichi
+|[[File:photokatsu 0477.png|100px]]
+|Summer Sparkle
+|SR+
+|478
+|"The Twin with the Pink Ribbon"&lt;br />Nono Daichi+
+|[[File:photokatsu 0478.png|100px]]
+|Wicked Rouge
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|479
+|"The&lt;br />Memories from the Potatoes"&lt;br />Lisa&lt;br />Shirakaba
+|[[File:photokatsu 0479.jpg|100px]]
+|Summer Sparkle
+|SR+
+|480
+|"The Twin with the Purple Ribbon"&lt;br />Lisa Shirakaba+
+|[[File:photokatsu 0480.jpg|100px]]
+|Wicked Rouge
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|481
+|"Being Special at the Festival&lt;br />as well"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0481.png|100px]]
+|Premium Angel Arrow
+|PR+
+|482
+|"The Two's Encounter"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0482.jpg|100px]]
+|Premium Angel Arrow
+|Cute plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|483
+|"I am&lt;br />that girl's&lt;br />Number One fan"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0483.jpg|100px]]
+|Summer Sparkle
+|SR+
+|484
+|"The Celestial Bodies and the Gentle Smile"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0484.jpg|100px]]
+|Cosmo Showtime
+|Cool plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|485
+|"Enjoy??lt;br />Summer Festival"&lt;br />Ran Shibuki
+|[[File:photokatsu 0485.png|100px]]
+|Summer Wave
+|SR+
+|486
+|"The Swaying Tulle Skirt"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0486.png|100px]]
+|Butterfly Flip
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|487
+|"Potepo-tan at the Summer Festival"&lt;br />Otome Arisugawa
+|[[File:Photokatsu 0487.png|100px]]
+|Summer Sparkle
+|SR+
+|488
+|"You can't eat the dress!"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0488.png|100px]]
+|Candy Rainbow
+|Pop Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|489
+|"Worries of a Vampire"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0489.jpg|100px]]
+|Cool Flash
+|R+
+|490
+|"The Bat Kimono [[Wikipedia:Obi (sash)|Obi]]"&lt;br />Yurika Tōdō+
+|[[File:Photokatsu_0490.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|-align="center"
+|R
+|491
+|"Please&lt;br />Leave it&lt;br />to me"&lt;br />Sakura&lt;br />Kitaōji
+|[[File:photokatsu 0491.jpg|100px]]
+|Cute Flash
+|R+
+|492
+|"The Plums flowing towards Sakura"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0492.jpg|100px]]
+|Cute Flash
+|Cute Change&lt;br />(ii)
+|-align="center"
+|SR
+|493
+|"Her Walking Poise&lt;br />is that of&lt;br />a Lily"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0493.jpg|100px]]
+|Summer Sparkle
+|SR+
+|494
+|"The Off time spent with Everyone"&lt;br />Mizuki Kanzzaki+
+|[[File:photokatsu 0494.jpg|100px]]
+|Double Moon Jewel
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|495
+|"Hard British"&lt;br />Yurika Tōdō
+|[[File:Photokatsu_0495.jpg|100px]]
+|Clock Circus
+|SR+
+|496
+|"Dark Velvet Knight"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0496.jpg|100px]]
+|Clock Circus
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|497
+|
+"The&lt;br />Promise&lt;br />made with&lt;br />the Pierrot"&lt;br />Kaede&lt;br />Ichinose
+|[[File:photokatsu 0497.jpg|100px]]
+|Premium Trick Toy Box
+|PR+
+|498
+|"The Carnival in the Castle"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0498.jpg|100px]]
+|Premium Trick Toy Box
+|Pop plus Appeal!&lt;br />(iv)
+|-align="center"
+|PR
+|499
+|"The Summer Tea Party"&lt;br />Hime Shiratori
+|[[File:Photokatsu_0499.jpeg|100px]]
+|Premium Star Heartful World
+|PR+
+|500
+|"The Cute Fairy"&lt;br />Hime Shiratori+
+|[[File:photokatsu 0500.jpg|100px]]
+|Premium Star Heartful World
+|Cute Aura UP!&lt;br />(iv)
+|}
+&lt;/div>
+----
+
+===501 ~ 600===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|SR
+|501
+|"Pink Step"&lt;br />Yume Nijino
+|[[File:photokatsu 0501.jpg|100px]]
+|Star Cute Charm
+|SR+
+|502
+|"Pink Island"&lt;br />Yume Nijino+
+|[[File:photokatsu 0502.jpg|100px]]
+|Star Cute Charm
+|Cute Score UP!&lt;br />(iii)
+|- align="center"
+|R
+|503
+|
+"From this&lt;br />moment on, more Aikatsu!"&lt;br />Yume&lt;br />Nijino
+|[[File:photokatsu 0503.jpg|100px]]
+|Star Cute Charm
+|SR+
+|504
+|"The Ice in the Cone"&lt;br />Yume Nijino+
+|[[File:photokatsu 0504.jpg|100px]]
+|Star Cute Charm
+|Heartful Time&lt;br />(ii)
+|- align="center"
+|R
+|505
+|"Careful of getting Sunburnt!"&lt;br />Koharu Nanakura
+|[[File:Photokatsu 0505.jpg|100px]]
+|Star Sexy Charm
+|R+
+|506
+|"The Pounding Barrette"&lt;br />Koharu Nanakura+
+|[[File:Photokatsu 0506.jpg|100px]]
+|Star Sexy Charm
+|Sexy Aura UP!&lt;br />(ii)
+|- align="center"
+|SR
+|507
+|"Blue Step"&lt;br />Laura&lt;br />Sakuraba
+|[[File:Photokatsu 0507.jpg|100px]]
+|Star Cool Charm
+|SR+
+|508
+|"Sky Island"&lt;br />Laura Sakuraba+
+|[[File:Photokatsu 0508.jpg|100px]]
+|Star Cool Charm
+|Cool Aura UP!&lt;br />(iii)
+|- align="center"
+|SR
+|509
+|"Melon Step"&lt;br />Ako&lt;br />Saotome
+|[[File:Photokatsu 0509.jpg|100px]]
+|Star Pop Charm
+|SR+
+|510
+|"A Bouquet Dress"&lt;br />Ako Saotome+
+|[[File:photokatsu 0510.jpg|100px]]
+|Star Smiley Splash
+|Pop Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|511
+|"Lavender&lt;br />Step"&lt;br />Mahiru&lt;br />Kasumi
+|[[File:photokatsu 0511.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|512
+|"China Heroine"&lt;br />Mahiru Kasumi+
+|[[File:photokatsu 0512.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Score UP!&lt;br />(iii)
+|- align="Center"
+|PR
+|513
+|"The&lt;br />Legendary&lt;br />Idol"&lt;br />Hime
+|[[File:Photokatsu 0513.jpg|100px]]
+|Sexy Flash
+|PR+
+|514
+|"Connecting the Radiance"&lt;br />Hime+
+|[[File:Photokatsu 0514.png|100px]]
+|Sexy Flash
+|Aura plus Appeal!&lt;br />(iv)
+|- align="Center"
+|PR
+|515
+|"The&lt;br />Legendary&lt;br />Idol"&lt;br />Miya
+|[[File:Photokatsu 0515.jpg|100px]]
+|Sexy Flash
+|PR+
+|516
+|"Origin of the Radiance"&lt;br />Miya+
+|[[File:Photokatsu 0516.png|100px]]
+|Sexy Flash
+|Sexy Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|517
+|"Moon Beauty Class"&lt;br />Yozora Kasumi
+|[[File:Photokatsu_0517.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|518
+|"Japan Heroine"&lt;br />Yozora Kasumi+
+|[[File:Photokatsu_0518.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|519
+|"Bird Theatre Class"&lt;br />Tsubasa Kisaragi
+|[[File:photokatsu 0519.jpg|100px]]
+|Star Cool Charm
+|SR+
+|520
+|"Race Supporter"&lt;br />Tsubasa Kisaragi+
+|[[File:photokatsu 0520.jpg|100px]]
+|Star Unchain Chord
+|Very Good Combo!
+|-align="center"
+|SR
+|521
+|"Wind Dance Class"&lt;br />Yuzu Nikaidō
+|[[File:Photokatsu_0521.jpg|100px]]
+|Star Pop Charm
+|SR+
+|522
+|"The Postponed Vacance"&lt;br />Yuzu Nikaidō+
+|[[File:Photokatsu_0522.jpg|100px]]
+|Star Smiley Splash
+|Very Good plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|523
+|"The Admired Uniform"&lt;br />Laura Sakuraba
+|[[File:photokatsu 0523.png|100px]]
+|Star Cool Charm
+|R+
+|524
+|"The Cold Water Gun"&lt;br />Laura Sakuraba+
+|[[File:photokatsu 0524.jpg|100px]]
+|Star Cool Charm
+|Cool Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|525
+|"An Idol's Must Need"&lt;br />Mahiru Kasumi
+|[[File:Photokatsu_0525.jpg|100px]]
+|Star Sexy Charm
+|R+
+|526
+|"Tropical Juice"&lt;br />Mahiru Kasumi+
+|[[File:photokatsu 0526.jpg|100px]]
+|Star Sexy Charm
+|Sexy Score UP!&lt;br />(ii)
+|-align="center"
+|SR
+|527
+|"The Brave Charmont"&lt;br />Seira Otoshiro
+|[[File:Photokatsu 0527.jpg|100px]]
+|Passion Beat
+|SR+
+|528
+|"Memories of being in a Unit"&lt;br />Seira Otoshiro+
+|[[File:Photokatsu 0528.jpg|100px]]
+|Passion Beat
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|529
+|"Sky Dress"&lt;br />Akari Ōzora
+|[[File:photokatsu 0529.jpg|100px]]
+|Dreaming Heart
+|SR+
+|530
+|"Sky Ski-Skip"&lt;br />Akari Ōzora+
+|[[File:photokatsu 530.jpg|100px]]
+|Dreaming Heart
+|Very Good plus Appeal!
+|-align="center"
+|PR
+|531
+|"The Ice Bliss Diva"&lt;br />Sumire Hikami
+|[[File:Photokatsu_0531.jpg|100px]]
+|Premium Electro Groove
+|PR+
+|532
+|"The Diva's Smile"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0532.jpg|100px]]
+|Premium Electro Groove
+|Cool Aura UP!&lt;br />(iv)
+|-align="center"
+|R
+|533
+|"The Unit's Growth"&lt;br />Miyabi Fujiwara
+|[[File:Photokatsu 0533.jpg|100px]]
+|Sexy Flash
+|R+
+|534
+|"Casual Clothing during Offtime"&lt;br />Miyabi Fujiwara+
+|[[File:Photokatsu 0534.jpg|100px]]
+|Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|-align="center"
+|SR
+|535
+|"Lovely Dress"&lt;br />Madoka Amahane
+|[[File:photokatsu 0535.jpg|100px]]
+|Dreaming Heart
+|SR+
+|536
+|"Love Ski-Skip"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0536.jpg|100px]]
+|Dreaming Heart
+|Cute Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|537
+|"Obsession with Music"&lt;br />Kokone Kurisu
+|[[File:photokatsu 0537.jpg|100px]]
+|Pop Flash
+|R+
+|538
+|"Be Sporty during Offtime"&lt;br />Kokone Kurisu+
+|[[File:photokatsu 0538.jpg|100px]]
+|Pop Flash
+|Pop Score UP!&lt;br />(ii)
+|-align="center"
+|SR
+|539
+|"The Lively Coord"&lt;br />Michelle Tachibana
+|[[File:photokatsu 0539.jpg|100px]]
+|Trick Toy Box
+|SR+
+|540
+|"Balloon Ribbon"&lt;br />Michelle Tachibana+
+|[[File:photokatsu 0540.jpg|100px]]
+|Trick Toy Box
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|541
+|"The Queen's Style"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0541.jpg|100px]]
+|Premium Double Moon Jewel
+|PR+
+|542
+|"Brilliance of the Queen"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0542.jpg|100px]]
+|Premium Double Moon Jewel
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|543
+|"The Witch and the Magic Mirror"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0543.jpg|100px]]
+|Angel Arrow
+|SR+
+|544
+|"If it's a dress then definitely"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0544.jpg|100px]]
+|Angel Arrow
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|545
+|"Beat Star Bolt"&lt;br />Rin Kurosawa
+|[[File:photokatsu 0545.png|100px]]
+|Premium Electro Groove
+|PR+
+|546
+|"Voice of the Dancing Lightning"&lt;br />Rin Kurosawa
+|[[File:photokatsu 0546.png|100px]]
+|Premium Electro Groove
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|547
+|"Tight and Cute"&lt;br />Asami Himuro
+|[[File:Photokatsu_0547.jpg|100px]]
+|Clock Circus
+|SR+
+|548
+|"Our Unit"&lt;br />Asami Himuro
+|[[File:Photokatsu_0548.jpg|100px]]
+|Clock Circus
+|Very Good plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|549
+|"Depart to the Universe!"&lt;br />Shion Kamiya
+|[[File:Photokatsu_0549.jpg|100px]]
+|Cosmo Showtime
+|SR+
+|550
+|"The UFO Skirt"&lt;br />Shion Kamiya+
+|[[File:photokatsu 0550.jpg|100px]]
+|Cosmo Showtime
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|551
+|"Romantic Elegant"&lt;br />Ran Shibuki
+|[[File:photokatsu 0551.jpg|100px]]
+|Butterfly Flip
+|SR+
+|552
+|"It's because we are Rivals"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0552.jpg|100px]]
+|Butterfly Flip
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|553
+|"Two makes One Unit"&lt;br />Sakura Kitaōji
+|[[File:photokatsu 0553.jpg|100px]]
+|Cute Flash
+|R+
+|554
+|"Pastel Girly"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0554.jpg|100px]]
+|Cute Flash
+|Cute Score UP!&lt;br />(ii)
+|-align="center"
+|R
+|555
+|"The Impact of Units"&lt;br />Shion Kamiya
+|[[File:photokatsu 0555.png|100px]]
+|Cool Flash
+|R+
+|556
+|"Outing with Sakura"&lt;br />Shion Kamiya+
+|[[File:Photokatsu_0556.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|-align="center"
+|SR
+|557
+|"Purple Elegant"&lt;br />Hikari Minowa
+|[[File:photokatsu 0557.jpg|100px]]
+|Butterfly Flip
+|SR+
+|558
+|"Shining Swallowtail"&lt;br />Hikari Minowa+
+|[[File:photokatsu 0558.jpg|100px]]
+|Butterfly Flip
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|559
+|"Stylish Thief Once Again!"&lt;br />Ran Shibuki
+|[[File:photokatsu 0559.jpg|100px]]
+|Premium Butterfly Flip
+|SR+
+|560
+|"Thrilling Tonight"&lt;br />Ran Shibuki+
+|[[File:Photokatsu 0560.jpg|100px]]
+|Premium Butterfly Flip
+|Sexy plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|561
+|"Treasure the Training"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0561.jpg|100px]]
+|Butterfly Flip
+|SR+
+|562
+|"That Treasure is Mine!"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0562.jpg|100px]]
+|Clock Circus
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|563
+|"Our Likeliness"&lt;br />Sora Kazesawa
+|[[File:Photokatsu_0563.jpg|100px]]
+|Butterfly Flip
+|SR+
+|564
+|"Ethnic Phantom"&lt;br />Sora Kazesawa+
+|[[File:Photokatsu 0564.png|100px]]
+|Sky Oasis
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|565
+|"New?�Stylish Thief"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0565.jpg|100px]]
+|Butterfly Flip
+|SR+
+|566
+|"Rainbow-colored Phantom"&lt;br />Otome Arisugawa+
+|[[File:photokatdu 0566.png|100px]]
+|Candy Rainbow
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|567
+|"New?�Swallowtail"&lt;br />Ichigo Hoshimiya
+|[[File:Photokatsu 0567.jpg|100px]]
+|Butterfly Flip
+|SR+
+|568
+|"Mother and Child Stylish Thief"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0568.jpg|100px]]
+|Angel Arrow
+|Very Good Combo!
+|-align="center"
+|R
+|569
+|"The Surprise from Me"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0569.jpg|100px]]
+|Sexy Flash
+|R+
+|570
+|"This is my card..."&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0570.jpg|100px]]
+|Sexy Flash
+|Good plus Appeal!
+|-align="center"
+|R
+|571
+|"You won't run away this time either!"&lt;br />Shion Kamiya
+|[[File:Photokatsu 0571.png|100px]]
+|Cool Flash
+|R+
+|572
+|"Rookie Officer of the 7 Star Police Station"&lt;br />Shion Kamiya+
+|[[File:Photokatsu 0572.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|-align="center"
+|PR
+|573
+|"Tonight's Leading Role belongs to Me"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0573.png|100px]]
+|Premium Clock Circus
+|PR+
+|574
+|"The Vampire Witch"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0574.png|100px]]
+|Premium Clock Circus
+|Cool Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|575
+|"I'm Feeling Fantasy"&lt;br />Hinaki Shinjō
+|[[File:Photokatsu_0575.jpg|100px]]
+|Happy Halloween
+|SR+
+|576
+|"Devil Tulle"&lt;br />Hinaki Shinjō+
+|[[File:Photokatsu_0576.jpg|100px]]
+|Cheerful Kiss
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|577
+|"I am the Captain!"&lt;br />Mikuru Natsuki
+|[[File:photokatsu 0577.png|100px]]
+|Happy Halloween
+|SR+
+|578
+|"Devil Paint"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0578.png|100px]]
+|Cheerful Kiss
+|Pop Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|579
+|"The Witch with a Red Ribbon"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0579.png|100px]]
+|Happy Halloween
+|SR+
+|580
+|"Hearty Eyes"&lt;br />Ichigo Hoshimiya+
+|[[File:Photokatsu 0580.jpg|100px]]
+|Angel Arrow
+|Cute plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|581
+|"Rare Sweets?"&lt;br />Akari Ōzora
+|[[File:Photokatsu 0581.jpg|100px]]
+|Cute Flash
+|R+
+|582
+|"Pink [[wikipedia:Cat sìth|Cat Sìth]]"&lt;br />Akari Ōzora+
+|[[File:Photokatsu 0582.jpg|100px]]
+|Cute Flash
+|Good Combo!
+|-align="center"
+|SR
+|583
+|"Austere as Usual!"&lt;br />Ran Shibuki
+|[[File:Photokatsu_0583.jpg|100px]]
+|Happy Halloween
+|SR+
+|584
+|"Night Witch Ebipon"&lt;br />Ran Shibuki+
+|[[File:Photokatsu 0584.jpg|100px]]
+|Butterfly Flip
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|585
+|"The Goddess' Trick"&lt;br />Sumire Hikami
+|[[File:photokatsu 0585.jpg|100px]]
+|Cool Flash
+|R+
+|586
+|"Purple [[wikipedia:Cat sìth|Cat Sìth]]"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0586.jpg|100px]]
+|Cool Flash
+|Cool Change&lt;br />(ii)
+|-align="center"
+|PR
+|587
+|"Halloween Kitty"&lt;br />Seira Otoshiro
+|[[File:photokatsu 0587.jpg|100px]]
+|Premium Passion Beat
+|PR+
+|588
+|"Cemetery Rock"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0588.jpg|100px]]
+|Premium Passion Beat
+|Cool Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|589
+|"The Original Little Devil"&lt;br />Yū Hattori
+|[[File:photokatsu 0589.png|100px]]
+|Happy Halloween
+|SR+
+|590
+|"Rockin' Pumpkin"&lt;br />Yū Hattori+
+|[[File:Photokatsu_0590.jpg|100px]]
+|Passion Beat
+|Very Good plus Appeal!
+|-align="center"
+|SR
+|591
+|"Honey Honey Bee"&lt;br />Nina Dōjima
+|[[File:photokatsu 0591.jpg|100px]]
+|Happy Halloween
+|SR+
+|592
+|"The Candy Girl will give you!"&lt;br />Nina Dōjima+
+|[[File:photokatsu 0592.jpg|100px]]
+|Munching Monster
+|Pop Score UP!&lt;br />(iii)
+|-align="center"
+|PR
+|593
+|"Sailor Dreaming"&lt;br />Madoka Amahane
+|[[File:Photokatsu_0593.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|594
+|"Sweet Pastel"&lt;br />Madoka Amahane+
+|[[File:Photokatsu 594.png|100px]]
+|Premium Angel Arrow
+|All Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|595
+|"Neon Laser Beam"&lt;br />Rin Kurosawa
+|[[File:photokatsu 0595.jpg|100px]]
+|Electro Groove
+|SR+
+|596
+|"Cosmo's Neon Shooting Star"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0596.jpg|100px]]
+|Electro Groove
+|Cool Aura UP!&lt;br />(iii)
+|- align="center"
+|PR
+|597
+|"Comfortable Tea Time"&lt;br />Hime Shiratori
+|[[File:Photokatsu_0597.jpg|100px]]
+|Premium Star Heartful World
+|PR+
+|598
+|"Everyone's Admired"&lt;br />Hime Shiratori+
+|[[File:Photokatsu_0598.jpg|100px]]
+|Premium Star Heartful World
+|Aura plus Appeal!&lt;br />(iv)
+|- align="center"
+|SR
+|599
+|"First Step!"&lt;br />Yume Nijino
+|[[File:photokatsu 0599.jpg|100px]]
+|Star Cute Charm
+|SR+
+|600
+|"Let's Picnic"&lt;br />Yume Nijino+
+|[[File:Photokatsu_0600.jpg|100px]]
+|Star Heartful World
+|Cute Aura UP!&lt;br />(iii)
+|}
+&lt;/div>
+----
+
+===601 ~ 700===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|SR
+|601
+|"Tip-toeing a little bit"&lt;br />Koharu Nanakura
+|[[File:photokatsu 0601.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|602
+|"Cute Sinbad"&lt;br />Koharu Nanakura+
+|[[File:Photokatsu_602.jpg|100px]]
+|Star Kissing Jewel
+|Very Good Combo!
+|- align="center"
+|SR
+|603
+|"Drifting Arabian"&lt;br />Mahiru Kasumi
+|[[File:photokatsu 0605.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|604
+|"Radiance of the Ruby"&lt;br />Mahiru Kasumi
+|[[File:photokatsu 0604.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Score UP!&lt;br />(iii)
+|- align="center"
+|SR
+|605
+|"The Secret of Smiles"&lt;br />Ako Saotome
+|[[File:photokatsu 0603.jpg|100px]]
+|Star Pop Charm
+|SR+
+|606
+|"The Custard I Love"&lt;br />Ako Saotome+
+|[[File:photokatsu 0606.png|100px]]
+|Star Smiley Splash
+|Pop Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|607
+|Hime Shiratori
+|[[File:photokatsu 0607.png|100px]]
+|Star Cute Charm
+|R+
+|608
+|Hime Shiratori+
+|[[File:photokatsu 0608.jpg|100px]]
+|Star Cute Charm
+|Cute plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|609
+|Tsubasa Kisaragi
+|[[File:Photokatsu_0609.jpg|100px]]
+|Star Cool Charm
+|R+
+|610
+|Tsubasa Kisaragi+
+|[[File:Photokatsu_0610.jpg|100px]]
+|Star Cool Charm
+|Cool Score UP!&lt;br />(ii)
+|-align="center"
+|R
+|611
+|Yozora Kasumi
+|[[File:photokatsu 0611.png|100px]]
+|Star Sexy Charm
+|R+
+|612
+|Yozora Kasumi+
+|[[File:photokatsu 0612.jpg|100px]]
+|Star Sexy Charm
+|Sexy Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|613
+|Yuzu Nikaidō
+|[[File:photokatsu 0613.png|100px]]
+|Star Pop Charm
+|R+
+|614
+|Yuzu Nikaidō+
+|[[File:Photokatsu_0614.jpg|100px]]
+|Star Pop Charm
+|Aura plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|615
+|Yume Nijino
+|[[File:photokatsu 0615.jpg|100px]]
+|Star Cute Charm
+|R+
+|616
+|Yume Nijino+
+|[[File:photokatsu 0616.jpg|100px]]
+|Star Cute Charm
+|Cute Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|617
+|Laura&lt;br />Sakuraba
+|[[File:photokatsu 0617.jpg|100px]]
+|Star Cool Charm
+|R+
+|618
+|Laura Sakuraba+
+|[[File:photokatsu 0618.jpg|100px]]
+|Star Cool Charm
+|Cool plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|619
+|Koharu Nanakura
+|[[File:photokatsu 0619.png|100px]]
+|Star Sexy Charm
+|R+
+|620
+|Koharu Nanakura+
+|[[File:photokatsu 0620.jpg|100px]]
+|Star Sexy Charm
+|Sexy Change&lt;br />(ii)
+|-align="center"
+|R
+|621
+|Ako Saotome
+|[[File:photokatsu 0621.jpg|100px]]
+|Star Pop Charm
+|R+
+|622
+|Ako Saotome+
+|[[File:photokatsu 0622.jpg|100px]]
+|Star Pop Charm
+|Pop Change&lt;br />(ii)
+|-align="center"
+|R
+|623
+|Mahiru&lt;br />Kasumi
+|[[File:photokatsu 0623.png|100px]]
+|Star Sexy Charm
+|R+
+|624
+|Mahiru Kasumi+
+|[[File:photokatsu 0624.jpg|100px]]
+|Star Sexy Charm
+|Sexy Aura UP!&lt;br />(ii)
+|-align="center"
+|N
+|625
+|Nana&lt;br />Hanahata
+|[[File:photokatsu 0625.jpg|100px]]
+|Cute Charm
+|N+
+|626
+|Nana Hanahata+
+|[[File:photokatsu 0626.jpg|100px]]
+|Cute Charm
+|Cute Score UP!&lt;br />(i)
+|-align="center"
+|N
+|627
+|Yukina Otoha
+|[[File:photokatsu 0627.jpg|100px]]
+|Cute Charm
+|N+
+|628
+|Yukina Otoha+
+|[[File:photokatsu 0628.jpg|100px]]
+|Cute Charm
+|Heartful Time&lt;br />(i)
+|-align="center"
+|N
+|629
+|Himari Tamagawa
+|[[File:photokatsu 0629.jpg|100px]]
+|Cool Charm
+|N+
+|630
+|Himari Tamagawa+
+|[[File:photokatsu 0630.jpg|100px]]
+|Cool Charm
+|Cool Aura UP!&lt;br />(i)
+|-align="center"
+|N
+|631
+|Reina Sakuma
+|[[File:photokatsu 0631.jpg|100px]]
+|Cool Charm
+|N+
+|632
+|Reina Sakuma+
+|[[File:photokatsu 0632.jpg|100px]]
+|Cool Charm
+|Cool Change&lt;br />(i)
+|-align="center"
+|N
+|633
+|Airi Amemiya
+|[[File:photokatsu 0633.jpg|100px]]
+|Pop Charm
+|N+
+|634
+|Airi Amemiya+
+|[[File:photokatsu 0634.jpg|100px]]
+|Pop Charm
+|Pop plus Appeal!&lt;br />(i)
+|-align="center"
+|N
+|635
+|Umi Kaiyama
+|[[File:photokatsu 0635.jpg|100px]]
+|Pop Charm
+|N+
+|636
+|Umi Kaiyama+
+|[[File:photokatsu 0636.jpg|100px]]
+|Pop Charm
+|Pop Change&lt;br />(i)
+|-align="center"
+|N
+|637
+|Shōko Hasumi
+|[[File:Photoktasu 0637.jpg|100px]]
+|Sexy Charm
+|N+
+|638
+|Shōko Hasumi+
+|[[File:photokatsu 0638.jpg|100px]]
+|Sexy Charm
+|Sexy Change&lt;br />(i)
+|-align="center"
+|N
+|639
+|Eri&lt;br />Sunakiyoshi
+|[[File:photokatsu 0639.jpg|100px]]
+|Sexy Charm
+|N+
+|640
+|Eri Sunakiyoshi+
+|[[File:photokatsu 0640.jpg|100px]]
+|Sexy Charm
+|Sexy Score UP!&lt;br />(i)
+|-align="center"
+|SR
+|641
+|"Welcome to the House of Sweets"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0641.png|100px]]
+|Happy Halloween
+|SR+
+|642
+|"The Glittering Magic"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0642.png|100px]]
+|Cosmo Showtime
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|643
+|"Red Star Witch"&lt;br />Kī Saegusa
+|[[File:photokatsu 0643.png|100px]]
+|Happy Halloween
+|SR+
+|644
+|"Ghosts are Surprising!"&lt;br />Kī Saegusa+
+|[[File:photokatsu 0644.jpg|100px]]
+|Trick Toy Box
+|Pop plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|645
+|"Preparation&lt;br />is fun&lt;br />as well!"&lt;br />Nono Daichi
+|[[File:photokatsu 0645.jpg|100px]]
+|Sexy Flash
+|R+
+|646
+|"The Costume is also Super Cute"Nono Daichi+
+|[[File:photokatsu 0646.jpg|100px]]
+|Sexy Flash
+|Sexy Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|647
+|"Exciting Halloween"&lt;br />Lisa&lt;br />Shirakaba
+|[[File:photokatsu 0647.png|100px]]
+|Sexy Flash
+|R+
+|648
+|"The Idea from the Two of Us"&lt;br />Lisa Shirakaba+
+|[[File:photokatsu 0648.jpg|100px]]
+|Sexy Flash
+|Sexy plus Appeal!&lt;br />(ii)
+|-align="center"
+|PR
+|649
+|Legend&lt;br />Mizuki
+|[[File:photokatsu 0649.jpg|100px]]
+|Premium Double Moon Jewel
+|PR+
+|650
+|Legend Mizuki+
+|[[File:Photokatsu 0650.png|100px]]
+|Premium Double Moon Jewel
+|Perfect Combo!
+|-align="center"
+|SR
+|651
+|Sumire&lt;br />Gelato
+|[[File:Photokatsu 0651.jpg|100px]]
+|Clock Circus
+|SR+
+|652
+|Sumire Gelato+
+|[[File:photokatsu 0652.jpg|100px]]
+|Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|653
+|Jurius??lt;br />Caesar Salad
+|[[File:photokatsu 0653.png|100px]]
+|Power Sunshine
+|SR+
+|654
+|Jurius?�Caesar Salad+
+|[[File:photokatsu 0654.jpg|100px]]
+|Blossom Amore
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|655
+|Akari&lt;br />Sunshine
+|[[File:photokatsu 0655.jpg|100px]]
+|Power Sunshine
+|SR+
+|656
+|Akari Sunshine+
+|[[File:photokatsu 0656.png|100px]]
+|Dreaming Heart
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|657
+|Hinaki&lt;br />Twister
+|[[File:Photokatsu_0657.jpg|100px]]
+|Power Sunshine
+|SR+
+|658
+|Hinaki Twister+
+|[[File:photokatsu 0658.jpg|100px]]
+|Cheerful Kiss
+|Pop Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|659
+|Ichigo&lt;br />Vampire
+|[[File:Photokatsu_0659.jpg|100px]]
+|Cute Flash
+|R+
+|660
+|Ichigo Vampire+
+|[[File:Photokatsu_0660.jpg|100px]]
+|Cute Flash
+|Cute plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|661
+|Aoi Vampire
+|[[File:photokatsu 0661.jpg|100px]]
+|Cool Flash
+|R+
+|662
+|Aoi Vampire+
+|[[File:photokatsu 0662.jpg|100px]]
+|Cool Flash
+|Cool Aura UP!&lt;br />(ii)
+|-align="center"
+|PR
+|663
+|"Fashion Time"&lt;br />Yozora&lt;br />Kasumi
+|[[File:photokatsu 0663.png|100px]]
+|Premium Star Kissing Jewel
+|PR+
+|664
+|"You've Stayed the Same...&lt;ref>[[w:c:aikatsustars:Summer Tears Diary|The card name is the same as a line from the song "Summer Tears Diary".]]&lt;/ref>"&lt;br />Yozora Kasumi+
+|[[File:photokatsu 0664.png|100px]]
+|Premium Star Kissing Jewel
+|Sexy Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|665
+|"My&lt;br />Suggested&lt;br />TV Show"&lt;br />Hime&lt;br />Shiratori
+|[[File:photokatsu 0665.png|100px]]
+|Star Cute Charm
+|SR+
+|666
+|"The Chances to Shine"&lt;br />Hime Shiratori+
+|[[File:Photokatsu 0666.jpg|100px]]
+|Star Heartful World
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|667
+|"The Thing&lt;br />like Usual"&lt;br />Laura&lt;br />Sakuraba
+|[[File:photokatsu 0667.png|100px]]
+|Star Cool Charm
+|SR+
+|668
+|"The Reason for Passing"&lt;br />Laura Sakuraba+
+|[[File:Photokatsu_0668.jpg|100px]]
+|Star Unchain Chord
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|669
+|"Memories&lt;br />of Our&lt;br />Playtime"&lt;br />Mahiru&lt;br />Kasumi
+|[[File:photokatsu 0669.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|670
+|"Let's Hit it! Onee-chan!!"&lt;br />Mahiru Kasumi+
+|[[File:photokatsu 0670.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|671
+|"Let's get&lt;br />Enthusiastic&lt;br />Together?"&lt;br />Ako&lt;br />Saotome
+|[[File:photokatsu 0671.jpg|100px]]
+|Star Pop Charm
+|R+
+|672
+|"Her Surprising Side"&lt;br />Ako Saotome+
+|[[File:photokatsu 0672.jpg|100px]]
+|Star Pop Charm
+|Pop Aura UP!&lt;br />(ii)
+|-align="center"
+|SR
+|673
+|"My Crowning TV Show"&lt;br />Yume Nijino
+|[[File:photokatsu 0673.jpg|100px]]
+|Star Cute Charm
+|SR+
+|674
+|"The Two Bonds"&lt;br />Yume Nijino+
+|[[File:photokatsu 0674.jpg|100px]]
+|Star Heartful World
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|675
+|"An Egg&lt;br />Straight Ahead"&lt;br />Koharu Nanakura
+|[[File:photokatsu 0675.jpg|100px]]
+|Star Sexy Charm
+|R+
+|676
+|"Finding Someone Like Me"&lt;br />Koharu Nanakura+
+|[[File:photokatsu 0676.jpg|100px]]
+|Star Sexy Charm
+|Good Combo!
+|-align="center"
+|PR
+|677
+|"The Never-ending Road&lt;br />of&lt;br />Admiration"&lt;br />Yume Nijino
+|[[File:Photokatsu 0677.png|100px]]
+|Premium Star Heartful World
+|PR+
+|678
+|"Her Unleashed Power"&lt;br />Yume Nijino+
+|[[File:Photokatsu 0678.png|100px]]
+|Premium Star Heartful World
+|Cute Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|679
+|"Rock Style during&lt;br />Off days"&lt;br />Laura&lt;br />Sakuraba
+|[[File:Photokatsu 0679.png|100px]]
+|Star Cool Charm
+|SR+
+|680
+|"This is my song!"&lt;br />Laura Sakuraba+
+|[[File:Photokatsu 0680.png|100px]]
+|Star Unchain Chord
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|681
+|"Dreamy&lt;br />Candy"&lt;br />Otome Arisugawa
+|[[File:Photokatsu 0681.png|100px]]
+|Premium Purin's Yell
+|PR+
+|682
+|"Sweet Puririn"&lt;br />Otome Arisugawa+
+|[[File:Photokatsu 0682.png|100px]]
+|Premium Candy Rainbow
+|Pop Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|683
+|"Blue&lt;br />Candy"&lt;br />Shion&lt;br />Kamiya
+|[[File:photokatsu 0683.jpg|100px]]
+|Purin's Yell
+|SR+
+|684
+|"Stripe Puririn"&lt;br />Shion Kamiya+
+|[[File:photokatsu 0684.png|100px]]
+|Candy Rainbow
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|685
+|"Lime&lt;br />Candy"&lt;br />Sakura&lt;br />Kitaōji
+|[[File:photokatsu 0685.jpg|100px]]
+|Purin's Yell
+|SR+
+|686
+|"Polka Dot Puririn"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0686.jpg|100px]]
+|Candy Rainbow
+|Pop plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|687
+|"Speaking of Alpine Meadows"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0687.jpg|100px]]
+|Candy Rainbow
+|SR+
+|688
+|"Ichi-Ichi-Ichigo Feeling"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0688.jpg|100px]]
+|Candy Rainbow
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|689
+|"The Rainbow that Stiches Across&lt;br />the Sky"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0689.jpg|100px]]
+|Candy Rainbow
+|SR+
+|690
+|Bubbliness and Fruits"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0690.jpg|100px]]
+|Candy Rainbow
+|Pop Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|691
+|"American Sweets!"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0691.png|100px]]
+|Cool Flash
+|R+
+|692
+|"Colorful Cake"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0692.jpg|100px]]
+|Cool Flash
+|Cool Score UP!&lt;br />(ii)
+|-align="center"
+|R
+|693
+|"Yes, Sweets!"&lt;br />Kaede&lt;br />Ichinose
+|[[File:photokatsu 0693.jpg|100px]]
+|Pop Flash
+|R+
+|694
+|"Addictive Cake"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0694.jpg|100px]]
+|Pop Flash
+|Pop Change&lt;br />(ii)
+|-align="center"
+|PR
+|695
+|"Hot Wind,&lt;br />Once Again!"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0695.png|100px]]
+|Premium Butterfly Flip
+|PR+
+|696
+|"The Burning Shoot"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0696.png|100px]]
+|Premium Butterfly Flip
+|Sexy Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|697
+|"The Kind Japanese Language Teacher"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0697.png|100px]]
+|Burning Shoot
+|SR+
+|698
+|"Pastel Language"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0698.jpg|100px]]
+|Angel Arrow
+|TBA
+|-align="center"
+|SR
+|699
+|"Ai-katsu Yo-ru-shi-ku!"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0699.jpg|100px]]
+|Burning Shoot
+|SR+
+|700
+|"Appearance of a Rival"&lt;br />Hinaki Shinjō+
+|[[File:Photokatsu_0700.jpg|100px]]
+|Cheerful Kiss
+|Pop Score UP!&lt;br />(iii)
+|}
+&lt;/div>
+----
+
+===701 ~ 800===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|- align="center"
+|SR
+|701
+|"The Cool Chemistry Teacher"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0701.png|100px]]
+|Burning Shoot
+|SR+
+|702
+|"Cosmo Science"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0702.png|100px]]
+|Cosmo Showtime
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|703
+|"The&lt;br />Math Teacher&lt;br />of Exact&lt;br />Accuracy"&lt;br />Ran Shibuki
+|[[File:photokatsu 0703.jpg|100px]]
+|Burning Shoot
+|SR+
+|704
+|"Math Panther"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0704.jpg|100px]]
+|Butterfly Flip
+|Very Good Combo!
+|-align="center"
+|R
+|705
+|"After Turning Around the Corner"&lt;br />Akari Ōzora
+|[[File:photokatsu 0705.png|100px]]
+|Cute Flash
+|R+
+|706
+|"Obento-san of my Dreams"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0706.jpg|100px]]
+|Cute Flash
+|Cute Change&lt;br />(ii)
+|-align="center"
+|R
+|707
+|"A New Door"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0707.jpg|100px]]
+|Cool Flash
+|R+
+|708
+|"Both Scholar and Warrior"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0708.jpg|100px]]
+|Cool Flash
+|Panel Strength&lt;br />(ii)
+|-align="center"
+|PR
+|709
+|"Salvation&lt;br />from the Angel"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:Photokatsu_0709.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|710
+|"[[Wikipedia:Dís|Dís]] of the Shooting Star"&lt;br />Ichigo Hoshimiya&lt;br />+
+|[[File:Photokatsu_0710.jpg|100px]]
+|Premium Angel Arrow
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|PR
+|711
+|"Beginning&lt;br />of the&lt;br />Ageha's Muse"&lt;br />Ran Shibuki
+|[[File:photokatsu 0711.png|100px]]
+|Premium Butterfly Flip
+|PR+
+|712
+|"Asian Beauty"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0712.jpg|100px]]
+|Premium Butterfly Flip
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|713
+|"Guide of&lt;br />the Milky Way"&lt;br />Aoi Kiriya
+|[[File:Photokatsu_0713.jpg|100px]]
+|Cosmo Showtime
+|SR+
+|714
+|"Messenger from the Future"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu_0714.jpg|100px]]
+|Cosmo Showtime
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|715
+|"The Day a&lt;br />Miracle will Happen"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:Photokatsu_0715.png|100px]]
+|Premium Angel Arrow
+|PR+
+|716
+|"The Treasured Present"&lt;br />Ichigo Hoshimiya&lt;br />+
+|[[File:Photokatsu_0716.png|100px]]
+|Premium Angel Arrow
+|All Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|717
+|"The&lt;br />Unforgettable Memories"&lt;br />Ran Shibuki
+|[[File:photokatsu 0717.png|100px]]
+|Holy Night
+|SR+
+|718
+|"The Special Thing about Christmas"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0718.png|100px]]
+|Butterfly Flip
+|Sexy plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|719
+|"Even the Wrapping&lt;br />needs to be Brilliant"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0719.png|100px]]
+|Holy Night
+|SR+
+|720
+|"Brilliance of the Holy Night"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0720.png|100px]]
+|Cosmo Showtime
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|721
+|"Relaxation Delivered"&lt;br />Kaede&lt;br />Ichinose
+|[[File:photokatsu 0721.png|100px]]
+|Holy Night
+|SR+
+|722
+|"Cookie Stars"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0722.png|100px]]
+|Trick Toy Box
+|Very Good plus Appeal!
+|-align="center"
+|SR
+|723
+|"Surprise&lt;br />Present"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0723.jpg|100px]]
+|Holy Night
+|SR+
+|724
+|"Matching Selfies"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0724.png|100px]]
+|Clock Circus
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|725
+|"Having that Continuation&lt;br />Once more"&lt;br />Sakura&lt;br />Kitaōji
+|[[File:photokatsu 0725.jpg|100px]]
+|Cute Flash
+|R+
+|726
+|"Merry Christmas Soon"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0726.jpg|100px]]
+|Cute Flash
+|Cute Score UP!&lt;br />(ii)
+|-align="center"
+|SR
+|727
+|"The Forgetful Santa-san"&lt;br />Otome&lt;br />Arisugawa
+|[[File:photokatsu 0727.png|100px]]
+|Holy Night
+|SR+
+|728
+|"Happy Tree"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0728.png|100px]]
+|Candy Rainbow
+|Very Good Combo!
+|-align="center"
+|R
+|729
+|"Relaxing&lt;br />Candle"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0729.png|100px]]
+|Sexy Flash
+|R+
+|730
+|"Green Santa"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0730.png|100px]]
+|Sexy Flash
+|Aura plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|731
+|"Traditional Events"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0731.jpg|100px]]
+|Cute Flash
+|R+
+|732
+|"Ichigo Cake"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0732.jpg|100px]]
+|Angel Arrow
+|Cute plus Appeal!&lt;br />(ii)
+|-align="center"
+|R
+|733
+|"The Cute Woodcutter"&lt;br />Akari Ōzora
+|[[File:photokatsu 0733.png|100px]]
+|Cute Flash
+|R+
+|734
+|"Natural Reindeer"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0734.png|100px]]
+|Cute Flash
+|Aura plus Appeal!&lt;br />(ii)
+|-align="center"
+|PR
+|735
+|"The&lt;br />Soft Sound&lt;br />of the&lt;br />Beach"&lt;br />Mikuru&lt;br />Natsuki
+|[[File:Photokatsu_0735.jpg|100px]]
+|Premium Cheerful Kiss
+|PR+
+|736
+|"Let's All Make a Miracle"&lt;br />Mikuru Natsuki+
+|[[File:Photokatsu_0736.jpg|100px]]
+|Premium Cheerful Kiss
+|Pop Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|737
+|"Striding&lt;br />Lightly"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0737.jpg|100px]]
+|Angel Arrow
+|SR+
+|738
+|"A New Radiance"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0738.jpg|100px]]
+|Angel Arrow
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|739
+|"Awesome??lt;br />Ice Cream&lt;br />Cake"&lt;br />Laura&lt;br />Sakuraba
+|[[File:photokatsu 0739.jpg|100px]]
+|Star Cool Charm
+|PR+
+|740
+|"The Special Gift"&lt;br />Laura Sakuraba+
+|[[File:photokatsu 0740.jpg|100px]]
+|Premium Star Unchain Chord
+|Cool plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|741
+|"Girly&lt;br />Christmas"&lt;br />Hime&lt;br />Shiratori
+|[[File:photokatsu 0741.jpg|100px]]
+|Star Heartful World
+|SR+
+|742
+|"While Waiting for Santa"&lt;br />Hime SHiratori+
+|[[File:Photokatsu 0742.jpg|100px]]
+|Star Heartful World
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|743
+|"Yellow&lt;br />Santa"&lt;br />Ako&lt;br />Saotome
+|[[File:photokatsu 0743.jpg|100px]]
+|Star Pop Charm
+|SR+
+|744
+|"I'm in Very Good Spirit!"&lt;br />Ako Saotome+
+|[[File:Photokatsu 0744.jpg|100px]]
+|Star Smiley Splash
+|Pop Aura UP!&lt;br />(iii)
+|-align="center"
+|PR
+|745
+|"Firm and Dignified"&lt;br />Yurika Tōdō
+|[[File:Photokatsu 0745.jpg|100px]]
+|Premium Clock Circus
+|PR+
+|746
+|"The Queen's Guidance"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0746.png|100px]]
+|Premium Clock Circus
+|Perfect Combo!
+|-align="center"
+|SR
+|747
+|"Märchen&lt;br />Santa"&lt;br />Yume&lt;br />Nijino
+|[[File:photokatsu 0747.jpg|100px]]
+|Star Cute Charm
+|SR+
+|748
+|"The Present thats a Cake"&lt;br />Yume Nijino+
+|[[File:photokatsu 0748.jpg|100px]]
+|Star Heartful World
+|Cute Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|749
+|"The Star Appears"&lt;br />Yozora&lt;br />Kasumi
+|[[File:photokatsu 0749.png|100px]]
+|Star Sexy Charm
+|SR+
+|750
+|"Romance??lt;br />Christmas"&lt;br />Yozora Kasumi+
+|[[File:Photokatsu_0750.jpg|100px]]
+|Star Kissing Jewel
+|Very Good plus Appeal!
+|-align="center"
+|R
+|751
+|"Person in&lt;br />Charge on Christmas"&lt;br />Tsubasa&lt;br />Kisaragi
+|[[File:photokatsu 0751.png|100px]]
+|Star Cool Charm
+|R+
+|752
+|"Red Santa"&lt;br />Tsubasa Kisaragi+
+|[[File:photokatsu 0752.png|100px]]
+|Star Cool Charm
+|Good Combo!
+|-align="center"
+|R
+|753
+|"It's the&lt;br />Candy in&lt;br />the Boot"&lt;br />Yuzu Nikaidō
+|[[File:photokatsu 0753.png|100px]]
+|Star Pop Charm
+|R+
+|754
+|"Canary Santa"&lt;br />Yuzu Nikaidō+
+|[[File:photokatsu 0754.png|100px]]
+|Star Pop Charm
+|Pop Aura UP!&lt;br />(ii)
+|-align="center"
+|PR
+|755
+|"Pinky Santa"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:Photokatsu_0755.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|756
+|"Let's Go Deliver It!"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0756.jpg|100px]]
+|Premium Angel Arrow
+|Cute Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|757
+|"Blue Santa"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0757.jpg|100px]]
+|Cool Flash
+|SR+
+|758
+|"Present of the Holy Night"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu 0758.jpg|100px]]
+|Cosmo Showtime
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|759
+|"Purple Santa"&lt;br />Ran Shibuki
+|[[File:photokatsu 0759.png|100px]]
+|Sexy Flash
+|SR+
+|760
+|"Hearing the Voices of Scrounging"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0760.png|100px]]
+|Butterfly Flip
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|761
+|"Shiny Santa"&lt;br />Otome&lt;br />Arisugawa
+|[[File:Photokatsu_0761.jpg|100px]]
+|Pop Flash
+|SR+
+|762
+|"Snowman"&lt;br />Otome Arisugawa+
+|[[File:Photokatsu_0762.jpg|100px]]
+|Candy Rainbow
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|SR
+|763
+|"Gothic Santa"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0763.jpg|100px]]
+|Cool Flash
+|SR+
+|764
+|"Mint Noel"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0764.jpg|100px]]
+|Clock Circus
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|765
+|"Violet Santa"&lt;br />Sumire Hikami
+|[[File:photokatsu 0765.jpg|100px]]
+|Cool Flash
+|SR+
+|766
+|"Navy Noel"&lt;br />Sumire Hikami+
+|[[File:Photokatsu_0766.jpg|100px]]
+|Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|767
+|"The&lt;br />Premonition&lt;br />of Fun"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0767.png|100px]]
+|Pop Flash
+|R+
+|768
+|"Orange Santa"&lt;br />Hinaki Shinjō+
+|[[File:photokatsu 0768.jpg|100px]]
+|Pop Flash
+|Pop Change&lt;br />(ii)
+|-align="center"
+|PR
+|769
+|"Nice to&lt;br />meet you, my Allies"&lt;br />Akari Ōzora
+|[[File:photokatsu 0769.png|100px]]
+|Premium Dreaming Heart
+|PR+
+|770
+|"One Step at a Time"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0770.png|100px]]
+|Premium Dreaming Heart
+|Cute Aura UP!&lt;br />(iv)
+|-align="center"
+|PR
+|771
+|"Red Elegant"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0771.png|100px]]
+|Premium Double Moon Jewel
+|PR+
+|772
+|"The White Shining Moonlight"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0772.jpg|100px]]
+|Premium Double Moon Jewel
+|Sexy Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|773
+|"Doki Doki&lt;br />[[Koh-haku Aikatsu Gassen (anime)|Koh-haku]]!"&lt;br />Akari Ōzora
+|[[File:photokatsu 0773.jpg|100px]]
+|Lovely Yell
+|SR+
+|774
+|"Dreaming Red"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0774.jpg|100px]]
+|Dreaming Heart
+|Cute plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|775
+|"Waku Waku&lt;br />Koh-haku??&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0775.jpg|100px]]
+|Lovely Yell
+|SR+
+|776
+|"White Cosmos"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0776.jpg|100px]]
+|Angel Arrow
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|777
+|"The&lt;br />Hot-Blooded&lt;br />Teacher's&lt;br />Yell"&lt;br />Juri&lt;br />Kurebayashi
+|[[File:photokatsu 0777.jpg|100px]]
+|Lovely Yell
+|SR+
+|778
+|"Passion Red"&lt;br />Juri Kurebayashi+
+|[[File:photokatsu 0778.jpg|100px]]
+|Blossom Amore
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|779
+|"White Fairy"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0779.jpg|100px]]
+|Lovely Yell
+|SR+
+|780
+|"A Surprise is the Bonus Add-on"&lt;br />Hinaki Shinjō+
+|[[File:photokatsu 0780.jpg|100px]]
+|Cheerful Kiss
+|Very Good Combo!
+|-align="center"
+|R
+|781
+|"An Important&lt;br />Job for the&lt;br />Big Event"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0781.jpg|100px]]
+|Cool Flash
+|R+
+|782
+|"Red Lady"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0782.jpg|100px]]
+|Cool Flash
+|Panel Strength
+|-align="center"
+|R
+|783
+|"The Refreshing Detective's&lt;br />Yell"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0783.png|100px]]
+|Cool Flash
+|R+
+|784
+|"White Cool"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0784.jpg|100px]]
+|Cool Flash
+|Good plus Appeal!
+|-align="center"
+|PR
+|785
+|"Decide the Winner with [[Wikipedia:Karuta|Karuta]]!"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:photokatsu 0785.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|786
+|"New Year's First Live!&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0786.png|100px]]
+|Premium Angel Arrow
+|Perfect plus Appeal!
+|-align="center"
+|PR
+|787
+|"Master of&lt;br />Karuta"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0787.png|100px]]
+|Premium Cosmo Showtime
+|PR+
+|788
+|"Putting the First Day Behind"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0788.jpg|100px]]
+|Premium Cosmo Showtime
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|789
+|"Heart of Japan&lt;br />?�Pop"&lt;br />Otome&lt;br />Arisugawa
+|[[File:photokatsu 0789.png|100px]]
+|New Year Dream
+|SR+
+|790
+|"East and West?�Pop"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0790.jpg|100px]]
+|Candy Rainbow
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|791
+|"Heart of Japan&lt;br />?�Dark"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0791.jpg|100px]]
+|New Year Dream
+|SR+
+|792
+|"East and West?�Dark"&lt;br />Yurika Tōdō+
+|[[File:photokatsu 0792.jpg|100px]]
+|Clock Circus
+|Very Good Combo!
+|-align="center"
+|SR
+|793
+|"Heart of Japan&lt;br />?�Sakura"&lt;br />Sakura Kitaōji
+|[[File:photokatsu 0793.jpg|100px]]
+|New Year Dream
+|SR+
+|794
+|"East and West?�Sakura"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0794.jpg|100px]]
+|Around Bouquet
+|Cute plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|795
+|"Heart of Japan&lt;br />?�Purple"&lt;br />Ran Shibuki
+|[[File:photokatsu 0795.jpg|100px]]
+|New Year Dream
+|SR+
+|796
+|"East and West?�Purple"&lt;br />Ran Shibuki+
+|[[File:photokatsu 0796.jpg|100px]]
+|Butterfly Flip
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|797
+|"Heart of Japan&lt;br />??[Wikipedia:Kerria japonica|Yamabuki"&lt;br />Kaede Ichinose]]
+|[[File:photokatsu 0797.jpg|100px]]
+|New Year Dream
+|SR+
+|798
+|"East and West?�Yamabuki"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0798.jpg|100px]]
+|Trick Toy Box
+|Pop Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|799
+|"Game of Spinning&lt;br />Top"&lt;br />Hikari Minowa
+|[[File:photokatsu 0799.jpg|100px]]
+|Sexy Flash
+|R+
+|800
+|"The Radiating First Sunrise"&lt;br />Hikari Minowa+
+|[[File:photokatsu 0800.jpg|100px]]
+|Sexy Flash
+|Panel Strength&lt;br />(ii)
+|}
+&lt;/div>
+----
+
+===801 ~ 899===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|-align="center"
+|SR
+|801
+|"Heart of Japan&lt;br />?�Moon"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0801.jpg|100px]]
+|Sexy Flash
+|SR+
+|802
+|"East and West?�Moon"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0802.jpg|100px]]
+|Double Moon Jewel
+|Very Good plus Appeal!
+|-align="center"
+|R
+|803
+|"High Atmospheres Everywhere"&lt;br />Shion&lt;br />Kamiya
+|[[File:photokatsu 0803.jpg|100px]]
+|Cool Flash
+|R+
+|804
+|"A Chinese Peony when Standing"&lt;br />Shion Kamiya+
+|[[File:photokatsu 0804.jpg|100px]]
+|Cool Flash
+|Cool Change&lt;br />(ii)
+|-align="center"
+|R
+|805
+|"Well,&lt;br />I won't lose!"&lt;br />Akari&lt;br />Ōzora
+|[[File:photokatsu 0805.png|100px]]
+|Cute Flash
+|R+
+|806
+|"New Year's Tiebreaker Outfit"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0806.png|100px]]
+|Cute Flash
+|Aura plus Appeal!&lt;br />(ii)
+|-align="center"
+|PR
+|807
+|"Heart of Japan&lt;br />?�Pink"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:Photokatsu_0807.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|808
+|"East and West?�Pink"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0808.jpg|100px]]
+|Premium Angel Arrow
+|Cute plus Appeal!&lt;br />(iv)
+|-align="center"
+|PR
+|809
+|"Heart of Japan&lt;br />?�Blue"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0809.jpg|100px]]
+|Premium Cosmo Showtime
+|PR+
+|810
+|"East and West?�Blue"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0810.jpg|100px]]
+|Premium Cosmo Showtime
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|PR
+|811
+|"The Cow's Moo Moo"&lt;br />Otome Arisugawa
+|[[File:photokatsu 0811.jpg|100px]]
+|Premium Candy Rainbow
+|PR+
+|812
+|"Colorful Happy"&lt;br />Otome Arisugawa+
+|[[File:photokatsu 0812.jpg|100px]]
+|Premium Candy Rainbow
+|Pop Score UP!&lt;br />(iv)
+|-align="center"
+|PR
+|813
+|"Playing the Violin"&lt;br />Akari Ōzora
+|[[File:Photokatsu 0813.jpg|100px]]
+|Premium Dreaming Heart
+|PR+
+|814
+|"Aiming&lt;br />for the&lt;br />Faraway&lt;br />Sky"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0814.jpg|100px]]
+|Premium Dreaming Heart
+|Cute Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|815
+|"The&lt;br />Glistening Flute"&lt;br />Sumire Hikami
+|[[File:photokatsu 0815.jpg|100px]]
+|Clock Circus
+|SR+
+|816
+|"Everything's Fantastic"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0816.jpg|100px]]
+|Clock Circus
+|Very Good Combo!
+|-align="center"
+|SR
+|817
+|"The Lively Drum Roll"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0817.jpg|100px]]
+|Cheerful Kiss
+|SR+
+|818
+|"Full of Courage!"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0818.jpg|100px]]
+|Cheerful Kiss
+|Pop plus Appeal!&lt;br />(iii)
+|-align="center"
+|PR
+|819
+|"That's Why it's Interesting!"&lt;br />Laura Sakuraba
+|[[File:Photokatsu 0819.jpg|100px]]
+|Premium Star Unchain Chord
+|PR+
+|820
+|"My Only One Song"&lt;br />Laura Sakuraba+
+|[[File:Photokatsu 0820.jpg|100px]]
+|Premium Star Unchain Chord
+|Perfect plus Appeal!
+|-align="center"
+|SR
+|821
+|"The Student Council President's&lt;br />Off Day"&lt;br />Tsubasa Kisaragi
+|[[File:Photokatsu 0821.jpg|100px]]
+|Star Cool Charm
+|SR+
+|822
+|"Checkered Activities in the Morning"&lt;br />Tsubasa Kisaragi+
+|[[File:Photokatsu 0822.jpg|100px]]
+|Star Unchain Chord
+|Cool Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|823
+|"The Input&lt;br />of&lt;br />Knowledge"&lt;br />Lilie&lt;br />Shirogane
+|[[File:photokatsu 0823.jpg|100px]]
+|Star Cool Charm
+|SR+
+|824
+|"Turning Point"&lt;br />Lilie Shirogane
+|[[File:photokatsu 0824.jpg|100px]]
+|Star Awake Maiden
+|Very Good Combo!
+|-align="center"
+|R
+|825
+|Lilie&lt;br />Shirogane
+|[[File:Photokatsu 0825.png|100px]]
+|Star Cool Charm
+|R+
+|826
+|Lilie Shirogane+
+|[[File:Photokatsu_0826.jpg|100px]]
+|Star Cool Charm
+|All Score UP!&lt;br />(ii)
+|-align="center"
+|PR
+|827
+|"The Kuala&lt;br />I Like"&lt;br />Yume Nijino
+|[[File:photokatsu 0827.jpg|100px]]
+|Premium Star Heartful World
+|PR+
+|828
+|"That One Tale of the World"&lt;br />Yume&lt;br />Nijino+
+|[[File:photokatsu 0828.jpg|100px]]
+|Premium Star Heartful World
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|829
+|"Refreshing Oriental"&lt;br />Koharu Nanakura
+|[[File:photokatsu 0829.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|830
+|"The Healing Wink"&lt;br />Koharu Nanakura+
+|[[File:photokatsu 0830.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|831
+|"Kind of Troubled with Cooking"&lt;br />Ako&lt;br />Saotome
+|[[File:photokatsu 0831.jpg|100px]]
+|Star Pop Charm
+|SR+
+|832
+|"Super Cat"&lt;br />Ako Saotome+
+|[[File:photokatsu 0832.jpg|100px]]
+|Star Smiley Splash
+|Pop plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|833
+|"Let's Go Shopping"&lt;br />Laura Sakuraba
+|[[File:photokatsu 0833.jpg|100px]]
+|Star Cool Charm
+|SR+
+|834
+|"Exciting Lunch!"&lt;br />Laura Sakuraba+
+|[[File:photokatsu 0834.jpg|100px]]
+|Star Unchain Chord
+|Very Good plus Appeal!
+|-align="center"
+|SR
+|835
+|"Winter Visits"&lt;br />Mahiru&lt;br />Kasumi
+|[[File:photokatsu 0835.jpg|100px]]
+|Star Sexy Charm
+|SR+
+|836
+|"Starting of the Show"&lt;br />Mahiru Kasumi+
+|[[File:photokatsu 0836.jpg|100px]]
+|Star Kissing Jewel
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|837
+|"A Present from my Sister"&lt;br />Yozora&lt;br />Kasumi
+|[[File:photokatsu 0837.jpg|100px]]
+|Star Sexy Charm
+|R+
+|838
+|"A Feminine Style&lt;br />even in the Winter"&lt;br />Yozora Kasumi+
+|[[File:photokatsu 0838.jpg|100px]]
+|Star Sexy Charm
+|Good Combo!
+|-align="center"
+|R
+|839
+|"Soft Mittens"&lt;br />Hime&lt;br />Shiratori
+|[[File:photokatsu 0839.jpg|100px]]
+|Star Cute Charm
+|R+
+|840
+|"Cosmetic Dress"&lt;br />Hime Shiratori+
+|[[File:photokatsu 0840.jpg|100px]]
+|Star Cute Charm
+|Cute Change&lt;br />(ii)
+|-align="center"
+|PR
+|841
+|"Witch of the Shadow&lt;br />of the&lt;br />Moon"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0841.jpg|100px]]
+|Premium Double Moon Jewel
+|PR+
+|842
+|"Witch of the Forest of Roses"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0842.jpg|100px]]
+|Premium Double Moon Jewel
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|PR
+|843
+|"A Visit&lt;br />during Winter"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0843.png|100px]]
+|Premium Clock Circus
+|PR+
+|844
+|"The Tea Gathering&lt;br />of Ice"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0844.png|100px]]
+|Premium Clock Circus
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|845
+|"Winter's Warm Dress"&lt;br />Akari Ōzora
+|[[File:photokatsu 0845.png|100px]]
+|Snow Crystal
+|SR+
+|846
+|"Fluffy and Cute"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0846.png|100px]]
+|Dreaming Heart
+|Cute Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|847
+|"Winter's Bustling Dress"&lt;br />Hinaki&lt;br />Shinjō
+|[[File:photokatsu 0847.jpg|100px]]
+|Snow Crystal
+|SR+
+|848
+|"A Warm Coord"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0848.jpg|100px]]
+|Cheerful Kiss
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|SR
+|849
+|"Winter's Brilliant&lt;br />Dress"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0849.jpg|100px]]
+|Snow Crystal
+|SR+
+|850
+|"A&lt;br />Passionate Winter"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0850.jpg|100px]]
+|Blossom Amore
+|Very Good Combo!
+|-align="center"
+|SR
+|851
+|"Winter's Healing&lt;br />Dress"&lt;br />Madoka Amahane
+|[[File:photokatsu 0851.png|100px]]
+|Snow Crystal
+|SR+
+|852
+|"A Winter Angel"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0852.png|100px]]
+|Angel Arrow
+|Cute Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|853
+|"Winter's Glittering Dress"&lt;br />Rin&lt;br />Kurosawa
+|[[File:photokatsu 0853.png|100px]]
+|Snow Crystal
+|SR+
+|854
+|"I'm not&lt;br />going to&lt;br />lose to&lt;br />the Cold!"&lt;br />Rin Kurosawa+
+|[[File:photokatsu 0854.png|100px]]
+|Electro Groove
+|Cool Change&lt;br />(iii)
+|-align="center"
+|R
+|855
+|"The&lt;br />Snowman&lt;br />on my Hand"&lt;br />Miyabi Fujiwara
+|[[File:photokatsu 0855.jpg|100px]]
+|Sexy Flash
+|R+
+|856
+|"Winter's Glossy Dress"&lt;br />Miyabi Fujiwara+
+|[[File:photokatsu 0856.jpg|100px]]
+|Sexy Flash
+|All Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|857
+|"Snow Rabbit"&lt;br />Kokone&lt;br />Kurisu
+|[[File:photokatsu 0857.jpg|100px]]
+|Pop Flash
+|R+
+|858
+|"Winter's Cheerful Dress"&lt;br />Kokone Kurisu+
+|[[File:photokatsu 0858.jpg|100px]]
+|Pop Flash
+|Aura plus Appeal!&lt;br />(ii)
+|-align="center"
+|PR
+|859
+|"Encountering the&lt;br />Unknown"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0859.jpg|100px]]
+|Premium Cosmo Showtime
+|PR+
+|860
+|"The&lt;br />Glimmer that&lt;br />Only Belongs&lt;br />to Me"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0860.jpg|100px]]
+|Premium Cosmo Showtime
+|Cool Score UP!&lt;br />(iv)
+|-align="center"
+|PR
+|861
+|"The Secret Girls' Talk"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0861.jpg|100px]]
+|Premium Blossom Amore
+|PR+
+|862
+|"Sweet Valentine"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0862.jpg|100px]]
+|Premium Blossom Amore
+|Sexy Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|863
+|"Delivery&lt;br />from the&lt;br />Bottom of&lt;br />my Heart"&lt;br />Yū Hattori
+|[[File:Photokatsu 0863.jpg|100px]]
+|Passion Beat
+|SR+
+|864
+|"Cutie Little Devil"&lt;br />Yū Hattori+
+|[[File:photokatsu 0864.jpg|100px]]
+|Passion Beat
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|865
+|"My Heart is for You"&lt;br />Keade Ichinose
+|[[File:photokatsu 0865.jpg|100px]]
+|Trick Toy Box
+|SR+
+|866
+|"Surprise Chocolate"&lt;br />Kaede Ichinose+
+|[[File:Photokatsu 0866.jpg|100px]]
+|Trick Toy Box
+|Pop Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|867
+|"Vivid March"&lt;br />Hinaki Shinjō
+|[[File:photokatsu 0867.jpg|100px]]
+|Cheerful Kiss
+|SR+
+|868
+|"The&lt;br />Pretzels of Love"&lt;br />Hinaki&lt;br />Shinjō+
+|[[File:photokatsu 0868.jpg|100px]]
+|Cheerful Kiss
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|R
+|869
+|"A Gentle Melt"&lt;br />Lisa&lt;br />Shirakaba
+|[[File:photokatsu 0869.jpg|100px]]
+|Sexy Flash
+|R+
+|870
+|"Chocolate&lt;br />on the&lt;br />Potato Chips"&lt;br />Lisa Shirakaba+
+|[[File:photokatsu 0870.jpg|100px]]
+|Sexy Flash
+|Sexy Score UP!&lt;br />(ii)
+|-align="center"
+|SR
+|871
+|"Retro Gothic"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0871.jpg|100px]]
+|Clock Circus
+|SR+
+|872
+|"Handmade Chocolates of Earnestness"&lt;br />Yurika Tōdō+
+|[[File:Photokatsu 0872.jpg|100px]]
+|Clock Circus
+|Very Good Combo!
+|-align="center"
+|R
+|873
+|"The Rookie Pâtissier"&lt;br />Nono Daichi
+|[[File:Photokatsu 0873.jpg|100px]]
+|Sexy Flash
+|R+
+|874
+|"Chocolate&lt;br />on the&lt;br />Potato Chips"&lt;br />Nono Daichi+
+|[[File:photokatsu 0874.jpg|100px]]
+|Sexy Flash
+|All Aura UP!&lt;br />(ii)
+|-align="center"
+|PR
+|875
+|"Radiance of the Sunset"&lt;br />Yozora&lt;br />Kasumi
+|[[File:photokatsu 0875.jpg|100px]]
+|Premium Star Kissing Jewel
+|PR+
+|876
+|"Future Transit"&lt;ref>[[w:c:aikatsustars:Future Transit|Though off by one character, the card name shares its meaning and has a similar title to the wong "Future Transit".]]&lt;/ref>&lt;br />Yozora Kasumi+
+|[[File:photokatsu 0876.jpg|100px]]
+|Premium Star Kissing Jewel
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|877
+|"In Order to Meet Everyone"&lt;br />Hime&lt;br />Shiratori
+|[[File:Photokatsu 0877.jpg|100px]]
+|Star Cute Charm
+|SR+
+|878
+|"The Fairy Awaiting Spring"&lt;br />Hime Shiratori+
+|[[File:Photokatsu 0878.jpg|100px]]
+|Star Heartful World
+|Very Good Combo!
+|-align="center"
+|PR
+|879
+|"Holding Hands under the Moonlit Night"&lt;br />Sora&lt;br />Kazesawa
+|[[File:photokatsu 0879.png|100px]]
+|Premium Sky Oasis
+|PR+
+|880
+|"A Thousand &amp; One Nights Weaved&lt;br />with You"&lt;br />Sora Kazesawa+
+|[[File:photokatsu 0880.png|100px]]
+|Premium Sky Oasis
+|All Score UP!&lt;br />(iv)
+|-align="center"
+|PR
+|881
+|"A Little Dispatch!"&lt;br />Seira Otoshiro+
+|[[File:Photokatsu 0881.jpg|100px]]
+|Premium Trick Toy Box
+|Pop Aura UP!&lt;br />(iv)
+|colspan="5"|Pre -Dress Up PR+ Card
+|-align="center"
+|SR
+|882
+|"A&lt;br />Preemption Spring&lt;br />Color Coord"&lt;br />Madoka Amahane
+|[[File:photokatsu 0882.png|100px]]
+|Angel Arrow
+|SR+
+|883
+|"Princess Cute??lt;br />Pastel"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0883.png|100px]]
+|Angel Arrow
+|Cute Change&lt;br />(iii)
+|-align="center"
+|SR
+|884
+|"The Suggested Gothic"&lt;br />Yurika Tōdō
+|[[File:Photokatsu 0884.jpg|100px]]
+|Clock Circus
+|SR+
+|885
+|"The Dress Code for [[wikipedia:Mass in Catholic Church|Missa]]"&lt;br />Yurika Tōdō
+|[[File:photokatsu 0885.jpg|100px]]
+|Clock Circus
+|Cool plus Appeal!&lt;br />(iii)
+|-align="center"
+|PR
+|886
+|"The Secret Conversation"&lt;br />Akari Ōzora
+|[[File:photokatsu 0886.jpg|100px]]
+|Premium Dreaming Heart
+|PR+
+|887
+|"Pure Valentine"&lt;br />Akari Ōzora+
+|[[File:photokatsu 0887.jpg|100px]]
+|Premium Dreaming Heart
+|Aura plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|888
+|"Sugary Pink"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0888.jpg|100px]]
+|Angel Arrow
+|SR+
+|889
+|"Fancy Gift"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0889.jpg|100px]]
+|Angel Arrow
+|Cute Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|890
+|"Charming Kiss"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0890.jpg|100px]]
+|Cosmo Showtime
+|SR+
+|891
+|"For the No. 1 Fan"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0891.jpg|100px]]
+|Cosmo Showtime
+|Cool plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|892
+|"The Moonlit Night's&lt;br />Marine Blue"&lt;br />Mizuki&lt;br />Kanzaki
+|[[File:photokatsu 0892.jpg|100px]]
+|Double Moon Jewel
+|SR+
+|893
+|"Premium Rare Choco"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0893.jpg|100px]]
+|Double Moon Jewel
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|894
+|SR
+|"Honey Valentine"&lt;br />Mikuru&lt;br />Natsuki
+|[[File:photokatsu 0894.jpg|100px]]
+|Cheerful Kiss
+|SR+
+|895
+|"Lime Miracle"&lt;br />Mikuru Natsuki+
+|[[File:photokatsu 0895.jpg|100px]]
+|Cheerful Kiss
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|896
+|"Chocolate of Obligation!"&lt;br />Nina Dōjima
+|[[File:photokatsu 0986.jpg|100px]]
+|Pop Flash
+|R+
+|897
+|"The Real Deal Chocolate!"&lt;br />Nina Dōjima+
+|[[File:Photokatsu 0897.jpg|100px]]
+|Pop Flash
+|Good Combo!
+|-align="center"
+|R
+|898
+|"Cooking Style"&lt;br />Sumire&lt;br />Hikami
+|[[File:photokatsu 0898.jpg|100px]]
+|Cool Flash
+|R+
+|899
+|"Macaron Challenge"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0899.jpg|100px]]
+|Cool Flash
+|Panel Strength&lt;br />(ii)
+|}
+&lt;/div>
+----
+
+===900 ~ 1001===
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Rar.'''
+! '''Card No.'''
+! '''Name'''
+! '''Image'''
+! '''Appeal'''
+! '''Skill'''
+|-align="center"
+|PR
+|900
+|"Swordsman&lt;br />of the&lt;br />Desert&lt;br />of the&lt;br />Moon"&lt;br />Ran Shibuki
+|[[File:photokatsu 0900.png|100px]]
+|Premium Sky Oasis
+|PR+
+|901
+|"The Luring Blade"&lt;br />Ran&lt;br />Shibuki+
+|[[File:photokatsu 0901.jpg|100px]]
+|Premium Sky Oasis
+|Perfect plus Appeal!
+|-align="center"
+|SR
+|902
+|"Arab Dancer?�Red"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 0902.png|100px]]
+|Moonlight Rhapsody
+|SR+
+|903
+|"Lamp Genie??lt;br />Sun"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0903.png|100px]]
+|Sky Oasis
+|Sexy Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|904
+|"Arab Dancer?�Blue"&lt;br />Seira&lt;br />Otoshiro
+|[[File:photokatsu 0904.png|100px]]
+|Moonlight Rhapsody
+|SR+
+|905
+|"Magic Rock"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0905.png|100px]]
+|Sky Oasis
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|PR
+|906
+|"For a Beautiful&lt;br />Tomorrow"&lt;br />Ichigo&lt;br />Hoshimiya
+|[[File:Photokatsu 0906.jpg|100px]]
+|Premium Angel Arrow
+|PR+
+|907
+|"A&lt;br />Message to the&lt;br />Moon"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0907.jpg|100px]]
+|Premium Angel Arrow
+|Perfect Combo!
+|-align="center"
+|SR
+|908
+|"Arab Dancer?�White&lt;br />Green"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0908.jpg|100px]]
+|Moonlight Rhapsody
+|SR+
+|909
+|"Magical Crystal"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu 0909.jpg|100px]]
+|Sky Oasis
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|SR
+|910
+|"Arab Dancer?�Fountain"&lt;br />Maria&lt;br />Himesato
+|[[File:Photokatsu 0910.jpg|100px]]
+|Moonlight Rhapsody
+|SR+
+|911
+|"Lamp Genie?�Dream"&lt;br />Maria Himesato+
+|[[File:Photokatsu 0911.jpg|100px]]
+|Sky Oasis
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|R
+|912
+|"Battle from Behind!"&lt;br />Kī Saegusa
+|[[File:Photokatsu 0912.jpg|100px]]
+|Pop Flash
+|R+
+|913
+|"Arab Dancer?�Green"&lt;br />Kī&lt;br />Saegusa+
+|[[File:Photokatsu 0913.jpg|100px]]
+|Pop Flash
+|Good Judge Shift
+|-align="center"
+|R
+|914
+|"Battle from the Trees!"&lt;br />Otome Arisugawa
+|[[File:Photokatsu 0914.jpg|100px]]
+|Pop Flash
+|R+
+|915
+|"Arab Dancer?�Yellow"&lt;br />Otome Arisugawa+
+|[[File:Photokatsu 0915.jpg|100px]]
+|Pop Flash
+|Heartful Time&lt;br />(ii)
+|-align="center"
+|PR
+|916
+|"Cry of the Moon&lt;br />Night Clan"&lt;br />Yurika Tōdō
+|[[File:Photokatsu 0916.jpg|100px]]
+|Premium Triangle Step
+|PR+
+|917
+|"The&lt;br />Feelings&lt;br />put into the Cyan"&lt;br />Yurika&lt;br />Tōdō+
+|[[File:photokatsu 0917.jpg|100px]]
+|Premium Double Moon Jewel
+|Sexy Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|918
+|"Radiance&lt;br />of the Blossom"&lt;br />Ichigo Hoshimiya
+|[[File:Photokatsu 0918.jpg|100px]]
+|Triangle Step
+|SR+
+|919
+|"Special Sweet"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0919.jpg|100px]]
+|Angel Arrow
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|SR
+|920
+|"Radiance&lt;br />of the&lt;br />Rouge"&lt;br />Hikari Minowa
+|[[File:Photokatsu 0920.jpg|100px]]
+|Triangle Step
+|SR+
+|921
+|"Spreading My Wings Beneath Ground"&lt;br />Hikari Minowa+
+|[[File:Photokatsu 0921.jpg|100px]]
+|Butterfly Flip
+|Sexy Change&lt;br />(iii)
+|-align="center"
+|SR
+|922
+|"Radiance&lt;br />of the&lt;br />Iris"&lt;br />Ran&lt;br />Shibuki
+|[[File:photokatsu 0922.jpg|100px]]
+|Triangle Step
+|SR+
+|923
+|"Spreading My Wings&lt;br />in the Night Sky"&lt;br />Ran&lt;br />Shibuki+
+|[[File:photokatsu 0923.jpg|100px]]
+|Butterfly Flip
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|924
+|"A Look with&lt;br />Hard Work&lt;br />is Great"&lt;br />Asami&lt;br />Himuro
+|[[File:Photokatsu_0924.jpg|100px]]
+|Cool Flash
+|R+
+|925
+|"Radiance&lt;br />of the Blue"&lt;br />Asami Himuro+
+|[[File:Photokatsu_0925.jpg|100px]]
+|Cool Flash
+|Good Combo!
+|-align="center"
+|SR
+|926
+|"Radiance&lt;br />of the&lt;br />Comet"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0926.jpg|100px]]
+|Triangle Step
+|SR+
+|927
+|"Starry Star"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu 0927.jpg|100px]]
+|Cosmo Showtime
+|Very Good plus Appeal!
+|-align="center"
+|R
+|928
+|"That Word&lt;br />on That&lt;br />Day"&lt;br />Michelle Tachibana
+|[[File:Photokatsu 0928.jpg|100px]]
+|Pop Flash
+|R+
+|929
+|"Apollo's Radiance"&lt;br />Michelle Tachibana+
+|[[File:Photokatsu 0929.jpg|100px]]
+|Pop Flash
+|Good Tap Heart
+|-align="center"
+|PR
+|930
+|"Wonderful Dive"&lt;br />Kaede&lt;br />Ichinose
+|[[File:Photokatsu 0930.jpg|100px]]
+|Premium Triangle Step
+|PR+
+|931
+|"Stage of&lt;br />the Three Stars"&lt;br />Kaede Ichinose+
+|[[File:Photokatsu 0931.jpg|100px]]
+|Premium Double Moon Jewel
+|Panel Strength&lt;br />(iv)
+|-align="center"
+|PR
+|932
+|"Zenith&lt;br />of the Glimmer"&lt;br />Rin&lt;br />Kurosawa
+|[[File:Photokatsu 0932.jpg|100px]]
+|Premium Electro Groove
+|PR+
+|933
+|"The Dream Dance Battle Team"&lt;br />Rin Kurosawa+
+|[[File:Photokatsu 0933.jpg|100px]]
+|Premium Electro Groove
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|934
+|"The Star of Tears"&lt;br />Aoi Kiriya
+|[[File:Photokatsu 0934.jpg|100px]]
+|Cosmo Showtime
+|SR+
+|935
+|"Android Star"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0935.jpg|100px]]
+|Cosmo Showtime
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|PR
+|936
+|"Throne of the Black Bird"&lt;br />Tsubasa Kisaragi
+|[[File:photokatsu 0936.jpg|100px]]
+|Premium Star Unchain Chord
+|PR+
+|937
+|"Yell Flag"&lt;br />Tsubasa Kisaragi+
+|[[File:photokatsu 0937.jpg|100px]]
+|Premium Star Unchain Chord
+|Cool Aura UP!&lt;br />(iv)
+|-align="center"
+|PR+
+|938
+|"A Little Dispatch!"&lt;br />Kī&lt;br />Saegusa+
+|[[File:Photokatsu 0938.jpg|100px]]
+|Premium Trick Toy Box
+|Aura plus Appeal!&lt;br />(iv)
+|colspan="5"|Pre-Dress Up PR+ Card
+|-align="center"
+|PR+
+|939
+|"Happiness Bride"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0939.jpg|100px]]
+|Premium Angel Arrow
+|Cute Aura UP!&lt;br />(iv)
+|colspan="5"|Pre-Dress Up PR+ Card
+|-align="center"
+|PR
+|940
+|"The Place where&lt;br />the Stars&lt;br />Descend"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0940.jpg|100px]]
+|Premium Triangle Step
+|PR+
+|941
+|"Gravity&lt;br />of the Femme&lt;br />Fatale&lt;ref>[[Take Me Higher|The card name is the same as a line from the song "Take Me Higher".]]&lt;/ref>"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu 0941.jpg|100px]]
+|Premium Double Moon Jewel
+|Sexy plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|942
+|"Radiance&lt;br />of the&lt;br />Canary Yellow"&lt;br />Otome Arisugawa
+|[[File:Photokatsu 0942.jpg|100px]]
+|Triangle Step
+|SR+
+|943
+|"Popping Star"&lt;br />Otome Arisugawa&lt;br />+
+|[[File:Photokatsu 0943.jpg|100px]]
+|Candy Rainbow
+|Pop Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|944
+|"Radiance&lt;br />of the&lt;br />Cherry"&lt;br />Akari&lt;br />Ōzora
+|[[File:photokatsu 0944.jpg|100px]]
+|Triangle Step
+|SR+
+|945
+|"The Starry Sky in the Dreams"&lt;br />Akari&lt;br />Ōzora+
+|[[File:Photokatsu 0945.jpg|100px]]
+|Dreaming Heart
+|Cute Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|946
+|"Radiance&lt;br />of the&lt;br />Aqua"&lt;br />Sumire Hikami
+|[[File:photokatsu 0946.jpg|100px]]
+|Triangle Step
+|SR+
+|947
+|"The Rose Garden with&lt;br />Falling&lt;br />Stars"&lt;br />Sumire Hikami+
+|[[File:photokatsu 0947.jpg|100px]]
+|Clock Circus
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|SR
+|948
+|"Radiance&lt;br />of the&lt;br />Raspberry"&lt;br />Lisa&lt;br />Shirakaba
+|[[File:photokatsi 0948.jpg|100px]]
+|Triangle Step
+|SR+
+|949
+|"Chasing&lt;br />the Admiration"&lt;br />Lisa Shirakaba+
+|[[File:Photokatsu 0949.jpg|100px]]
+|Wicked Rouge
+|Sexy plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|950
+|"The&lt;br />Budding Expertness"&lt;br />Sakura&lt;br />Kitaōji
+|[[File:photokatsu 0950.jpg|100px]]
+|Cute Flash
+|R+
+|951
+|"Radiance&lt;br />of the&lt;br />Rose"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0951.jpg|100px]]
+|Cute Flash
+|All Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|952
+|"The&lt;br />School Back in the Days..."&lt;br />Shion Kamiya
+|[[File:photokatsu 0952.jpg|100px]]
+|Cool Flsah
+|R+
+|953
+|"Radiance&lt;br />of the&lt;br />Green"&lt;br />Shion Kamiya+
+|[[File:photokatsu 0953.jpg|100px]]
+|Cool Flash
+|Cool Change&lt;br />(ii)
+|-align="center"
+|PR
+|954
+|"The Radiance That's Mine Only"&lt;br />Hinaki&lt;br />Shinjo
+|[[File:Photokatsu 0954.jpg|100px]]
+|Premium Cheerful Kiss
+|PR+
+|955
+|"The Sign&lt;br />of a Smile"&lt;br />Hinaki Shinjō+
+|[[File:photokatsu 0955.jpg|100px]]
+|Premium Cheerful Kiss
+|Pop Score UP!&lt;br />(iv)
+|-align="center"
+|SR
+|956
+|"Sparkling Glossy"&lt;br />Mizuki Kanzaki
+|[[File:Photokatsu 0956.jpg|100px]]
+|Double Moon Jewel
+|SR+
+|957
+|"The&lt;br />Bouquet of My&lt;br />Blessing"&lt;br />Mizuki Kanzaki+
+|[[File:Photokatsu_0957.jpg|100px]]
+|Double Moon Jewel
+|All Aura UP!&lt;br />(iii)
+|-align="center"
+|SR
+|958
+|"The Blik's&lt;ref>Blik is tin in Dutch.&lt;/ref> Wish"&lt;br />Rin&lt;br />Kurosawa
+|[[File:Photokatsu 0958.jpg|100px]]
+|Electro Groove
+|SR+
+|959
+|"The Blue Star&lt;br />Dancing on Stage"&lt;br />Rin Kurosawa+
+|[[File:Photokatsu 0959.jpg|100px]]
+|Electro Groove
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|PR
+|960
+|"Red Hot Chic"&lt;br />Juri Kurebayashi
+|[[File:photokatsu 0960.jpg|100px]]
+|Premium Miracle Parade
+|PR+
+|961
+|"Sexy [[wikipedia:Bonita (name)|Bonita]] Chica"&lt;br />Juri Kurebayashi&lt;br />+
+|[[File:photokatsu 0961.jpg|100px]]
+|Premium Blossom Amore
+|All Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|962
+|"The&lt;br />Lion's Feelings"&lt;br />Madoka Amahane
+|[[File:Photokatsu 0962.jpg|100px]]
+|Angel Arrow
+|SR+
+|963
+|"Brave&lt;br />Heart"&lt;br />Madoka Amahane+
+|[[File:photokatsu 0963.jpg|100px]]
+|Angel Arrow
+|Cute Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|964
+|"Let's Go&lt;br />to the&lt;br />Beach!"&lt;br />Mikuru Natsuki
+|[[File:Photokatsu 0964.jpg|100px]]
+|Cheerful Kiss
+|SR+
+|965
+|"Summer-Colored Hibiscus"&lt;br />Mikuru Natsuki+
+|[[File:Photokatsu 0965.jpg|100px]]
+|Cheerful Kiss
+|Pop plus Appeal!&lt;br />(iii)
+|-align="center"
+|R
+|966
+|"Original Color"&lt;br />Akari&lt;br />Ōzora
+|[[File:Photokatsu 0966.jpg|100px]]
+|Cute Flash
+|R+
+|967
+|"Heart&lt;br />Paint"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0967.jpg|100px]]
+|Cute Flash
+|Cute Aura UP!&lt;br />(ii)
+|-align="center"
+|R
+|968
+|"Trying the Arts"&lt;br />Yū Hattori
+|[[File:photokatsu 0968.jpg|100px]]
+|Cool Flash
+|R+
+|969
+|"Star Paint"&lt;br />Yū Hattori+
+|[[File:photokatsu 0969.jpg|100px]]
+|Cool Flash
+|Heartful Time&lt;br />(ii)
+|-align="center"
+|PR
+|970
+|"The Future We're Running&lt;br />to"&lt;ref>The Kanji of the card name is derived from the lyrics of the song [[START DASH SENSATION]].&lt;/ref>&lt;br />Akari&lt;br />Ōzora
+|[[File:photokatsu 0970.jpg|100px]]
+|Premium Dreaming Heart
+|PR+
+|971
+|"Dreamy Queen"&lt;br />Akari&lt;br />Ōzora+
+|[[File:photokatsu 0971.jpg|100px]]
+|Premium Dreaming Heart
+|Cute plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|972
+|"Futuristic Siegfried"&lt;br />Aoi Kiriya
+|[[File:photokatsu 0972.jpg|100px]]
+|Cosmo Showtime
+|SR+
+|973
+|"Prince&lt;br />of the&lt;br />White and Black Birds"&lt;br />Aoi Kiriya+
+|[[File:photokatsu 0973.jpg|100px]]
+|Cosmo Showtime
+|Panel Strength&lt;br />(iii)
+|-align="center"
+|SR
+|974
+|"Classic Gothic"&lt;br />Yurika&lt;br />Tōdō
+|[[File:photokatsu 0974.png|100px]]
+|Clock Circus
+|SR+
+|975
+|"Midnight Prince"&lt;br />Yurika&lt;br />Tōdō+
+|[[File:photokatsu 0975.jpg|100px]]
+|Clock Circus
+|Cool Score UP!&lt;br />(iii)
+|-align="center"
+|SR
+|976
+|"The Triple Winner&lt;br />at the Top"&lt;br />Mizuki Kanzaki
+|[[File:photokatsu 0976.jpg|100px]]
+|Double Moon Jewel
+|SR+
+|977
+|"Moonlight Queen"&lt;br />Mizuki Kanzaki+
+|[[File:photokatsu 0977.jpg|100px]]
+|Double Moon Jewel
+|All Score UP!&lt;br />(iii)
+|-align="center"
+|R
+|978
+|"Discovery! Magic's Wonder?"&lt;br />Nono&lt;br />Daichi
+|[[File:photokatsu 0978.jpg|100px]]
+|Sexy Flash
+|R+
+|979
+|"Pinky Prince"&lt;br />Nono&lt;br />Daichi+
+|[[File:photokastu 0979.jpg|100px]]
+|Sexy Flash
+|Good plus Appeal!
+|-align="center"
+|SR
+|980
+|"Let's Magic!"&lt;br />Kaede Ichinose
+|[[File:photokatsu 0980.jpg|100px]]
+|Trick Toy Box
+|SR+
+|981
+|"Magical Prince"&lt;br />Kaede Ichinose+
+|[[File:photokatsu 0981.jpg|100px]]
+|Trick Toy Box
+|Very Good plus Appeal!
+|-align="center"
+|R
+|982
+|"The King of the&lt;br />Illusions?"&lt;br />Hinaki Shinjō
+|[[File:Photokatsu 0982.jpg|100px]]
+|Pop Flash
+|R+
+|983
+|"Blue Prince"&lt;br />Hinaki Shinjō+
+|[[File:photokatsu 0983.jpg|100px]]
+|Pop Flash
+|All Aura UP!&lt;br />(ii)
+|-align="center"
+|SR+
+|984
+|"The recipe for Steps"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 0984.png|100px]]
+|Miracle Parade
+|Heartful Time&lt;br />(iii)
+|colspan="5"|Pre-Dress Up SR+ Card
+|-align="center"
+|SR+
+|985
+|"Idol Professor"&lt;br />Aoi Kiriya+
+|[[File:Photokatsu 0985.jpg|100px]]
+|Miracle Parade
+|Heartful Time&lt;br />(iii)
+|colspan="5"|Pre-Dress Up SR+ Card
+|-align="center"
+|SR+
+|986
+|"The Small Blade"&lt;br />Ran&lt;br />Shibuki+
+|[[File:photokatsu 0986.jpg|100px]]
+|Miracle Parade
+|Heartful Time&lt;br />(iii)
+|colspan="5"|Pre-Dress Up SR+ Card
+|-align="center"
+|PR
+|987
+|"The Magical Caramelize"&lt;br />Kokone Kurisu
+|[[File:photokatsu 0987.jpg|100px]]
+|Premium World Flight
+|PR+
+|988
+|"The Center of the World is"&lt;br />Kokone Kurisu+
+|[[File:photokatsu 0988.jpg|100px]]
+|Premium World Flight
+|Pop plus Appeal!&lt;br />(iv)
+|-align="center"
+|SR
+|989
+|"PaniQ-type Charisma"&lt;br />Nina&lt;br />Dōjima
+|[[File:photokatsu 0989.jpg|100px]]
+|Munching Monster
+|SR+
+|990
+|"Pretty Dinosaur"&lt;br />Nina&lt;br />Dōjima+
+|[[File:photokatsu 0990.jpg|100px]]
+|Munching Monster
+|Very Good Tap Heart
+|-align="center"
+|PR
+|991
+|"Gold Mango"&lt;br />Yuzu&lt;br />Nikaidō
+|[[File:Photokatsu 0991.jpg|100px]]
+|Premium Star Smiley Splash
+|PR+
+|992
+|"Exciting Comic"&lt;br />Yuzu Nikaidō+
+|[[File:photokatsu 0992.jpg|100px]]
+|Premium Star Smiley Splash
+|Pop Aura UP!&lt;br />(iv)
+|-align="center"
+|SR
+|993
+|"Confident&lt;br />?�Bat Girl"&lt;br />Laura Sakuraba
+|[[File:Photokatsu 0993.jpg|100px]]
+|Star Cool Charm
+|SR+
+|994
+|"School&lt;br />Live"&lt;br />Laura Sakuraba+
+|[[File:photokatsu 0994.png|100px]]
+|Unchain Chord
+|Aura plus Appeal!&lt;br />(iii)
+|-align="center"
+|PR
+|995
+|"Scorpion&lt;br />of the&lt;br />Starlit Sky"&lt;br />Seira Otoshiro
+|[[File:Photokatsu 0995.png|100px]]
+|Premium Passion Beat
+|PR+
+|996
+|"The&lt;br />Eight Beat&lt;br />of Light"&lt;br />Seira Otoshiro+
+|[[File:photokatsu 0996.jpg|100px]]
+|Premium Passion Beat
+|Cool plus Appeal!&lt;br />(iv)
+|-align="center"
+|PR+
+|997
+|"Bride of the Vampire"&lt;br />Yurika Tōdō+
+|[[File:Photokatsu 0997.jpg|100px]]
+|Premium Angel Arrow
+|All Aura UP!&lt;br />(iv)
+|colspan="5"|Pre-Dress Up PR+ Card
+|-align="center"
+|PR
+|998
+|"Collecting the Radiance"&lt;br />Sakura&lt;br />Kitaōji
+|[[File:photokatsu 0998.jpg|100px]]
+|Premium Around Bouquet
+|PR+
+|999
+|"Flower Queen"&lt;br />Sakura Kitaōji+
+|[[File:photokatsu 0999.jpg|100px]]
+|Premium Around Bouquet
+|Cute Change&lt;br />(iv)
+|-align="center"
+|SR
+|1000
+|"The Memories are in the Future&lt;ref>The card name shares its title with [[Episode 50 - The Memories are in the Future|Episode 50's name]].&lt;/ref>"&lt;br />Ichigo Hoshimiya
+|[[File:photokatsu 1000.jpg|100px]]
+|Angel Arrow
+|SR+
+|1001
+|"Ocean Prince"&lt;br />Ichigo Hoshimiya+
+|[[File:photokatsu 1001.jpg|100px]]
+|Angel Arrow
+|All Score UP!&lt;br />(iii)
+|}
+&lt;/div>
+
+==Upgrade Cards==
+Upgrade cards cannot be "dress up-ed", nor can it be used in Live Mode, but serves as card upgrading purpose and other uses.
+
+&lt;div class="mw-collapsible mw-collapsed">
+{| border="1" style="border:1px solid #AAA; border-collapse:collapse; background:#f9f9f9;" align="center" width="100%"
+|- style="background:#ffc0cb;" align="center"
+! '''Card Type'''
+! '''Rarity'''
+! '''Card No.'''
+! '''Card Name'''
+! '''Image'''
+! '''Card Type'''
+! '''Rarity'''
+! '''Card No.'''
+! '''Card Name'''
+! '''Image'''
+! '''Function'''
+|- align="center"
+|Cute
+|SR
+|9800
+|Johnny Bepp
+|[[File:Photokatsu_9800.jpg|100px]]
+|Cool
+|SR
+|9801
+|Johnny Bepp
+|[[File:Photokatsu 9801.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Sexy
+|SR
+|9802
+|Johnny Bepp
+|[[File:Photokatsu_9802.jpg|100px]]
+|Pop
+|SR
+|9803
+|Johnny Bepp
+|[[File:Photokatsu 9803.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Cute
+|SR
+|9804
+|Johnny Bepp
+|[[File:Photokatsu_9804.jpg|100px]]
+|Cool
+|SR
+|9805
+|Johnny Bepp
+|[[File:Photokatsu 9805.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Sexy
+|SR
+|9806
+|Johnny Bepp
+|[[File:Photokatsu_9806.jpg|100px]]
+|Pop
+|SR
+|9807
+|Johnny Bepp
+|[[File:Photokatsu 9807.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Cute
+|SR
+|9808
+|Johnny Bepp
+|[[File:Photokatsu_9808.jpg|100px]]
+|Cool
+|SR
+|9809
+|Johnny Bepp
+|[[File:Photokatsu 9809.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Sexy
+|SR
+|9810
+|Johnny Bepp
+|[[File:Photokatsu_9810.jpg|100px]]
+|Pop
+|SR
+|9811
+|Johnny Bepp
+|[[File:Photokatsu 9811.jpg|100px]]
+|Bonus Photo EXP&lt;br />when used in "Charm Transfer"
+|- align="center"
+|Cute
+|N
+|9900
+|Happy Jewel
+|[[File:Photokatsu_9900.jpg|100px]]
+|Cute
+|R
+|9901
+|Happy Jewel
+|[[File:Photokatsu 9901.jpg|100px]]
+|Extra Amount of Hearts when used in "Trading"
+|- align="center"
+|Cute
+|SR
+|9902
+|Happy Jewel
+|[[File:Photokatsu 9901.jpg|100px]]
+| colspan="5" rowspan="1" |N/A
+|Extra Amount of Hearts when used in "Trading"
+|}
+&lt;/div>
+
+==Notes==
+{{Reflist}}
+*The card numbering system for event cards tends to change over time, with the following pattern such as below:
+**'''Order of idol release''' for ALL cards ??Special recruitment cards THEN event cards in '''order of idol release''' ??'''order of idol release''' for ALL cards ??Special recruitment cards THEN event cards in '''order of idol release'''
+*The card No. 732 "Ichigo Cake", is the only known Rare card to be in a brand, and therefore having a brand appeal.
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p><b>Templates used on the current version of this page:</b>
+</p></div><ul>
+<li><a href="/wiki/Template:Reflist" title="Template:Reflist">Template:Reflist</a> (<a href="/wiki/Template:Reflist?action=edit" title="Template:Reflist">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist" title="Aikatsu! Photo on Stage!!/Cardlist">Aikatsu! Photo on Stage!!/Cardlist</a>.</p>
+<noscript><link rel="stylesheet" href="http://slot1.images.wikia.nocookie.net/__cb1493894030/common/extensions/wikia/ImageLazyLoad/css/ImageLazyLoadNoScript.css" /></noscript><noscript><link rel="stylesheet" href="http://slot1.images.wikia.nocookie.net/__cb1493894030/common/extensions/wikia/TOCimprovements/TOCNoScript.css" /></noscript></div><div class="printfooter">
+Retrieved from "<a href="http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist">http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist</a>"</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="editpage-widemode-trigger">
+					<span class="arrow"></span>
+				</div>
+				<div id="EditPageRail" class="EditPageRail editpage-rail" data-space-type="rail">
+					<noscript>
+						<style>
+							.module_page_controls .wikia-menu-button {
+								display: none;
+							}
+						</style>
+					</noscript>
+					<div class="module module_page_controls">
+						<div class="module_content">
+							<div class="wpSummaryFields">
+								<div class="checkboxes">
+																										</div>
+								<label  for="wpSummary">Edit summary</label>
+								<div id="wpSummaryLabel">
+									<input type="text" id="wpSummary" name="wpSummary" placeholder="Add a summary of your edit" tabindex="1" value="" />								</div>
+							</div>
+															<div class="preview_box">
+									<h3 class="preview-header">Preview</h3>
+									<a id="wpPreviewMobile" class="preview_mobile preview_icon" href="#">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.0" x="0px" y="0px" viewBox="0 0 32 48" xml:space="preserve">
+											<path d="M28 0C26.5 0 5.4 0 4 0C2.1 0 0 2.2 0 4c0 37.9 0 2.6 0 40c0 2 2.2 4 4 4c2 0 22.2 0 24 0 c1.8 0 3.9-2 3.9-4C31.9 30.2 32 5.2 32 4C32 1.9 29.8 0 28 0z M16 46c-1.1 0-2-0.9-2-2c0-1.1 0.9-2 2-2s2 0.9 2 2 C18 45.1 17.1 46 16 46z M28 40H4c0 0 0-25.7 0-36c7.1 0 24 0 24 0V40z"/>
+										</svg>
+										<p>Mobile</p>
+									</a>
+									<a accesskey="e" id="wpPreview" class="preview_desktop preview_icon" href="#">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.0" x="0px" y="0px" viewBox="0 0 48 40" xml:space="preserve">
+											<path d="M48 34V0H0.1L0 34h18v4h-8v2h28v-2c0 0-8 0.3-8 0v-4H48z M2 30 V2h44v28H2z"/>
+										</svg>
+										<p>Desktop</p>
+									</a>
+								</div>
+														<nav class="buttons">
+																										<a href="#" id="wpDiff" class="diff-link" accesskey="v">
+					Show changes				</a>
+											<input class="control-button even" tabindex="22" id="wpSave" name="wpSave" type="submit" value="Publish" accesskey="s" />
+			<!-- If JavaScript is enabled, disable the save button immediately. -->
+			<script type="text/javascript">document.getElementById('wpSave').disabled=true;</script>
+																		</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+		</form>
+	</article>
+
+	</section>
+
+	
+	<!-- NO AD GPT_FLUSH (levels: [&quot;*&quot;]) -->
+<!-- NO AD EVOLVE_FLUSH (levels: [&quot;*&quot;]) -->
+<!-- NO AD TURTLE_FLUSH (levels: [&quot;*&quot;]) -->
+</div>
+
+<script type="text/javascript">/*<![CDATA[*/ Wikia.LazyQueue.makeQueue(wgAfterContentAndJS, function(fn) {fn();}); wgAfterContentAndJS.start(); /*]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/ if (typeof AdEngine_trackPageInteractive === 'function') {wgAfterContentAndJS.push(AdEngine_trackPageInteractive);} /*]]>*/</script>
+<script src="http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/ext.siteWideMessages.anon"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","ext.bannerNotifications","ext.cookiePolicyMessages","ext.userLogin","ext.designSystem"], null, true);
+}</script>
+<script src="http://aikatsu.wikia.com/__load/-/cb%3D1493894030%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26reviewed%3D1452530731%26skin%3Doasis/site"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1493894030/group/-/facebook_client_fbtags_js"></script><script>var wgSassLoadedScss = ["skins\/oasis\/css\/oasis.scss","extensions\/wikia\/Recirculation\/styles\/recirculation.scss","extensions\/wikia\/PortableInfobox\/styles\/PortableInfobox.scss","extensions\/wikia\/DesignSystem\/styles\/design-system.scss","extensions\/wikia\/EditPageLayout\/css\/EditPageLayout.scss","extensions\/wikia\/Qualaroo\/css\/Qualaroo.scss"];</script>
+</body>
+
+
+
+</html>
