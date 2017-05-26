@@ -56,9 +56,7 @@ namespace WindowsFormsApplication1
             this.label1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialProgressBar1 = new MaterialSkin.Controls.MaterialProgressBar();
-            this.picturebox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.InputCharName = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
             this.InputEndValue = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -77,7 +75,9 @@ namespace WindowsFormsApplication1
             this.Box2 = new MaterialSkin.Controls.MaterialCheckBox();
             this.Box1 = new MaterialSkin.Controls.MaterialCheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
+            this.ButtonDownloadAll = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.ButtonInitalize = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -98,18 +98,22 @@ namespace WindowsFormsApplication1
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.ButtonDownloadAll = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
+            this.picturebox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.MisePicture = new System.Windows.Forms.PictureBox();
+            this.MisePrev = new MaterialSkin.Controls.MaterialFlatButton();
+            this.MiseNext = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MisePicture)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabSelector1
@@ -273,24 +277,24 @@ namespace WindowsFormsApplication1
             // 
             this.label10.AutoSize = true;
             this.label10.Depth = 0;
-            this.label10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label10.Location = new System.Drawing.Point(370, 197);
             this.label10.MouseState = MaterialSkin.MouseState.HOVER;
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(0, 19);
+            this.label10.Size = new System.Drawing.Size(0, 18);
             this.label10.TabIndex = 28;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Depth = 0;
-            this.label9.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label9.Location = new System.Drawing.Point(370, 177);
             this.label9.MouseState = MaterialSkin.MouseState.HOVER;
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 19);
+            this.label9.Size = new System.Drawing.Size(52, 18);
             this.label9.TabIndex = 27;
             this.label9.Text = "Appeal";
             // 
@@ -298,24 +302,24 @@ namespace WindowsFormsApplication1
             // 
             this.label8.AutoSize = true;
             this.label8.Depth = 0;
-            this.label8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label8.Location = new System.Drawing.Point(371, 154);
             this.label8.MouseState = MaterialSkin.MouseState.HOVER;
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(0, 19);
+            this.label8.Size = new System.Drawing.Size(0, 18);
             this.label8.TabIndex = 26;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Depth = 0;
-            this.label7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label7.Location = new System.Drawing.Point(370, 135);
             this.label7.MouseState = MaterialSkin.MouseState.HOVER;
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 19);
+            this.label7.Size = new System.Drawing.Size(73, 18);
             this.label7.TabIndex = 25;
             this.label7.Text = "Character";
             // 
@@ -323,24 +327,24 @@ namespace WindowsFormsApplication1
             // 
             this.label6.AutoSize = true;
             this.label6.Depth = 0;
-            this.label6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label6.Location = new System.Drawing.Point(370, 112);
             this.label6.MouseState = MaterialSkin.MouseState.HOVER;
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 19);
+            this.label6.Size = new System.Drawing.Size(0, 18);
             this.label6.TabIndex = 24;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Depth = 0;
-            this.label5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label5.Location = new System.Drawing.Point(370, 93);
             this.label5.MouseState = MaterialSkin.MouseState.HOVER;
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 19);
+            this.label5.Size = new System.Drawing.Size(84, 18);
             this.label5.TabIndex = 23;
             this.label5.Text = "Card Name";
             // 
@@ -348,24 +352,24 @@ namespace WindowsFormsApplication1
             // 
             this.label4.AutoSize = true;
             this.label4.Depth = 0;
-            this.label4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(370, 70);
             this.label4.MouseState = MaterialSkin.MouseState.HOVER;
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 19);
+            this.label4.Size = new System.Drawing.Size(0, 18);
             this.label4.TabIndex = 22;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Depth = 0;
-            this.label3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(370, 51);
             this.label3.MouseState = MaterialSkin.MouseState.HOVER;
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 19);
+            this.label3.Size = new System.Drawing.Size(43, 18);
             this.label3.TabIndex = 21;
             this.label3.Text = "Rank";
             // 
@@ -373,24 +377,24 @@ namespace WindowsFormsApplication1
             // 
             this.label2.AutoSize = true;
             this.label2.Depth = 0;
-            this.label2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(397, 21);
             this.label2.MouseState = MaterialSkin.MouseState.HOVER;
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 19);
+            this.label2.Size = new System.Drawing.Size(0, 18);
             this.label2.TabIndex = 20;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Depth = 0;
-            this.label1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(370, 21);
             this.label1.MouseState = MaterialSkin.MouseState.HOVER;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 19);
+            this.label1.Size = new System.Drawing.Size(32, 18);
             this.label1.TabIndex = 19;
             this.label1.Text = "No.";
             // 
@@ -398,12 +402,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel5.Location = new System.Drawing.Point(16, 523);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(33, 19);
+            this.materialLabel5.Size = new System.Drawing.Size(30, 18);
             this.materialLabel5.TabIndex = 18;
             this.materialLabel5.Text = "( / )";
             // 
@@ -416,15 +420,6 @@ namespace WindowsFormsApplication1
             this.materialProgressBar1.Name = "materialProgressBar1";
             this.materialProgressBar1.Size = new System.Drawing.Size(666, 5);
             this.materialProgressBar1.TabIndex = 17;
-            // 
-            // picturebox1
-            // 
-            this.picturebox1.Location = new System.Drawing.Point(20, 21);
-            this.picturebox1.Name = "picturebox1";
-            this.picturebox1.Size = new System.Drawing.Size(332, 475);
-            this.picturebox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturebox1.TabIndex = 0;
-            this.picturebox1.TabStop = false;
             // 
             // tabPage2
             // 
@@ -454,16 +449,6 @@ namespace WindowsFormsApplication1
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "검색 조건";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::WindowsFormsApplication1.Properties.Resources.hat;
-            this.pictureBox3.Location = new System.Drawing.Point(486, 393);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(103, 108);
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
             // InputCharName
             // 
             this.InputCharName.Depth = 0;
@@ -485,12 +470,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel16.AutoSize = true;
             this.materialLabel16.Depth = 0;
-            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel16.Location = new System.Drawing.Point(33, 275);
             this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel16.Name = "materialLabel16";
-            this.materialLabel16.Size = new System.Drawing.Size(118, 19);
+            this.materialLabel16.Size = new System.Drawing.Size(117, 18);
             this.materialLabel16.TabIndex = 15;
             this.materialLabel16.Text = "Character Name";
             // 
@@ -532,12 +517,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel13.AutoSize = true;
             this.materialLabel13.Depth = 0;
-            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel13.Location = new System.Drawing.Point(350, 141);
             this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel13.Name = "materialLabel13";
-            this.materialLabel13.Size = new System.Drawing.Size(72, 19);
+            this.materialLabel13.Size = new System.Drawing.Size(70, 18);
             this.materialLabel13.TabIndex = 12;
             this.materialLabel13.Text = "EndValue";
             // 
@@ -545,12 +530,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel12.AutoSize = true;
             this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel12.Location = new System.Drawing.Point(346, 92);
             this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel12.Name = "materialLabel12";
-            this.materialLabel12.Size = new System.Drawing.Size(79, 19);
+            this.materialLabel12.Size = new System.Drawing.Size(75, 18);
             this.materialLabel12.TabIndex = 11;
             this.materialLabel12.Text = "StartValue";
             // 
@@ -558,12 +543,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel11.AutoSize = true;
             this.materialLabel11.Depth = 0;
-            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel11.Location = new System.Drawing.Point(339, 40);
             this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel11.Name = "materialLabel11";
-            this.materialLabel11.Size = new System.Drawing.Size(97, 19);
+            this.materialLabel11.Size = new System.Drawing.Size(97, 18);
             this.materialLabel11.TabIndex = 10;
             this.materialLabel11.Text = "Card Number";
             // 
@@ -587,12 +572,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel6.AutoSize = true;
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel6.Location = new System.Drawing.Point(34, 40);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(42, 19);
+            this.materialLabel6.Size = new System.Drawing.Size(43, 18);
             this.materialLabel6.TabIndex = 8;
             this.materialLabel6.Text = "Rank";
             // 
@@ -603,7 +588,7 @@ namespace WindowsFormsApplication1
             this.Box8.Checked = true;
             this.Box8.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box8.Depth = 0;
-            this.Box8.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box8.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box8.Location = new System.Drawing.Point(109, 160);
             this.Box8.Margin = new System.Windows.Forms.Padding(0);
@@ -623,7 +608,7 @@ namespace WindowsFormsApplication1
             this.Box7.Checked = true;
             this.Box7.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box7.Depth = 0;
-            this.Box7.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box7.Location = new System.Drawing.Point(38, 160);
             this.Box7.Margin = new System.Windows.Forms.Padding(0);
@@ -643,7 +628,7 @@ namespace WindowsFormsApplication1
             this.Box6.Checked = true;
             this.Box6.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box6.Depth = 0;
-            this.Box6.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box6.Location = new System.Drawing.Point(110, 130);
             this.Box6.Margin = new System.Windows.Forms.Padding(0);
@@ -663,7 +648,7 @@ namespace WindowsFormsApplication1
             this.Box5.Checked = true;
             this.Box5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box5.Depth = 0;
-            this.Box5.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box5.Location = new System.Drawing.Point(38, 130);
             this.Box5.Margin = new System.Windows.Forms.Padding(0);
@@ -683,7 +668,7 @@ namespace WindowsFormsApplication1
             this.Box4.Checked = true;
             this.Box4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box4.Depth = 0;
-            this.Box4.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box4.Location = new System.Drawing.Point(110, 100);
             this.Box4.Margin = new System.Windows.Forms.Padding(0);
@@ -703,7 +688,7 @@ namespace WindowsFormsApplication1
             this.Box3.Checked = true;
             this.Box3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box3.Depth = 0;
-            this.Box3.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box3.Location = new System.Drawing.Point(37, 100);
             this.Box3.Margin = new System.Windows.Forms.Padding(0);
@@ -723,7 +708,7 @@ namespace WindowsFormsApplication1
             this.Box2.Checked = true;
             this.Box2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box2.Depth = 0;
-            this.Box2.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box2.Location = new System.Drawing.Point(110, 70);
             this.Box2.Margin = new System.Windows.Forms.Padding(0);
@@ -743,7 +728,7 @@ namespace WindowsFormsApplication1
             this.Box1.Checked = true;
             this.Box1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Box1.Depth = 0;
-            this.Box1.Font = new System.Drawing.Font("Roboto", 10F);
+            this.Box1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Box1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Box1.Location = new System.Drawing.Point(37, 70);
             this.Box1.Margin = new System.Windows.Forms.Padding(0);
@@ -761,11 +746,11 @@ namespace WindowsFormsApplication1
             this.tabPage3.Controls.Add(this.materialLabel23);
             this.tabPage3.Controls.Add(this.materialLabel22);
             this.tabPage3.Controls.Add(this.ButtonDownloadAll);
-            this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Controls.Add(this.materialLabel15);
             this.tabPage3.Controls.Add(this.materialLabel14);
             this.tabPage3.Controls.Add(this.ButtonInitalize);
             this.tabPage3.Controls.Add(this.ButtonRenew);
+            this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(700, 545);
@@ -773,25 +758,58 @@ namespace WindowsFormsApplication1
             this.tabPage3.Text = "설정";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // materialLabel23
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(547, 416);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 107);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.materialLabel23.AutoSize = true;
+            this.materialLabel23.Depth = 0;
+            this.materialLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel23.Location = new System.Drawing.Point(26, 343);
+            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel23.Name = "materialLabel23";
+            this.materialLabel23.Size = new System.Drawing.Size(374, 18);
+            this.materialLabel23.TabIndex = 7;
+            this.materialLabel23.Text = "* 일단 한번 해놓으면 카드를 매우 빠르게 검색할 수 있습니다.";
+            // 
+            // materialLabel22
+            // 
+            this.materialLabel22.AutoSize = true;
+            this.materialLabel22.Depth = 0;
+            this.materialLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel22.Location = new System.Drawing.Point(26, 324);
+            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel22.Name = "materialLabel22";
+            this.materialLabel22.Size = new System.Drawing.Size(651, 18);
+            this.materialLabel22.TabIndex = 6;
+            this.materialLabel22.Text = "* 총 1GB 가까이 되는 이미지를 전부 받는거라 오래 걸려요. 적어도 10분 이상. 눌러놓고 겜 한판 돌리고 와요. ";
+            // 
+            // ButtonDownloadAll
+            // 
+            this.ButtonDownloadAll.AutoSize = true;
+            this.ButtonDownloadAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ButtonDownloadAll.Depth = 0;
+            this.ButtonDownloadAll.Icon = null;
+            this.ButtonDownloadAll.Location = new System.Drawing.Point(30, 285);
+            this.ButtonDownloadAll.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ButtonDownloadAll.Name = "ButtonDownloadAll";
+            this.ButtonDownloadAll.Primary = true;
+            this.ButtonDownloadAll.Size = new System.Drawing.Size(161, 36);
+            this.ButtonDownloadAll.TabIndex = 5;
+            this.ButtonDownloadAll.Text = "Image 일괄 다운로드";
+            this.ButtonDownloadAll.UseVisualStyleBackColor = true;
+            this.ButtonDownloadAll.Click += new System.EventHandler(this.ButtonDownloadAll_Click);
             // 
             // materialLabel15
             // 
             this.materialLabel15.AutoSize = true;
             this.materialLabel15.Depth = 0;
-            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel15.Location = new System.Drawing.Point(26, 486);
             this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel15.Name = "materialLabel15";
-            this.materialLabel15.Size = new System.Drawing.Size(211, 19);
+            this.materialLabel15.Size = new System.Drawing.Size(242, 18);
             this.materialLabel15.TabIndex = 3;
             this.materialLabel15.Text = "* 프로그램을 다시 시작해야 적용됩니다.";
             // 
@@ -799,12 +817,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel14.AutoSize = true;
             this.materialLabel14.Depth = 0;
-            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel14.Location = new System.Drawing.Point(26, 416);
             this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel14.Name = "materialLabel14";
-            this.materialLabel14.Size = new System.Drawing.Size(230, 19);
+            this.materialLabel14.Size = new System.Drawing.Size(263, 18);
             this.materialLabel14.TabIndex = 2;
             this.materialLabel14.Text = "* 로딩시 약간의 시간이 소요될 수 있습니다.";
             // 
@@ -865,12 +883,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel20.AutoSize = true;
             this.materialLabel20.Depth = 0;
-            this.materialLabel20.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel20.Location = new System.Drawing.Point(37, 416);
             this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel20.Name = "materialLabel20";
-            this.materialLabel20.Size = new System.Drawing.Size(299, 19);
+            this.materialLabel20.Size = new System.Drawing.Size(280, 18);
             this.materialLabel20.TabIndex = 11;
             this.materialLabel20.Text = "http://aikatsu.wikia.com/wiki/Aikatsu_Wiki";
             this.materialLabel20.Click += new System.EventHandler(this.materialLabel20_Click);
@@ -879,12 +897,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel19.AutoSize = true;
             this.materialLabel19.Depth = 0;
-            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel19.Location = new System.Drawing.Point(21, 397);
             this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel19.Name = "materialLabel19";
-            this.materialLabel19.Size = new System.Drawing.Size(109, 19);
+            this.materialLabel19.Size = new System.Drawing.Size(106, 18);
             this.materialLabel19.TabIndex = 10;
             this.materialLabel19.Text = "- Aikatsu Wikia";
             // 
@@ -892,12 +910,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel18.AutoSize = true;
             this.materialLabel18.Depth = 0;
-            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel18.Location = new System.Drawing.Point(13, 378);
             this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel18.Name = "materialLabel18";
-            this.materialLabel18.Size = new System.Drawing.Size(91, 19);
+            this.materialLabel18.Size = new System.Drawing.Size(91, 18);
             this.materialLabel18.TabIndex = 9;
             this.materialLabel18.Text = "Data Source";
             // 
@@ -905,12 +923,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel17.AutoSize = true;
             this.materialLabel17.Depth = 0;
-            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel17.Location = new System.Drawing.Point(20, 172);
             this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel17.Name = "materialLabel17";
-            this.materialLabel17.Size = new System.Drawing.Size(162, 19);
+            this.materialLabel17.Size = new System.Drawing.Size(184, 18);
             this.materialLabel17.TabIndex = 8;
             this.materialLabel17.Text = "- 버그 및 코드 지적 달게 받음.";
             // 
@@ -918,12 +936,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel10.AutoSize = true;
             this.materialLabel10.Depth = 0;
-            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel10.Location = new System.Drawing.Point(21, 16);
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
-            this.materialLabel10.Size = new System.Drawing.Size(641, 19);
+            this.materialLabel10.Size = new System.Drawing.Size(740, 18);
             this.materialLabel10.TabIndex = 7;
             this.materialLabel10.Text = "* 카드를 첫 로딩할때는 카드 이미지를 인터넷에서 다운받기 때문에 느릴 수 있습니다. 이후 한번 본 카드는 빠르게 로딩됩니다.";
             // 
@@ -931,12 +949,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel9.AutoSize = true;
             this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel9.Location = new System.Drawing.Point(21, 143);
             this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel9.Name = "materialLabel9";
-            this.materialLabel9.Size = new System.Drawing.Size(392, 19);
+            this.materialLabel9.Size = new System.Drawing.Size(421, 18);
             this.materialLabel9.TabIndex = 6;
             this.materialLabel9.Text = "- DCinside Aikatsu Gallery (우유나한잔, 크-린 유저라 답 잘 안해줌.)";
             this.materialLabel9.Click += new System.EventHandler(this.materialLabel9_Click);
@@ -945,12 +963,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel8.AutoSize = true;
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel8.Location = new System.Drawing.Point(37, 112);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(380, 19);
+            this.materialLabel8.Size = new System.Drawing.Size(365, 18);
             this.materialLabel8.TabIndex = 5;
             this.materialLabel8.Text = "https://github.com/LimeSecret/Photokatsu-CardViewer";
             this.materialLabel8.Click += new System.EventHandler(this.materialLabel8_Click);
@@ -959,12 +977,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel7.AutoSize = true;
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel7.Location = new System.Drawing.Point(21, 93);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(93, 19);
+            this.materialLabel7.Size = new System.Drawing.Size(92, 18);
             this.materialLabel7.TabIndex = 4;
             this.materialLabel7.Text = "- LimeSecret";
             // 
@@ -972,12 +990,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.Location = new System.Drawing.Point(13, 65);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(62, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(60, 18);
             this.materialLabel4.TabIndex = 3;
             this.materialLabel4.Text = "Contact";
             // 
@@ -985,12 +1003,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel3.Location = new System.Drawing.Point(37, 277);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(311, 19);
+            this.materialLabel3.Size = new System.Drawing.Size(294, 18);
             this.materialLabel3.TabIndex = 2;
             this.materialLabel3.Text = "https://github.com/IgnaceMaes/MaterialSkin";
             this.materialLabel3.Click += new System.EventHandler(this.materialLabel3_Click);
@@ -999,12 +1017,12 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(21, 258);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(101, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(98, 18);
             this.materialLabel2.TabIndex = 1;
             this.materialLabel2.Text = "- MaterialSkin";
             // 
@@ -1012,17 +1030,20 @@ namespace WindowsFormsApplication1
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(13, 226);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(172, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(170, 18);
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "OpenSource Information";
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.MiseNext);
+            this.tabPage5.Controls.Add(this.MisePrev);
+            this.tabPage5.Controls.Add(this.MisePicture);
             this.tabPage5.Controls.Add(this.materialLabel21);
             this.tabPage5.Controls.Add(this.linkLabel1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -1030,25 +1051,24 @@ namespace WindowsFormsApplication1
             this.tabPage5.Size = new System.Drawing.Size(700, 545);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "미세먼지 정보";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // materialLabel21
             // 
             this.materialLabel21.AutoSize = true;
             this.materialLabel21.Depth = 0;
-            this.materialLabel21.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel21.Location = new System.Drawing.Point(49, 78);
+            this.materialLabel21.Location = new System.Drawing.Point(72, 505);
             this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel21.Name = "materialLabel21";
-            this.materialLabel21.Size = new System.Drawing.Size(224, 19);
+            this.materialLabel21.Size = new System.Drawing.Size(232, 18);
             this.materialLabel21.TabIndex = 1;
-            this.materialLabel21.Text = "오류 때문에 못불러온다. 니가 들가서 봐라.";
+            this.materialLabel21.Text = "혹시 더 자세한 정보가 보고 싶으면 -> ";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(279, 83);
+            this.linkLabel1.Location = new System.Drawing.Point(310, 510);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(28, 12);
             this.linkLabel1.TabIndex = 0;
@@ -1056,47 +1076,76 @@ namespace WindowsFormsApplication1
             this.linkLabel1.Text = "Link";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // ButtonDownloadAll
+            // picturebox1
             // 
-            this.ButtonDownloadAll.AutoSize = true;
-            this.ButtonDownloadAll.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ButtonDownloadAll.Depth = 0;
-            this.ButtonDownloadAll.Icon = null;
-            this.ButtonDownloadAll.Location = new System.Drawing.Point(30, 285);
-            this.ButtonDownloadAll.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ButtonDownloadAll.Name = "ButtonDownloadAll";
-            this.ButtonDownloadAll.Primary = true;
-            this.ButtonDownloadAll.Size = new System.Drawing.Size(161, 36);
-            this.ButtonDownloadAll.TabIndex = 5;
-            this.ButtonDownloadAll.Text = "Image 일괄 다운로드";
-            this.ButtonDownloadAll.UseVisualStyleBackColor = true;
-            this.ButtonDownloadAll.Click += new System.EventHandler(this.ButtonDownloadAll_Click);
+            this.picturebox1.Location = new System.Drawing.Point(20, 21);
+            this.picturebox1.Name = "picturebox1";
+            this.picturebox1.Size = new System.Drawing.Size(332, 475);
+            this.picturebox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturebox1.TabIndex = 0;
+            this.picturebox1.TabStop = false;
             // 
-            // materialLabel22
+            // pictureBox3
             // 
-            this.materialLabel22.AutoSize = true;
-            this.materialLabel22.Depth = 0;
-            this.materialLabel22.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel22.Location = new System.Drawing.Point(26, 324);
-            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel22.Name = "materialLabel22";
-            this.materialLabel22.Size = new System.Drawing.Size(571, 19);
-            this.materialLabel22.TabIndex = 6;
-            this.materialLabel22.Text = "* 총 1GB 가까이 되는 이미지를 전부 받는거라 오래 걸려요. 적어도 10분 이상. 눌러놓고 겜 한판 돌리고 와요. ";
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::WindowsFormsApplication1.Properties.Resources.hat;
+            this.pictureBox3.Location = new System.Drawing.Point(486, 393);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(103, 108);
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
             // 
-            // materialLabel23
+            // pictureBox2
             // 
-            this.materialLabel23.AutoSize = true;
-            this.materialLabel23.Depth = 0;
-            this.materialLabel23.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel23.Location = new System.Drawing.Point(26, 343);
-            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel23.Name = "materialLabel23";
-            this.materialLabel23.Size = new System.Drawing.Size(319, 19);
-            this.materialLabel23.TabIndex = 7;
-            this.materialLabel23.Text = "* 일단 한번 해놓으면 카드를 매우 빠르게 검색할 수 있습니다.";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(547, 416);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(124, 107);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // MisePicture
+            // 
+            this.MisePicture.Location = new System.Drawing.Point(75, 23);
+            this.MisePicture.Name = "MisePicture";
+            this.MisePicture.Size = new System.Drawing.Size(543, 410);
+            this.MisePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MisePicture.TabIndex = 2;
+            this.MisePicture.TabStop = false;
+            // 
+            // MisePrev
+            // 
+            this.MisePrev.AutoSize = true;
+            this.MisePrev.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.MisePrev.Depth = 0;
+            this.MisePrev.Icon = null;
+            this.MisePrev.Location = new System.Drawing.Point(75, 442);
+            this.MisePrev.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MisePrev.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MisePrev.Name = "MisePrev";
+            this.MisePrev.Primary = false;
+            this.MisePrev.Size = new System.Drawing.Size(55, 36);
+            this.MisePrev.TabIndex = 21;
+            this.MisePrev.Text = "Prev";
+            this.MisePrev.UseVisualStyleBackColor = true;
+            this.MisePrev.Click += new System.EventHandler(this.MisePrev_Click);
+            // 
+            // MiseNext
+            // 
+            this.MiseNext.AutoSize = true;
+            this.MiseNext.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.MiseNext.Depth = 0;
+            this.MiseNext.Icon = null;
+            this.MiseNext.Location = new System.Drawing.Point(563, 442);
+            this.MiseNext.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MiseNext.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MiseNext.Name = "MiseNext";
+            this.MiseNext.Primary = false;
+            this.MiseNext.Size = new System.Drawing.Size(55, 36);
+            this.MiseNext.TabIndex = 22;
+            this.MiseNext.Text = "Next";
+            this.MiseNext.UseVisualStyleBackColor = true;
+            this.MiseNext.Click += new System.EventHandler(this.MiseNext_Click);
             // 
             // Form1
             // 
@@ -1110,17 +1159,18 @@ namespace WindowsFormsApplication1
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MisePicture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1193,6 +1243,9 @@ namespace WindowsFormsApplication1
         private MaterialLabel materialLabel22;
         private MaterialRaisedButton ButtonDownloadAll;
         private MaterialLabel materialLabel23;
+        private PictureBox MisePicture;
+        private MaterialFlatButton MiseNext;
+        private MaterialFlatButton MisePrev;
     }
 }
 

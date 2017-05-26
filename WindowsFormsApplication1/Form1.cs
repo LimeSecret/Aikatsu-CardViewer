@@ -13,17 +13,18 @@ using MaterialSkin.Controls;
 
 namespace WindowsFormsApplication1
 {
-
     public partial class Form1 : MaterialForm
     {
-
+        public int MiseCurr = 12;
         public Form1()
         {
             InitializeComponent();
             LoadInformation();
             materialProgressBar1.Value = 0;
             Box1.BackColor = Color.Brown;
+            MiseLoad();
         }
+
 
         private void ButtonPrev_Click(object sender, EventArgs e)
         {
@@ -140,7 +141,44 @@ namespace WindowsFormsApplication1
             System.Diagnostics.Process.Start("http://aikatsu.wikia.com/wiki/Aikatsu_Wiki");
         }
 
+        private void MiseLoad()
+        {
+            //string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
+            string miseurl1 = "http://az416740.vo.msecnd.net/static-images/particulate_matter/";
+            string miseurl2 = "/japan_detail/large.jpg";
+            try
+            {
+                using (WebClient client = new WebClient())
+                {
+                    try { client.DownloadFile(miseurl1 + MiseCurr + miseurl2, "mise"+MiseCurr%2); }
+                    catch { MessageBox.Show(" 이미지를 다운로드하는데 실패했습니다."); }
 
+                }
+                MisePicture.Load("mise" + MiseCurr % 2);
+            }
+            catch
+            {
+                MessageBox.Show(" 이미지를 불러오는데 실패했습니다.");
+            }
+        }
+
+        private void MisePrev_Click(object sender, EventArgs e)
+        {
+            if (MiseCurr <= 12)
+                return;
+            MisePicture.Invalidate();
+            MiseCurr = MiseCurr - 3;
+            MiseLoad();
+        }
+
+        private void MiseNext_Click(object sender, EventArgs e)
+        {
+            if (MiseCurr >= 75)
+                return;
+            MisePicture.Invalidate();
+            MiseCurr = MiseCurr + 3;
+            MiseLoad();
+        }
     }
 
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
+using System.IO;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
@@ -49,28 +50,41 @@ namespace WindowsFormsApplication1
                 list[i] = new Card();
             }
             amount = 0;
+
+            string Localname = "code";
+            string Store = "source";
+            string Infocode = "infocode";
+            File.WriteAllText(Localname, "", Encoding.Default);
+            File.WriteAllText(Store, "", Encoding.Default);
+            File.WriteAllText(Infocode, "", Encoding.Default);
+
         }
 
         private void RenewCard()
         {
             InitList();
+            string page_image = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist";
+            string page_data = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist?action=edit";
+            ReadPage(page_image, page_data);
+            page_image = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist/Page_2";
+            page_data = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist/Page_2?action=edit";
+            ReadPage(page_image, page_data);
+        }
+
+
+        private void ReadPage(string info1, string info2)
+        {
             string Localname = "code";
             string Store = "source";
             string Infocode = "infocode";
 
-            var te = System.IO.File.Create(Store);
-            te.Close();
-
-            te = System.IO.File.Create(Infocode);
-            te.Close();
-
             WebClient client = new WebClient();
-            string downloadString = client.DownloadString("http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist");
-            System.IO.File.WriteAllText(Localname, downloadString, Encoding.Default);
-            downloadString = client.DownloadString("http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist?action=edit");
-            System.IO.File.WriteAllText(Infocode, downloadString, Encoding.Default);
-            System.IO.StreamReader sourcefile = new System.IO.StreamReader(Localname, true);
-            System.IO.StreamReader sourcefile2 = new System.IO.StreamReader(Infocode, true);
+            string downloadString = client.DownloadString(info1);
+            File.WriteAllText(Localname, downloadString, Encoding.Default);
+            downloadString = client.DownloadString(info2);
+            File.WriteAllText(Infocode, downloadString, Encoding.Default);
+            StreamReader sourcefile = new StreamReader(Localname, true);
+            StreamReader sourcefile2 = new StreamReader(Infocode, true);
             string pp;
             string qq;
             int t = 0;
@@ -79,9 +93,10 @@ namespace WindowsFormsApplication1
                 for (int i = 1; i < 2000; i++)
                 {
                     pp = sourcefile.ReadLine();
+                    
                     if (pp == "</th></tr>")
                         break;
-                    if (pp == "< noscript >< link rel = \"stylesheet\"" || pp.Contains("Upgrade Cards</span>"))
+                    if (pp == "< noscript >< link rel = \"stylesheet\"" || pp == null || pp.Contains("Upgrade Cards</span>"))
                         goto BREAKTHELOOP;
                 }
 
@@ -98,7 +113,7 @@ namespace WindowsFormsApplication1
                 qq = ReadFileLine(sourcefile2);
                 int count = 0;
                 string[] temp = new string[13];
-                for (int i = amount + 1; i <= amount + 120; i++)
+                for (int i = amount + 1; i <= amount + 1200; i++)
                 {
                     if (pp == "<tr style=\"text-align: center;\">" || pp == "<tr style=\"text-align: Center;\">")
                         pp = ReadFileLine(sourcefile);
@@ -152,13 +167,13 @@ namespace WindowsFormsApplication1
 
                 for (int i = amount + 1; i <= amount + count; i++)
                 {
-                    System.IO.File.AppendAllText(Store, "1. " + list[i].rank + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "2. " + list[i].cardno + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "3. " + list[i].cardname + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "4. " + list[i].charname + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "5. " + list[i].url + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "6. " + list[i].appeal + Environment.NewLine);
-                    System.IO.File.AppendAllText(Store, "7. " + list[i].skill + Environment.NewLine);
+                    File.AppendAllText(Store, "1. " + list[i].rank + Environment.NewLine);
+                    File.AppendAllText(Store, "2. " + list[i].cardno + Environment.NewLine);
+                    File.AppendAllText(Store, "3. " + list[i].cardname + Environment.NewLine);
+                    File.AppendAllText(Store, "4. " + list[i].charname + Environment.NewLine);
+                    File.AppendAllText(Store, "5. " + list[i].url + Environment.NewLine);
+                    File.AppendAllText(Store, "6. " + list[i].appeal + Environment.NewLine);
+                    File.AppendAllText(Store, "7. " + list[i].skill + Environment.NewLine);
                 }
                 amount = count + amount;
                 t++;
@@ -169,6 +184,10 @@ namespace WindowsFormsApplication1
             for (int i = 1; i <= amount; i++)
                 deck[i] = list[i];
             deckamount = amount;
+            sourcefile.Close();
+            sourcefile2.Close();
+            File.Delete(Localname);
+            File.Delete(Infocode);
         }
 
 
