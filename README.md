@@ -17,6 +17,8 @@ Aikatsu! Aikatsu!
 
 <br />
 <br />
+
+[Release File Download](https://github.com/LimeSecret/Photokatsu-CardViewer/raw/master/Photokatsu_CardViewer.zip)
 <br />
 
 
