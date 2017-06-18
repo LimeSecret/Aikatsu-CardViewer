@@ -12,7 +12,13 @@ This program gets a list of cards from Aikatsu Wikia. You can search for cards w
 
 
 
+
+
+
 # Examples
 ![Aikatsu1](https://github.com/LimeSecret/Photokatsu-CardViewer/blob/master/example1.png)
+Main Page for searching result
+
 
 ![Aikatsu2](https://github.com/LimeSecret/Photokatsu-CardViewer/blob/master/example2.png)
+Search with conditions
