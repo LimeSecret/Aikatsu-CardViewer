@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>게시\</PublishUrl>
+    <PublishUrl>C:\Users\Park Insu\Desktop\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,7 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <TargetCulture>ko-KR</TargetCulture>
+    <ProductName>Photokatsu_CardViewer</ProductName>
+    <PublisherName>우유나한잔</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -59,7 +62,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -80,6 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeckHandle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtcHandle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.cs">
@@ -109,7 +115,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="inital" />
+    <EmbeddedResource Include="inital" />
     <None Include="packages.config" />
     <None Include="Photokatsu_CardViewer_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
@@ -121,13 +127,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="source" />
+    <EmbeddedResource Include="source" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\hat.png" />
+    <EmbeddedResource Include="hat.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -140,6 +146,13 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="hasiget.png" />
+    <EmbeddedResource Include="loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

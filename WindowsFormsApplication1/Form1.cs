@@ -84,6 +84,7 @@ namespace WindowsFormsApplication1
             InitDeck();
             AllListToDeck();
             CharacterSearch("nina");
+            NewDeckFirstPage();
         }
 
         private void ButtonSearch_Click(object sender, EventArgs e)
@@ -93,6 +94,22 @@ namespace WindowsFormsApplication1
             RankSearch();
             NumberSearch(InputStartValue.Text, InputEndValue.Text);
             CharacterSearch(InputCharName.Text);
+            NewDeckFirstPage();
+        }
+
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            InputStartValue.Clear();
+            InputEndValue.Clear();
+            InputCharName.Clear();
+            Box1.Checked = true;
+            Box2.Checked = true;
+            Box3.Checked = true;
+            Box4.Checked = true;
+            Box5.Checked = true;
+            Box6.Checked = true;
+            Box7.Checked = true;
+            Box8.Checked = true;
         }
 
         private void ButtonDownloadAll_Click(object sender, EventArgs e)
@@ -108,8 +125,8 @@ namespace WindowsFormsApplication1
         private void ButtonInitalize_Click(object sender, EventArgs e)
         {
             InitList();
-            string initname = "inital";
-            string Store = "source";
+            string initname = AppDomain.CurrentDomain.BaseDirectory + @"\resources\inital";
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
             string temp = System.IO.File.ReadAllText(initname);
             System.IO.File.WriteAllText(Store, temp, Encoding.Default);
             MessageBox.Show("초기화되었습니다. 프로그램을 다시 실행해주세요.");
@@ -141,27 +158,6 @@ namespace WindowsFormsApplication1
             System.Diagnostics.Process.Start("http://aikatsu.wikia.com/wiki/Aikatsu_Wiki");
         }
 
-        private void MiseLoad()
-        {
-            //string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
-            string miseurl1 = "http://az416740.vo.msecnd.net/static-images/particulate_matter/";
-            string miseurl2 = "/japan_detail/large.jpg";
-            try
-            {
-                using (WebClient client = new WebClient())
-                {
-                    try { client.DownloadFile(miseurl1 + MiseCurr + miseurl2, "mise"+MiseCurr%2); }
-                    catch { MessageBox.Show(" 이미지를 다운로드하는데 실패했습니다."); }
-
-                }
-                MisePicture.Load("mise" + MiseCurr % 2);
-            }
-            catch
-            {
-                MessageBox.Show(" 이미지를 불러오는데 실패했습니다.");
-            }
-        }
-
         private void MisePrev_Click(object sender, EventArgs e)
         {
             if (MiseCurr <= 12)
@@ -179,6 +175,8 @@ namespace WindowsFormsApplication1
             MiseCurr = MiseCurr + 3;
             MiseLoad();
         }
+
+
     }
 
 }

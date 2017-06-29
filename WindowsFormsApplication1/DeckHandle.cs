@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.IO;
+using System.Threading;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
@@ -51,9 +52,9 @@ namespace WindowsFormsApplication1
             }
             amount = 0;
 
-            string Localname = "code";
-            string Store = "source";
-            string Infocode = "infocode";
+            string Localname = AppDomain.CurrentDomain.BaseDirectory + @"\resources\code";
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
+            string Infocode = AppDomain.CurrentDomain.BaseDirectory + @"\resources\infocode";
             File.WriteAllText(Localname, "", Encoding.Default);
             File.WriteAllText(Store, "", Encoding.Default);
             File.WriteAllText(Infocode, "", Encoding.Default);
@@ -74,9 +75,9 @@ namespace WindowsFormsApplication1
 
         private void ReadPage(string info1, string info2)
         {
-            string Localname = "code";
-            string Store = "source";
-            string Infocode = "infocode";
+            string Localname = AppDomain.CurrentDomain.BaseDirectory + @"\resources\code";
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
+            string Infocode = AppDomain.CurrentDomain.BaseDirectory + @"\resources\infocode";
 
             WebClient client = new WebClient();
             string downloadString = client.DownloadString(info1);
@@ -200,7 +201,7 @@ namespace WindowsFormsApplication1
                 di.Create();
             }
 
-            string Store = "source";
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
             System.IO.FileInfo fi = new System.IO.FileInfo(Store);
             if (!fi.Exists)
                 return;
@@ -243,23 +244,25 @@ namespace WindowsFormsApplication1
         public void ShowCardInfo(int index)
         {
             string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
+            string Loading= AppDomain.CurrentDomain.BaseDirectory + @"\resources\loading.png";
             try
             {
                 System.IO.FileInfo fi = new System.IO.FileInfo(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
                 if (!fi.Exists)
                 {
-                    using (WebClient client = new WebClient())
-                    {
-                        try { client.DownloadFile(deck[index].url, Store + "Photokatsu_" + deck[index].cardno + ".jpg"); }
-                        catch { MessageBox.Show(" 이미지를 다운로드하는데 실패했습니다."); }
-
-                    }
+                    picturebox1.Load(Loading);
+                    Thread imgthread = new Thread(ImageDownload);
+                    imgthread.Start(index);
                 }
-                picturebox1.Load(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+                else
+                {
+                    picturebox1.Load(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+                }
+
             }
             catch
             {
-                MessageBox.Show(" 이미지를 불러오는데 실패했습니다.");
+                picturebox1.Load(Loading);
             }
             finally
             {
@@ -273,28 +276,61 @@ namespace WindowsFormsApplication1
             }
         }
 
+        public void ImageDownload(object index_ori)
+        {
+            int index = (int)index_ori;
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
+            using (WebClient client = new WebClient())
+            {
+                try { client.DownloadFile(deck[index].url, Store + "Photokatsu_" + deck[index].cardno + ".jpg"); }
+                catch {;}
+            }
+            if (current_index == index)
+            {
+                picturebox1.Load(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+            }
+        }
+
         public void DownloadAll()
+        {
+            Thread downthread = new Thread(DownloadAllThread);
+            downthread.IsBackground = true;
+            downthread.Start();
+        }
+
+        public void DownloadAllThread()
         {
             string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
             try
             {
                 for (int i = 1; i <= amount; i++)
                 {
-                    System.IO.FileInfo fi = new System.IO.FileInfo(Store + "Photokatsu_" + deck[i].cardno + ".jpg");
-                    if (!fi.Exists)
+                    System.IO.FileInfo fi = new System.IO.FileInfo(Store + "Photokatsu_" + list[i].cardno + ".jpg");
+                    if ((!fi.Exists) || (fi.Length == 0))
                     {
-                        using (WebClient client = new WebClient())
-                        {
-                            try { client.DownloadFile(deck[i].url, Store + "Photokatsu_" + deck[i].cardno + ".jpg"); }
-                            catch {; }
-
-                        }
+                        Thread imgthread = new Thread(ImageDownload);
+                        imgthread.Start(i);
+                        imgthread.Join();
                     }
                 }
                 MessageBox.Show("일괄 다운로드가 완료되었습니다.");
             }
             catch
             { ;}
+        }
+
+        public void NewDeckFirstPage()
+        {
+            string Noresult = AppDomain.CurrentDomain.BaseDirectory + @"\resources\noresult.jpg";
+            if (deckamount != 0)
+            {
+                current_index = 1;
+                ShowCardInfo(current_index);
+            }
+            else
+            {
+                picturebox1.Load(Noresult);
+            }
         }
 
     }
