@@ -18,12 +18,10 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1
     {
-
-        int current_index = 0;
-        int amount = 0;
-        int deckamount = 0;
-        Card[] list = new Card[10000];
-        Card[] deck = new Card[10000];
+        int current_index = -1;
+        List<Card> list = new List<Card>();
+        List<Card> deck = new List<Card>();
+        Dictionary<string, int> charlist = new Dictionary<string, int>();
 
         public void InitDeck()
         {
@@ -33,12 +31,9 @@ namespace WindowsFormsApplication1
             label6.Text = "";
             label8.Text = "";
             label10.Text = "";
-            for (int i = 1; i <= deckamount; i++)
-            {
-                deck[i] = new Card();
-            }
-            current_index = 0;
-            deckamount = 0;
+
+            deck.Clear();
+            current_index = -1;
             materialProgressBar1.Value = 0;
             materialLabel5.Text = "( " + " / "  + " )";
         }
@@ -46,17 +41,9 @@ namespace WindowsFormsApplication1
         public void InitList()
         {
             InitDeck();
-            for (int i = 1; i <= amount; i++)
-            {
-                list[i] = new Card();
-            }
-            amount = 0;
+            list.Clear();
 
-            string Localname = AppDomain.CurrentDomain.BaseDirectory + @"\resources\code";
-            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
             string Infocode = AppDomain.CurrentDomain.BaseDirectory + @"\resources\infocode";
-            File.WriteAllText(Localname, "", Encoding.Default);
-            File.WriteAllText(Store, "", Encoding.Default);
             File.WriteAllText(Infocode, "", Encoding.Default);
 
         }
@@ -64,133 +51,9 @@ namespace WindowsFormsApplication1
         private void RenewCard()
         {
             InitList();
-            string page_image = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist";
-            string page_data = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist?action=edit";
-            ReadPage(page_image, page_data);
-            page_image = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist/Page_2";
-            page_data = "http://aikatsu.wikia.com/wiki/Aikatsu!_Photo_on_Stage!!/Cardlist/Page_2?action=edit";
-            ReadPage(page_image, page_data);
+            FullWebLoad();
+            LoadInformation();
         }
-
-
-        private void ReadPage(string info1, string info2)
-        {
-            string Localname = AppDomain.CurrentDomain.BaseDirectory + @"\resources\code";
-            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
-            string Infocode = AppDomain.CurrentDomain.BaseDirectory + @"\resources\infocode";
-
-            WebClient client = new WebClient();
-            string downloadString = client.DownloadString(info1);
-            File.WriteAllText(Localname, downloadString, Encoding.Default);
-            downloadString = client.DownloadString(info2);
-            File.WriteAllText(Infocode, downloadString, Encoding.Default);
-            StreamReader sourcefile = new StreamReader(Localname, true);
-            StreamReader sourcefile2 = new StreamReader(Infocode, true);
-            string pp;
-            string qq;
-            int t = 0;
-            while (t < 14)
-            {
-                for (int i = 1; i < 2000; i++)
-                {
-                    pp = sourcefile.ReadLine();
-                    
-                    if (pp == "</th></tr>")
-                        break;
-                    if (pp == "< noscript >< link rel = \"stylesheet\"" || pp == null || pp.Contains("Upgrade Cards</span>"))
-                        goto BREAKTHELOOP;
-                }
-
-                for (int i = 1; i < 2000; i++)
-                {
-                    pp = sourcefile2.ReadLine();
-                    if (pp == "|-align=\"center\"" || pp == "|- align=\"center\"")
-                        break;
-                    if (pp == "==Upgrade Cards==")
-                        goto BREAKTHELOOP;
-                }
-                pp = sourcefile.ReadLine();
-                pp = ReadFileLine(sourcefile);
-                qq = ReadFileLine(sourcefile2);
-                int count = 0;
-                string[] temp = new string[13];
-                for (int i = amount + 1; i <= amount + 1200; i++)
-                {
-                    if (pp == "<tr style=\"text-align: center;\">" || pp == "<tr style=\"text-align: Center;\">")
-                        pp = ReadFileLine(sourcefile);
-                    temp[0] = qq;
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-                    temp[1] = qq;
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-                    qq = EraseComment(qq);
-                    temp[2] = SpiltLine(qq)[1];
-                    temp[3] = SpiltLine(qq)[2];
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-                    temp[4] = getBetween(pp, "<a href=\"", "\"");
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-                    temp[5] = qq;
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-
-                    if (pp.Contains("</table>"))
-                        break;
-                    if (qq.Contains("align=\"center\""))
-                    {
-                        qq = ReadFileLine(sourcefile2);
-                        list[i] = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5]);
-                        count++;
-                        continue;
-                    }
-                    if (qq == "PR+" || qq == "SR+" || qq == "R+" || qq == "N+" || qq == "N" || qq == "R" || qq == "SR" || qq == "PR")
-                    {
-                        list[i] = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5]);
-                        count++;
-                        continue;
-                    }
-                    temp[6] = qq;
-                    list[i] = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5], temp[6]);
-                    count++;
-                    pp = ReadFileLine(sourcefile);
-                    qq = ReadFileLine(sourcefile2);
-                    if (qq.Contains("Dress Up") && qq.Contains("Card") && qq.Contains("Pre"))
-                    {
-                        pp = ReadFileLine(sourcefile);
-                        qq = ReadFileLine(sourcefile2);
-                    }
-                    if (pp.Contains("</table>"))
-                        break;
-                    qq = ReadFileLine(sourcefile2);
-                }
-
-                for (int i = amount + 1; i <= amount + count; i++)
-                {
-                    File.AppendAllText(Store, "1. " + list[i].rank + Environment.NewLine);
-                    File.AppendAllText(Store, "2. " + list[i].cardno + Environment.NewLine);
-                    File.AppendAllText(Store, "3. " + list[i].cardname + Environment.NewLine);
-                    File.AppendAllText(Store, "4. " + list[i].charname + Environment.NewLine);
-                    File.AppendAllText(Store, "5. " + list[i].url + Environment.NewLine);
-                    File.AppendAllText(Store, "6. " + list[i].appeal + Environment.NewLine);
-                    File.AppendAllText(Store, "7. " + list[i].skill + Environment.NewLine);
-                }
-                amount = count + amount;
-                t++;
-            }
-
-
-        BREAKTHELOOP:;
-            for (int i = 1; i <= amount; i++)
-                deck[i] = list[i];
-            deckamount = amount;
-            sourcefile.Close();
-            sourcefile2.Close();
-            File.Delete(Localname);
-            File.Delete(Infocode);
-        }
-
 
         private void LoadInformation()
         {
@@ -201,7 +64,7 @@ namespace WindowsFormsApplication1
                 di.Create();
             }
 
-            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\source";
+            string Store = AppDomain.CurrentDomain.BaseDirectory + @"\resources\infocode";
             System.IO.FileInfo fi = new System.IO.FileInfo(Store);
             if (!fi.Exists)
                 return;
@@ -209,36 +72,35 @@ namespace WindowsFormsApplication1
             System.IO.StreamReader sourcefile = new System.IO.StreamReader(Store, true);
             string pp;
             pp = sourcefile.ReadLine();
-            string[] temp = new string[10];
+            string[] temp = new string[7];
+            Card temcard;
             while (pp != null)
             {
-                temp[0] = pp.Substring(3);
+                temp[0] = pp;
                 pp = sourcefile.ReadLine();
-                temp[1] = pp.Substring(3);
+                temp[1] = pp;
                 pp = sourcefile.ReadLine();
-                temp[2] = pp.Substring(3);
+                temp[2] = pp;
                 pp = sourcefile.ReadLine();
-                temp[3] = pp.Substring(3);
+                temp[3] = pp;
                 pp = sourcefile.ReadLine();
-                temp[4] = pp.Substring(3);
+                temp[4] = pp;
                 pp = sourcefile.ReadLine();
-                temp[5] = pp.Substring(3);
+                temp[5] = pp;
                 pp = sourcefile.ReadLine();
-                amount++;
-                if (pp.Contains("7."))
+                temp[6] = pp;
+                pp = sourcefile.ReadLine();
+
+                if (Convert.ToInt32(temp[1]) < 9800)
                 {
-                    temp[6] = pp.Substring(3);
-                    list[amount] = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5], temp[6]);
-                    pp = sourcefile.ReadLine();
+                    temcard = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5], temp[6]);
+                    list.Add(temcard);
                 }
-                else
-                    list[amount] = new Card(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5]);
             }
 
-            for (int i = 1; i <= amount; i++)
-                deck[i] = list[i];
-            deckamount = amount;
+            AllListToDeck();
             sourcefile.Close();
+            MakeCharList();
         }
 
         public void ShowCardInfo(int index)
@@ -251,8 +113,7 @@ namespace WindowsFormsApplication1
                 if (!fi.Exists)
                 {
                     picturebox1.Load(Loading);
-                    Thread imgthread = new Thread(ImageDownload);
-                    imgthread.Start(index);
+                    ThreadPool.QueueUserWorkItem(ImageDownload, index);
                 }
                 else
                 {
@@ -271,8 +132,8 @@ namespace WindowsFormsApplication1
                 label6.Text = deck[index].cardname;
                 label8.Text = deck[index].charname;
                 label10.Text = deck[index].appeal;
-                materialLabel5.Text = "( " + index + " / " + deckamount + " )";
-                materialProgressBar1.Value = Convert.ToInt32((Convert.ToDouble(current_index) / Convert.ToDouble(deckamount)) * 10000);
+                materialLabel5.Text = "( " + (index+1) + " / " + (deck.Count) + " )";
+                materialProgressBar1.Value = Convert.ToInt32((Convert.ToDouble(current_index+1) / Convert.ToDouble(deck.Count)) * 10000);
             }
         }
 
@@ -287,7 +148,11 @@ namespace WindowsFormsApplication1
             }
             if (current_index == index)
             {
-                picturebox1.Load(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+                try
+                {
+                    picturebox1.Load(Store + "Photokatsu_" + deck[index].cardno + ".jpg");
+                }
+                catch {; }
             }
         }
 
@@ -303,7 +168,7 @@ namespace WindowsFormsApplication1
             string Store = AppDomain.CurrentDomain.BaseDirectory + @"\images\";
             try
             {
-                for (int i = 1; i <= amount; i++)
+                for (int i = 0; i <= (list.Count); i++)
                 {
                     System.IO.FileInfo fi = new System.IO.FileInfo(Store + "Photokatsu_" + list[i].cardno + ".jpg");
                     if ((!fi.Exists) || (fi.Length == 0))
@@ -322,14 +187,46 @@ namespace WindowsFormsApplication1
         public void NewDeckFirstPage()
         {
             string Noresult = AppDomain.CurrentDomain.BaseDirectory + @"\resources\noresult.jpg";
-            if (deckamount != 0)
+            if ((deck.Count) != 0)
             {
-                current_index = 1;
+                current_index = 0;
                 ShowCardInfo(current_index);
             }
             else
             {
                 picturebox1.Load(Noresult);
+            }
+        }
+
+        public void DeckSort()
+        {
+            deck.Sort(new Sorter());
+        }
+
+        public void MakeCharList()
+        {
+            charlist.Clear();
+            charlist.Add("ALL", list.Count);
+            foreach(Card x in list)
+            {
+                string temp = x.charname.Replace("+", "");
+                temp = temp.Trim();
+                temp = temp.ToLower();
+                if (charlist.Keys.Contains(temp))
+                {
+                    charlist[temp]++;
+                }
+                else
+                {
+                    charlist.Add(temp, 1);
+                }
+            }
+
+            var rank = charlist.OrderByDescending(num => num.Value);
+
+            foreach(KeyValuePair<string,int> x in rank)
+            {
+                CharBox.Items.Add(x.Key + " (" + x.Value + ")");
             }
         }
 
@@ -367,6 +264,21 @@ namespace WindowsFormsApplication1
             appeal = f;
             skill = g;
             memo = "";
+        }
+    }
+
+    class Sorter : IComparer<Card>
+    {
+        public int Compare(Card x, Card y)
+        {
+            int i, j;
+            Int32.TryParse(x.cardno, out i);
+            Int32.TryParse(y.cardno, out j);
+            if(i <= j)
+            {
+                return -1;
+            }
+            return 0;
         }
     }
 

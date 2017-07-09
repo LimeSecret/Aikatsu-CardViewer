@@ -58,6 +58,7 @@ namespace WindowsFormsApplication1
             this.materialProgressBar1 = new MaterialSkin.Controls.MaterialProgressBar();
             this.picturebox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.CharBox = new System.Windows.Forms.ComboBox();
             this.ButtonClear = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.InputCharName = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -87,6 +88,8 @@ namespace WindowsFormsApplication1
             this.ButtonRenew = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.materialLabel25 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel24 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
@@ -105,6 +108,7 @@ namespace WindowsFormsApplication1
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.MisePicture = new System.Windows.Forms.PictureBox();
+            this.materialLabel26 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
@@ -434,6 +438,8 @@ namespace WindowsFormsApplication1
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tabPage2.Controls.Add(this.materialLabel26);
+            this.tabPage2.Controls.Add(this.CharBox);
             this.tabPage2.Controls.Add(this.ButtonClear);
             this.tabPage2.Controls.Add(this.pictureBox3);
             this.tabPage2.Controls.Add(this.InputCharName);
@@ -459,6 +465,14 @@ namespace WindowsFormsApplication1
             this.tabPage2.Size = new System.Drawing.Size(700, 545);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "검색 조건";
+            // 
+            // CharBox
+            // 
+            this.CharBox.FormattingEnabled = true;
+            this.CharBox.Location = new System.Drawing.Point(38, 308);
+            this.CharBox.Name = "CharBox";
+            this.CharBox.Size = new System.Drawing.Size(228, 20);
+            this.CharBox.TabIndex = 19;
             // 
             // ButtonClear
             // 
@@ -490,7 +504,7 @@ namespace WindowsFormsApplication1
             // 
             this.InputCharName.Depth = 0;
             this.InputCharName.Hint = "";
-            this.InputCharName.Location = new System.Drawing.Point(37, 310);
+            this.InputCharName.Location = new System.Drawing.Point(343, 308);
             this.InputCharName.MaxLength = 32767;
             this.InputCharName.MouseState = MaterialSkin.MouseState.HOVER;
             this.InputCharName.Name = "InputCharName";
@@ -873,9 +887,9 @@ namespace WindowsFormsApplication1
             this.ButtonInitalize.MouseState = MaterialSkin.MouseState.HOVER;
             this.ButtonInitalize.Name = "ButtonInitalize";
             this.ButtonInitalize.Primary = true;
-            this.ButtonInitalize.Size = new System.Drawing.Size(205, 36);
+            this.ButtonInitalize.Size = new System.Drawing.Size(197, 36);
             this.ButtonInitalize.TabIndex = 1;
-            this.ButtonInitalize.Text = "Initialize data (4/29/2017)";
+            this.ButtonInitalize.Text = "Initialize data (7/7/2017)";
             this.ButtonInitalize.UseVisualStyleBackColor = true;
             this.ButtonInitalize.Click += new System.EventHandler(this.ButtonInitalize_Click);
             // 
@@ -906,6 +920,8 @@ namespace WindowsFormsApplication1
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.materialLabel25);
+            this.tabPage4.Controls.Add(this.materialLabel24);
             this.tabPage4.Controls.Add(this.materialLabel20);
             this.tabPage4.Controls.Add(this.materialLabel19);
             this.tabPage4.Controls.Add(this.materialLabel18);
@@ -924,6 +940,33 @@ namespace WindowsFormsApplication1
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "도움말";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel25
+            // 
+            this.materialLabel25.AutoSize = true;
+            this.materialLabel25.Depth = 0;
+            this.materialLabel25.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel25.Location = new System.Drawing.Point(37, 327);
+            this.materialLabel25.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel25.Name = "materialLabel25";
+            this.materialLabel25.Size = new System.Drawing.Size(332, 19);
+            this.materialLabel25.TabIndex = 13;
+            this.materialLabel25.Text = "https://github.com/zzzprojects/html-agility-pack";
+            this.materialLabel25.Click += new System.EventHandler(this.materialLabel25_Click);
+            // 
+            // materialLabel24
+            // 
+            this.materialLabel24.AutoSize = true;
+            this.materialLabel24.Depth = 0;
+            this.materialLabel24.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel24.Location = new System.Drawing.Point(21, 308);
+            this.materialLabel24.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel24.Name = "materialLabel24";
+            this.materialLabel24.Size = new System.Drawing.Size(125, 19);
+            this.materialLabel24.TabIndex = 12;
+            this.materialLabel24.Text = "- HtmlAgilityPack";
             // 
             // materialLabel20
             // 
@@ -1165,6 +1208,19 @@ namespace WindowsFormsApplication1
             this.MisePicture.TabIndex = 2;
             this.MisePicture.TabStop = false;
             // 
+            // materialLabel26
+            // 
+            this.materialLabel26.AutoSize = true;
+            this.materialLabel26.Depth = 0;
+            this.materialLabel26.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel26.Location = new System.Drawing.Point(339, 275);
+            this.materialLabel26.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel26.Name = "materialLabel26";
+            this.materialLabel26.Size = new System.Drawing.Size(123, 19);
+            this.materialLabel26.TabIndex = 20;
+            this.materialLabel26.Text = "SubString Search";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1265,6 +1321,10 @@ namespace WindowsFormsApplication1
         private MaterialFlatButton MiseNext;
         private MaterialFlatButton MisePrev;
         private MaterialRaisedButton ButtonClear;
+        private MaterialLabel materialLabel25;
+        private MaterialLabel materialLabel24;
+        private ComboBox CharBox;
+        private MaterialLabel materialLabel26;
     }
 }
 

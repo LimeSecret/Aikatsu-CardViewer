@@ -28,10 +28,10 @@ namespace WindowsFormsApplication1
 
         private void ButtonPrev_Click(object sender, EventArgs e)
         {
-            if (deckamount == 0)
+            if (deck.Count == 0)
                 return;
             if (current_index - 1 <= 0)
-                current_index = 1;
+                current_index = 0;
             else
                 current_index--;
             ShowCardInfo(current_index);
@@ -39,10 +39,10 @@ namespace WindowsFormsApplication1
 
         private void ButtonPrev10_Click(object sender, EventArgs e)
         {
-            if (deckamount == 0)
+            if (deck.Count == 0)
                 return;
             if (current_index - 10 <= 0)
-                current_index = 1;
+                current_index = 0;
             else
                 current_index -= 10;
             ShowCardInfo(current_index);
@@ -50,10 +50,10 @@ namespace WindowsFormsApplication1
 
         private void ButtonNext_Click(object sender, EventArgs e)
         {
-            if (deckamount == 0)
+            if (deck.Count == 0)
                 return;
-            if (current_index + 1 > deckamount)
-                current_index = deckamount;
+            if (current_index + 1 >= deck.Count)
+                current_index = deck.Count-1;
             else
                 current_index++;
             ShowCardInfo(current_index);
@@ -61,10 +61,10 @@ namespace WindowsFormsApplication1
 
         private void ButtonNext10_Click(object sender, EventArgs e)
         {
-            if (deckamount == 0)
+            if (deck.Count == 0)
                 return;
-            if (current_index + 10 > deckamount)
-                current_index = deckamount;
+            if (current_index + 10 >= deck.Count)
+                current_index = deck.Count - 1;
             else
                 current_index += 10;
             ShowCardInfo(current_index);
@@ -72,10 +72,10 @@ namespace WindowsFormsApplication1
 
         private void ButtonRandom_Click(object sender, EventArgs e)
         {
-            if (amount == 0 || deckamount == 0)
+            if (list.Count == 0 || deck.Count == 0)
                 return;
             Random rnd = new Random();
-            current_index = rnd.Next(1, deckamount + 1);
+            current_index = rnd.Next(0, deck.Count);
             ShowCardInfo(current_index);  
         }
 
@@ -93,7 +93,9 @@ namespace WindowsFormsApplication1
             AllListToDeck();
             RankSearch();
             NumberSearch(InputStartValue.Text, InputEndValue.Text);
-            CharacterSearch(InputCharName.Text);
+            if(CharBox.SelectedItem != null)
+                 CharacterSearch(CharBox.SelectedItem.ToString());
+            SubstringSearch(InputCharName.Text);
             NewDeckFirstPage();
         }
 
@@ -110,6 +112,7 @@ namespace WindowsFormsApplication1
             Box6.Checked = true;
             Box7.Checked = true;
             Box8.Checked = true;
+            CharBox.SelectedIndex = -1;
         }
 
         private void ButtonDownloadAll_Click(object sender, EventArgs e)
@@ -158,6 +161,11 @@ namespace WindowsFormsApplication1
             System.Diagnostics.Process.Start("http://aikatsu.wikia.com/wiki/Aikatsu_Wiki");
         }
 
+        private void materialLabel25_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/zzzprojects/html-agility-pack");
+        }
+
         private void MisePrev_Click(object sender, EventArgs e)
         {
             if (MiseCurr <= 12)
@@ -175,7 +183,6 @@ namespace WindowsFormsApplication1
             MiseCurr = MiseCurr + 3;
             MiseLoad();
         }
-
 
     }
 
