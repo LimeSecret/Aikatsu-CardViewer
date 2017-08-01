@@ -12,7 +12,7 @@ namespace WindowsFormsApplication1
     public partial class Form1
     {
 
-        public int start = 7;
+        public int start = 1;
 
         public void FullWebLoad()
         {
@@ -51,6 +51,99 @@ namespace WindowsFormsApplication1
             }
         }
 
+
+        public void WriteText(string str, string target)
+        {
+            int n;
+            bool isnum = int.TryParse(str, out n);
+
+            if (start == 6)
+            {
+                if (str == "PR+" || str == "SR+" || str == "R+" || str == "N+" || str == "N" || str == "R" || str == "SR" || str == "PR")
+                {
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    File.AppendAllText(target, str, Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    start = 2;
+                }
+                else
+                {
+                    File.AppendAllText(target, str, Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    start = 1;
+                }            
+            }
+            else if (start == 1)
+            {
+                if (str == "PR+" || str == "SR+" || str == "R+" || str == "N+" || str == "N" || str == "R" || str == "SR" || str == "PR")
+                {
+                    File.AppendAllText(target, str, Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    start = 2;
+                }
+                else
+                {
+
+                }
+            }
+            else if (start == 2)
+            {
+                if (isnum == true)
+                {
+                    File.AppendAllText(target, str, Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    start = 3;
+                }
+                else
+                {
+
+                }
+            }
+            else if (start == 3)
+            {
+                try
+                {
+                    File.AppendAllText(target, SpiltLine(str)[1], Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                }
+                catch
+                {
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                }
+                try
+                {
+                    File.AppendAllText(target, SpiltLine(str)[2], Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                }
+                catch
+                {
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                }
+                start = 4;
+            }
+            else if (start == 4)
+            {
+                if (str.Contains("https://vignet") == true)
+                {
+                    File.AppendAllText(target, str, Encoding.Default);
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    start = 5;
+                }
+                else
+                {
+                    
+                }      
+            }
+            else if (start == 5)
+            {
+                File.AppendAllText(target, str, Encoding.Default);
+                File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                start = 6;
+            }
+        
+        }
+
+        /*
         public void WriteText(string str, string target)
         {
             int n;
@@ -82,6 +175,14 @@ namespace WindowsFormsApplication1
 
             else if (isnum == true)
             {
+                if(start != 1)
+                {
+                    for (int i = start; i <= 6; i++)
+                    {
+                        File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                    }
+                    File.AppendAllText(target, Environment.NewLine, Encoding.Default);
+                }
                 File.AppendAllText(target, str, Encoding.Default);
                 File.AppendAllText(target, Environment.NewLine, Encoding.Default);
                 start = 2;
@@ -113,6 +214,7 @@ namespace WindowsFormsApplication1
             start++;
             return;
         }
+        */
 
     }
 }

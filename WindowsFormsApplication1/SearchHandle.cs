@@ -52,7 +52,7 @@ namespace WindowsFormsApplication1
                 else
                     a = Convert.ToInt32(start);
                 if (end == "")
-                    b = list.Count-1;
+                    b = 50000;
                 else
                     b = Convert.ToInt32(end);
 
@@ -93,6 +93,40 @@ namespace WindowsFormsApplication1
             for (int i = 0; i < (deck.Count); i++)
             {
                 tempchar = deck[i].charname.ToLower();
+                tempchar = tempchar.Replace("+", "");
+                if (tempchar.Contains(input) && tempchar[0] == input[0])
+                {
+                    tempdeck.Add(deck[i]);
+                }
+            }
+            deck = tempdeck.GetRange(0, tempdeck.Count);
+        }
+
+        private void AppealSearch(string str)
+        {
+
+            if (str.Contains("("))
+            {
+                int index1 = str.LastIndexOf("(");
+                string temp1 = str.Substring(0, index1);
+                int index2 = str.IndexOf("(");
+                string temp2 = str.Substring(index2);
+                int index3 = temp2.IndexOf(")");
+                temp2 = temp2.Substring(index3 + 1);
+                str = temp1 + temp2;
+            }
+            if (str.Contains("ALL") || str == " ")
+            {
+                return;
+            }
+            string input = str.Trim();
+
+            List<Card> tempdeck = new List<Card>();
+            string tempchar;
+
+            for (int i = 0; i < (deck.Count); i++)
+            {
+                tempchar = deck[i].appeal.ToLower();
                 tempchar = tempchar.Replace("+", "");
                 if (tempchar.Contains(input) && tempchar[0] == input[0])
                 {

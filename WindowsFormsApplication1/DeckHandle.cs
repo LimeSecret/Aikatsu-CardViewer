@@ -22,6 +22,7 @@ namespace WindowsFormsApplication1
         List<Card> list = new List<Card>();
         List<Card> deck = new List<Card>();
         Dictionary<string, int> charlist = new Dictionary<string, int>();
+        Dictionary<string, int> appeallist = new Dictionary<string, int>();
 
         public void InitDeck()
         {
@@ -101,6 +102,7 @@ namespace WindowsFormsApplication1
             AllListToDeck();
             sourcefile.Close();
             MakeCharList();
+            MakeAppealList();
         }
 
         public void ShowCardInfo(int index)
@@ -227,6 +229,33 @@ namespace WindowsFormsApplication1
             foreach(KeyValuePair<string,int> x in rank)
             {
                 CharBox.Items.Add(x.Key + " (" + x.Value + ")");
+            }
+        }
+
+        public void MakeAppealList()
+        {
+            appeallist.Clear();
+            appeallist.Add("ALL", list.Count);
+            foreach (Card x in list)
+            {
+                string temp = x.appeal.Replace("+", "");
+                temp = temp.Trim();
+                temp = temp.ToLower();
+                if (appeallist.Keys.Contains(temp))
+                {
+                    appeallist[temp]++;
+                }
+                else
+                {
+                    appeallist.Add(temp, 1);
+                }
+            }
+
+            var rank = appeallist.OrderByDescending(num => num.Value);
+
+            foreach (KeyValuePair<string, int> x in rank)
+            {
+                AppealBox.Items.Add(x.Key + " (" + x.Value + ")");
             }
         }
 

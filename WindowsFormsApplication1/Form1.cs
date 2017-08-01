@@ -18,13 +18,30 @@ namespace WindowsFormsApplication1
         public int MiseCurr = 12;
         public Form1()
         {
+            var materialSkinManager = MaterialSkinManager.Instance;
             InitializeComponent();
             LoadInformation();
             materialProgressBar1.Value = 0;
             Box1.BackColor = Color.Brown;
             MiseLoad();
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+            this.KeyPreview = true;
         }
 
+
+        private void ButtonLargerImage_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Form pictform = new Form2(deck[current_index].cardno);
+                pictform.ShowDialog();
+            }
+            catch
+            {
+
+            }
+
+        }
 
         private void ButtonPrev_Click(object sender, EventArgs e)
         {
@@ -95,6 +112,8 @@ namespace WindowsFormsApplication1
             NumberSearch(InputStartValue.Text, InputEndValue.Text);
             if(CharBox.SelectedItem != null)
                  CharacterSearch(CharBox.SelectedItem.ToString());
+            if (AppealBox.SelectedItem != null)
+                AppealSearch(AppealBox.SelectedItem.ToString());
             SubstringSearch(InputCharName.Text);
             NewDeckFirstPage();
         }
@@ -113,6 +132,7 @@ namespace WindowsFormsApplication1
             Box7.Checked = true;
             Box8.Checked = true;
             CharBox.SelectedIndex = -1;
+            AppealBox.SelectedIndex = -1;
         }
 
         private void ButtonDownloadAll_Click(object sender, EventArgs e)
@@ -183,6 +203,47 @@ namespace WindowsFormsApplication1
             MiseCurr = MiseCurr + 3;
             MiseLoad();
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Modifiers == Keys.Control)    // Ctrl 키 조합
+            {
+                switch (e.KeyCode)
+                {
+                    case Keys.A:
+                        ButtonPrev10_Click(sender, e);
+                        break;
+                    case Keys.D:
+                        ButtonNext10_Click(sender, e);
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                switch (e.KeyCode)
+                {
+                    case Keys.A:
+                        ButtonPrev_Click(sender, e);
+                        break;
+                    case Keys.D:
+                        ButtonNext_Click(sender, e);
+                        break;
+                    case Keys.S:
+                        ButtonLargerImage_Click(sender, e);
+                        break;
+                    case Keys.W:
+                        ButtonRandom_Click(sender, e);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+
+        }
+
 
     }
 
